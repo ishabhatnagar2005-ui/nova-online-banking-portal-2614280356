@@ -53,6 +53,446 @@
       "community": 15
     },
     {
+      "id": "backend_src_main_java_com_nova_bank_accounts_accountcontroller",
+      "label": "AccountController.java",
+      "file_type": "code",
+      "source_file": "backend/src/main/java/com/nova/bank/accounts/AccountController.java",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_main_java_com_nova_bank_accounts_accountcontroller_accountcontroller",
+      "label": "AccountController",
+      "file_type": "code",
+      "source_file": "backend/src/main/java/com/nova/bank/accounts/AccountController.java",
+      "source_location": "L11",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_main_java_com_nova_bank_accounts_accountcontroller_java_restcontroller",
+      "label": "RestController",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_main_java_com_nova_bank_accounts_accountcontroller_java_requestmapping",
+      "label": "RequestMapping",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_main_java_com_nova_bank_accounts_accountcontroller_accountcontroller_accountcontroller",
+      "label": ".AccountController()",
+      "file_type": "code",
+      "source_file": "backend/src/main/java/com/nova/bank/accounts/AccountController.java",
+      "source_location": "L13",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_main_java_com_nova_bank_accounts_accountcontroller_accountcontroller_transactions",
+      "label": ".transactions()",
+      "file_type": "code",
+      "source_file": "backend/src/main/java/com/nova/bank/accounts/AccountController.java",
+      "source_location": "L14",
+      "_java_ret": "Result",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_main_java_com_nova_bank_accounts_accountcontroller_java_getmapping",
+      "label": "GetMapping",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_main_java_com_nova_bank_accounts_accountcontroller_accountcontroller_statement",
+      "label": ".statement()",
+      "file_type": "code",
+      "source_file": "backend/src/main/java/com/nova/bank/accounts/AccountController.java",
+      "source_location": "L17",
+      "_java_ret": "ResponseEntity",
+      "_callable": true,
+      "metadata": {
+        "unresolved_calls": [
+          {
+            "callee": "ok",
+            "receiver_type": "ResponseEntity",
+            "lang": "java",
+            "line": "L19"
+          }
+        ]
+      },
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_main_java_com_nova_bank_accounts_accountcontroller_java_responseentity",
+      "label": "ResponseEntity",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_main_java_com_nova_bank_accounts_accounterrors",
+      "label": "AccountErrors.java",
+      "file_type": "code",
+      "source_file": "backend/src/main/java/com/nova/bank/accounts/AccountErrors.java",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_main_java_com_nova_bank_accounts_accounterrors_accounterrors",
+      "label": "AccountErrors",
+      "file_type": "code",
+      "source_file": "backend/src/main/java/com/nova/bank/accounts/AccountErrors.java",
+      "source_location": "L12",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_main_java_com_nova_bank_accounts_accounterrors_accounterrors_status",
+      "label": ".status()",
+      "file_type": "code",
+      "source_file": "backend/src/main/java/com/nova/bank/accounts/AccountErrors.java",
+      "source_location": "L13",
+      "_java_ret": "ResponseEntity",
+      "_callable": true,
+      "metadata": {
+        "unresolved_calls": [
+          {
+            "callee": "getStatusCode",
+            "receiver_type": "ResponseStatusException",
+            "lang": "java",
+            "line": "L14"
+          },
+          {
+            "callee": "status",
+            "receiver_type": "ResponseEntity",
+            "lang": "java",
+            "line": "L15"
+          },
+          {
+            "callee": "getReason",
+            "receiver_type": "ResponseStatusException",
+            "lang": "java",
+            "line": "L15"
+          },
+          {
+            "callee": "now",
+            "receiver_type": "Instant",
+            "lang": "java",
+            "line": "L15"
+          }
+        ]
+      },
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_main_java_com_nova_bank_accounts_accounterrors_accounterrors_invalid",
+      "label": ".invalid()",
+      "file_type": "code",
+      "source_file": "backend/src/main/java/com/nova/bank/accounts/AccountErrors.java",
+      "source_location": "L17",
+      "_java_ret": "ResponseEntity",
+      "_callable": true,
+      "metadata": {
+        "unresolved_calls": [
+          {
+            "callee": "badRequest",
+            "receiver_type": "ResponseEntity",
+            "lang": "java",
+            "line": "L18"
+          },
+          {
+            "callee": "now",
+            "receiver_type": "Instant",
+            "lang": "java",
+            "line": "L18"
+          }
+        ]
+      },
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_main_java_com_nova_bank_accounts_accountseeder",
+      "label": "AccountSeeder.java",
+      "file_type": "code",
+      "source_file": "backend/src/main/java/com/nova/bank/accounts/AccountSeeder.java",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_main_java_com_nova_bank_accounts_accountseeder_accountseeder",
+      "label": "AccountSeeder",
+      "file_type": "code",
+      "source_file": "backend/src/main/java/com/nova/bank/accounts/AccountSeeder.java",
+      "source_location": "L8",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_main_java_com_nova_bank_accounts_accountseeder_accountseeder_accountseeder",
+      "label": ".AccountSeeder()",
+      "file_type": "code",
+      "source_file": "backend/src/main/java/com/nova/bank/accounts/AccountSeeder.java",
+      "source_location": "L10",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_main_java_com_nova_bank_accounts_accountseeder_accountseeder_seed",
+      "label": ".seed()",
+      "file_type": "code",
+      "source_file": "backend/src/main/java/com/nova/bank/accounts/AccountSeeder.java",
+      "source_location": "L12",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_main_java_com_nova_bank_accounts_accountseeder_accountseeder_insert",
+      "label": ".insert()",
+      "file_type": "code",
+      "source_file": "backend/src/main/java/com/nova/bank/accounts/AccountSeeder.java",
+      "source_location": "L20",
+      "_callable": true,
+      "metadata": {
+        "unresolved_calls": [
+          {
+            "callee": "update",
+            "receiver_type": "JdbcTemplate",
+            "lang": "java",
+            "line": "L21"
+          },
+          {
+            "callee": "fromString",
+            "receiver_type": "UUID",
+            "lang": "java",
+            "line": "L21"
+          }
+        ]
+      },
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_main_java_com_nova_bank_accounts_accountservice",
+      "label": "AccountService.java",
+      "file_type": "code",
+      "source_file": "backend/src/main/java/com/nova/bank/accounts/AccountService.java",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_main_java_com_nova_bank_accounts_accountservice_accountservice",
+      "label": "AccountService",
+      "file_type": "code",
+      "source_file": "backend/src/main/java/com/nova/bank/accounts/AccountService.java",
+      "source_location": "L17",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_main_java_com_nova_bank_accounts_accountservice_accountservice_accountservice",
+      "label": ".AccountService()",
+      "file_type": "code",
+      "source_file": "backend/src/main/java/com/nova/bank/accounts/AccountService.java",
+      "source_location": "L20",
+      "_callable": true,
+      "metadata": {
+        "unresolved_calls": [
+          {
+            "callee": "parse",
+            "receiver_type": "LocalDate",
+            "lang": "java",
+            "line": "L21"
+          }
+        ]
+      },
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_main_java_com_nova_bank_accounts_accountservice_metadata",
+      "label": "Metadata",
+      "file_type": "code",
+      "source_file": "backend/src/main/java/com/nova/bank/accounts/AccountService.java",
+      "source_location": "L23",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_main_java_com_nova_bank_accounts_accountservice_item",
+      "label": "Item",
+      "file_type": "code",
+      "source_file": "backend/src/main/java/com/nova/bank/accounts/AccountService.java",
+      "source_location": "L24",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_main_java_com_nova_bank_accounts_accountservice_result",
+      "label": "Result",
+      "file_type": "code",
+      "source_file": "backend/src/main/java/com/nova/bank/accounts/AccountService.java",
+      "source_location": "L25",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_main_java_com_nova_bank_accounts_accountservice_filter",
+      "label": "Filter",
+      "file_type": "code",
+      "source_file": "backend/src/main/java/com/nova/bank/accounts/AccountService.java",
+      "source_location": "L26",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_main_java_com_nova_bank_accounts_accountservice_accountservice_authorize",
+      "label": ".authorize()",
+      "file_type": "code",
+      "source_file": "backend/src/main/java/com/nova/bank/accounts/AccountService.java",
+      "source_location": "L29",
+      "_callable": true,
+      "metadata": {
+        "unresolved_calls": [
+          {
+            "callee": "queryForObject",
+            "receiver_type": "JdbcTemplate",
+            "lang": "java",
+            "line": "L32"
+          }
+        ]
+      },
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_main_java_com_nova_bank_accounts_accountservice_accountservice_metadata",
+      "label": ".metadata()",
+      "file_type": "code",
+      "source_file": "backend/src/main/java/com/nova/bank/accounts/AccountService.java",
+      "source_location": "L36",
+      "_java_ret": "Metadata",
+      "_callable": true,
+      "metadata": {
+        "unresolved_calls": [
+          {
+            "callee": "queryForObject",
+            "receiver_type": "JdbcTemplate",
+            "lang": "java",
+            "line": "L37"
+          }
+        ]
+      },
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_main_java_com_nova_bank_accounts_accountservice_accountservice_filter",
+      "label": ".filter()",
+      "file_type": "code",
+      "source_file": "backend/src/main/java/com/nova/bank/accounts/AccountService.java",
+      "source_location": "L40",
+      "_java_ret": "Filter",
+      "_callable": true,
+      "metadata": {
+        "unresolved_calls": [
+          {
+            "callee": "of",
+            "receiver_type": "Set",
+            "lang": "java",
+            "line": "L45"
+          },
+          {
+            "callee": "parse",
+            "receiver_type": "LocalDate",
+            "lang": "java",
+            "line": "L49"
+          }
+        ]
+      },
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_main_java_com_nova_bank_accounts_accountservice_accountservice_transactions",
+      "label": ".transactions()",
+      "file_type": "code",
+      "source_file": "backend/src/main/java/com/nova/bank/accounts/AccountService.java",
+      "source_location": "L56",
+      "_java_ret": "Result",
+      "_callable": true,
+      "metadata": {
+        "unresolved_calls": [
+          {
+            "callee": "of",
+            "receiver_type": "List",
+            "lang": "java",
+            "line": "L60"
+          },
+          {
+            "callee": "from",
+            "receiver_type": "Timestamp",
+            "lang": "java",
+            "line": "L60"
+          },
+          {
+            "callee": "queryForObject",
+            "receiver_type": "JdbcTemplate",
+            "lang": "java",
+            "line": "L63"
+          },
+          {
+            "callee": "query",
+            "receiver_type": "JdbcTemplate",
+            "lang": "java",
+            "line": "L65"
+          }
+        ]
+      },
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_main_java_com_nova_bank_accounts_accountservice_accountservice_statement",
+      "label": ".statement()",
+      "file_type": "code",
+      "source_file": "backend/src/main/java/com/nova/bank/accounts/AccountService.java",
+      "source_location": "L69",
+      "_callable": true,
+      "metadata": {
+        "unresolved_calls": [
+          {
+            "callee": "query",
+            "receiver_type": "JdbcTemplate",
+            "lang": "java",
+            "line": "L72"
+          }
+        ]
+      },
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_main_java_com_nova_bank_accounts_accountservice_accountservice_statementfilename",
+      "label": ".statementFilename()",
+      "file_type": "code",
+      "source_file": "backend/src/main/java/com/nova/bank/accounts/AccountService.java",
+      "source_location": "L76",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
       "id": "backend_src_main_java_com_nova_bank_auth_auditrepository",
       "label": "AuditRepository.java",
       "file_type": "code",
@@ -1139,13 +1579,12 @@
       "community": 8
     },
     {
-      "id": "restcontrolleradvice",
+      "id": "backend_src_main_java_com_nova_bank_common_apierrors_java_restcontrolleradvice",
       "label": "RestControllerAdvice",
       "file_type": "code",
       "source_file": "",
       "source_location": "",
-      "_origin": "ast",
-      "community": 8
+      "_origin": "ast"
     },
     {
       "id": "backend_src_main_java_com_nova_bank_common_apierrors_apierrors_auth",
@@ -1175,22 +1614,20 @@
       "community": 8
     },
     {
-      "id": "responseentity",
+      "id": "backend_src_main_java_com_nova_bank_common_apierrors_java_responseentity",
       "label": "ResponseEntity",
       "file_type": "code",
       "source_file": "",
       "source_location": "",
-      "_origin": "ast",
-      "community": 8
+      "_origin": "ast"
     },
     {
-      "id": "exceptionhandler",
+      "id": "backend_src_main_java_com_nova_bank_common_apierrors_java_exceptionhandler",
       "label": "ExceptionHandler",
       "file_type": "code",
       "source_file": "",
       "source_location": "",
-      "_origin": "ast",
-      "community": 8
+      "_origin": "ast"
     },
     {
       "id": "backend_src_main_java_com_nova_bank_common_apierrors_apierrors_invalid",
@@ -1524,6 +1961,252 @@
       "source_location": "L27",
       "_callable": true,
       "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_test_java_com_nova_bank_accounts_accountapitest",
+      "label": "AccountApiTest.java",
+      "file_type": "code",
+      "source_file": "backend/src/test/java/com/nova/bank/accounts/AccountApiTest.java",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_test_java_com_nova_bank_accounts_accountapitest_accountapitest",
+      "label": "AccountApiTest",
+      "file_type": "code",
+      "source_file": "backend/src/test/java/com/nova/bank/accounts/AccountApiTest.java",
+      "source_location": "L15",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_test_java_com_nova_bank_accounts_accountapitest_accountapitest_login",
+      "label": ".login()",
+      "file_type": "code",
+      "source_file": "backend/src/test/java/com/nova/bank/accounts/AccountApiTest.java",
+      "source_location": "L19",
+      "_callable": true,
+      "metadata": {
+        "unresolved_calls": [
+          {
+            "callee": "perform",
+            "receiver_type": "MockMvc",
+            "lang": "java",
+            "line": "L19"
+          },
+          {
+            "callee": "readTree",
+            "receiver_type": "ObjectMapper",
+            "lang": "java",
+            "line": "L19"
+          }
+        ]
+      },
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_test_java_com_nova_bank_accounts_accountapitest_accountapitest_ownercanfilteranddownloadmaskedstatement",
+      "label": ".ownerCanFilterAndDownloadMaskedStatement()",
+      "file_type": "code",
+      "source_file": "backend/src/test/java/com/nova/bank/accounts/AccountApiTest.java",
+      "source_location": "L20",
+      "_callable": true,
+      "metadata": {
+        "unresolved_calls": [
+          {
+            "callee": "perform",
+            "receiver_type": "MockMvc",
+            "lang": "java",
+            "line": "L22"
+          }
+        ]
+      },
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_test_java_com_nova_bank_accounts_accountapitest_accountapitest_crossownerandmissingorinvalidtokensneverleakaccount",
+      "label": ".crossOwnerAndMissingOrInvalidTokensNeverLeakAccount()",
+      "file_type": "code",
+      "source_file": "backend/src/test/java/com/nova/bank/accounts/AccountApiTest.java",
+      "source_location": "L27",
+      "_callable": true,
+      "metadata": {
+        "unresolved_calls": [
+          {
+            "callee": "perform",
+            "receiver_type": "MockMvc",
+            "lang": "java",
+            "line": "L30"
+          }
+        ]
+      },
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_test_java_com_nova_bank_accounts_accountapitest_accountapitest_invalidinputsarerejected",
+      "label": ".invalidInputsAreRejected()",
+      "file_type": "code",
+      "source_file": "backend/src/test/java/com/nova/bank/accounts/AccountApiTest.java",
+      "source_location": "L36",
+      "_callable": true,
+      "metadata": {
+        "unresolved_calls": [
+          {
+            "callee": "perform",
+            "receiver_type": "MockMvc",
+            "lang": "java",
+            "line": "L39"
+          }
+        ]
+      },
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_test_java_com_nova_bank_accounts_accountservicetest",
+      "label": "AccountServiceTest.java",
+      "file_type": "code",
+      "source_file": "backend/src/test/java/com/nova/bank/accounts/AccountServiceTest.java",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_test_java_com_nova_bank_accounts_accountservicetest_accountservicetest",
+      "label": "AccountServiceTest",
+      "file_type": "code",
+      "source_file": "backend/src/test/java/com/nova/bank/accounts/AccountServiceTest.java",
+      "source_location": "L13",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_test_java_com_nova_bank_accounts_accountservicetest_accountservicetest_principal",
+      "label": ".principal()",
+      "file_type": "code",
+      "source_file": "backend/src/test/java/com/nova/bank/accounts/AccountServiceTest.java",
+      "source_location": "L17",
+      "_java_ret": "Principal",
+      "_callable": true,
+      "metadata": {
+        "unresolved_calls": [
+          {
+            "callee": "fromString",
+            "receiver_type": "UUID",
+            "lang": "java",
+            "line": "L17"
+          },
+          {
+            "callee": "randomUUID",
+            "receiver_type": "UUID",
+            "lang": "java",
+            "line": "L17"
+          }
+        ]
+      },
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_test_java_com_nova_bank_accounts_accountservicetest_accountservicetest_query",
+      "label": ".query()",
+      "file_type": "code",
+      "source_file": "backend/src/test/java/com/nova/bank/accounts/AccountServiceTest.java",
+      "source_location": "L18",
+      "_java_ret": "Result",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_test_java_com_nova_bank_accounts_accountservicetest_accountservicetest_defaultsusedemoclockandpendingdebitsareexact",
+      "label": ".defaultsUseDemoClockAndPendingDebitsAreExact()",
+      "file_type": "code",
+      "source_file": "backend/src/test/java/com/nova/bank/accounts/AccountServiceTest.java",
+      "source_location": "L19",
+      "_callable": true,
+      "metadata": {
+        "unresolved_calls": [
+          {
+            "callee": "startDate",
+            "receiver_type": "var",
+            "lang": "java",
+            "line": "L21"
+          },
+          {
+            "callee": "endDate",
+            "receiver_type": "var",
+            "lang": "java",
+            "line": "L21"
+          },
+          {
+            "callee": "total",
+            "receiver_type": "var",
+            "lang": "java",
+            "line": "L22"
+          },
+          {
+            "callee": "account",
+            "receiver_type": "var",
+            "lang": "java",
+            "line": "L22"
+          },
+          {
+            "callee": "queryForObject",
+            "receiver_type": "JdbcTemplate",
+            "lang": "java",
+            "line": "L24"
+          }
+        ]
+      },
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_test_java_com_nova_bank_accounts_accountservicetest_accountservicetest_combinedfilterssearchreferenceandpaginatedeterministically",
+      "label": ".combinedFiltersSearchReferenceAndPaginateDeterministically()",
+      "file_type": "code",
+      "source_file": "backend/src/test/java/com/nova/bank/accounts/AccountServiceTest.java",
+      "source_location": "L26",
+      "_callable": true,
+      "metadata": {
+        "unresolved_calls": [
+          {
+            "callee": "total",
+            "receiver_type": "var",
+            "lang": "java",
+            "line": "L28"
+          },
+          {
+            "callee": "items",
+            "receiver_type": "var",
+            "lang": "java",
+            "line": "L28"
+          },
+          {
+            "callee": "account",
+            "receiver_type": "var",
+            "lang": "java",
+            "line": "L29"
+          }
+        ]
+      },
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_test_java_com_nova_bank_accounts_accountservicetest_accountservicetest_invalidrangespagingandenumsfailclosed",
+      "label": ".invalidRangesPagingAndEnumsFailClosed()",
+      "file_type": "code",
+      "source_file": "backend/src/test/java/com/nova/bank/accounts/AccountServiceTest.java",
+      "source_location": "L33",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_test_java_com_nova_bank_accounts_accountservicetest_accountservicetest_ownercheckprecedesallreadsandexport",
+      "label": ".ownerCheckPrecedesAllReadsAndExport()",
+      "file_type": "code",
+      "source_file": "backend/src/test/java/com/nova/bank/accounts/AccountServiceTest.java",
+      "source_location": "L42",
+      "_callable": true,
       "_origin": "ast"
     },
     {
@@ -2223,6 +2906,14 @@
       "community": 4
     },
     {
+      "id": "frontend_e2e_accounts_spec",
+      "label": "accounts.spec.ts",
+      "file_type": "code",
+      "source_file": "frontend/e2e/accounts.spec.ts",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
       "id": "frontend_e2e_auth_spec",
       "label": "auth.spec.ts",
       "file_type": "code",
@@ -2778,6 +3469,269 @@
       "source_location": "L1",
       "_origin": "ast",
       "community": 2
+    },
+    {
+      "id": "frontend_src_app_accounts_account_detail_component_spec",
+      "label": "account-detail.component.spec.ts",
+      "file_type": "code",
+      "source_file": "frontend/src/app/accounts/account-detail.component.spec.ts",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_app_accounts_account_detail_component",
+      "label": "account-detail.component.ts",
+      "file_type": "code",
+      "source_file": "frontend/src/app/accounts/account-detail.component.ts",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_app_accounts_account_detail_component_accountdetailcomponent",
+      "label": "AccountDetailComponent",
+      "file_type": "code",
+      "source_file": "frontend/src/app/accounts/account-detail.component.ts",
+      "source_location": "L11",
+      "_callable": true,
+      "_callable_class": true,
+      "_ts_fields": {
+        "changes": "Subscription",
+        "data": "Transactions",
+        "download": "Subscription",
+        "form": "FormGroup",
+        "request": "Subscription",
+        "route": "ActivatedRoute",
+        "service": "AccountService"
+      },
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_app_accounts_account_detail_component_ts_component",
+      "label": "Component",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_app_accounts_account_detail_component_accountdetailcomponent_constructor",
+      "label": ".constructor()",
+      "file_type": "code",
+      "source_file": "frontend/src/app/accounts/account-detail.component.ts",
+      "source_location": "L14",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_app_accounts_account_detail_component_accountdetailcomponent_ngoninit",
+      "label": ".ngOnInit()",
+      "file_type": "code",
+      "source_file": "frontend/src/app/accounts/account-detail.component.ts",
+      "source_location": "L15",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_app_accounts_account_detail_component_accountdetailcomponent_datedays",
+      "label": ".dateDays()",
+      "file_type": "code",
+      "source_file": "frontend/src/app/accounts/account-detail.component.ts",
+      "source_location": "L20",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_app_accounts_account_detail_component_accountdetailcomponent_load",
+      "label": ".load()",
+      "file_type": "code",
+      "source_file": "frontend/src/app/accounts/account-detail.component.ts",
+      "source_location": "L22",
+      "_callable": true,
+      "metadata": {
+        "unresolved_calls": [
+          {
+            "callee": "getRawValue",
+            "receiver_type": "FormGroup",
+            "lang": "typescript",
+            "line": "L23"
+          },
+          {
+            "callee": "unsubscribe",
+            "receiver_type": "Subscription",
+            "lang": "typescript",
+            "line": "L26"
+          }
+        ]
+      },
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_app_accounts_account_detail_component_accountdetailcomponent_reset",
+      "label": ".reset()",
+      "file_type": "code",
+      "source_file": "frontend/src/app/accounts/account-detail.component.ts",
+      "source_location": "L32",
+      "_callable": true,
+      "metadata": {
+        "unresolved_calls": [
+          {
+            "callee": "reset",
+            "receiver_type": "FormGroup",
+            "lang": "typescript",
+            "line": "L32"
+          }
+        ]
+      },
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_app_accounts_account_detail_component_accountdetailcomponent_changepage",
+      "label": ".changePage()",
+      "file_type": "code",
+      "source_file": "frontend/src/app/accounts/account-detail.component.ts",
+      "source_location": "L33",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_app_accounts_account_detail_component_accountdetailcomponent_downloadstatement",
+      "label": ".downloadStatement()",
+      "file_type": "code",
+      "source_file": "frontend/src/app/accounts/account-detail.component.ts",
+      "source_location": "L35",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_app_accounts_account_detail_component_accountdetailcomponent_ngondestroy",
+      "label": ".ngOnDestroy()",
+      "file_type": "code",
+      "source_file": "frontend/src/app/accounts/account-detail.component.ts",
+      "source_location": "L39",
+      "_callable": true,
+      "metadata": {
+        "unresolved_calls": [
+          {
+            "callee": "unsubscribe",
+            "receiver_type": "Subscription",
+            "lang": "typescript",
+            "line": "L39"
+          }
+        ]
+      },
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_app_accounts_account_service",
+      "label": "account.service.ts",
+      "file_type": "code",
+      "source_file": "frontend/src/app/accounts/account.service.ts",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_app_accounts_account_service_accountdetail",
+      "label": "AccountDetail",
+      "file_type": "code",
+      "source_file": "frontend/src/app/accounts/account.service.ts",
+      "source_location": "L5",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_app_accounts_account_service_transaction",
+      "label": "Transaction",
+      "file_type": "code",
+      "source_file": "frontend/src/app/accounts/account.service.ts",
+      "source_location": "L6",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_app_accounts_account_service_transactions",
+      "label": "Transactions",
+      "file_type": "code",
+      "source_file": "frontend/src/app/accounts/account.service.ts",
+      "source_location": "L7",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_app_accounts_account_service_accountservice",
+      "label": "AccountService",
+      "file_type": "code",
+      "source_file": "frontend/src/app/accounts/account.service.ts",
+      "source_location": "L9",
+      "_callable": true,
+      "_callable_class": true,
+      "_ts_fields": {
+        "http": "HttpClient"
+      },
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_app_accounts_account_service_ts_injectable",
+      "label": "Injectable",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_app_accounts_account_service_accountservice_constructor",
+      "label": ".constructor()",
+      "file_type": "code",
+      "source_file": "frontend/src/app/accounts/account.service.ts",
+      "source_location": "L10",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_app_accounts_account_service_accountservice_transactions",
+      "label": ".transactions()",
+      "file_type": "code",
+      "source_file": "frontend/src/app/accounts/account.service.ts",
+      "source_location": "L11",
+      "_callable": true,
+      "metadata": {
+        "unresolved_calls": [
+          {
+            "callee": "set",
+            "receiver_type": "HttpParams",
+            "lang": "typescript",
+            "line": "L12"
+          },
+          {
+            "callee": "get",
+            "receiver_type": "HttpClient",
+            "lang": "typescript",
+            "line": "L13"
+          }
+        ]
+      },
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_app_accounts_account_service_accountservice_statement",
+      "label": ".statement()",
+      "file_type": "code",
+      "source_file": "frontend/src/app/accounts/account.service.ts",
+      "source_location": "L15",
+      "_callable": true,
+      "metadata": {
+        "unresolved_calls": [
+          {
+            "callee": "get",
+            "receiver_type": "HttpClient",
+            "lang": "typescript",
+            "line": "L15"
+          }
+        ]
+      },
+      "_origin": "ast"
     },
     {
       "id": "frontend_src_app_app_component",
@@ -3747,6 +4701,81 @@
       "community": 15
     },
     {
+      "id": "org_springframework_http_responseentity",
+      "label": "org.springframework.http.ResponseEntity",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "org_springframework_web_bind_annotation_exceptionhandler",
+      "label": "org.springframework.web.bind.annotation.ExceptionHandler",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "org_springframework_web_bind_annotation_restcontrolleradvice",
+      "label": "org.springframework.web.bind.annotation.RestControllerAdvice",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "org_springframework_web_method_annotation_methodargumenttypemismatchexception",
+      "label": "org.springframework.web.method.annotation.MethodArgumentTypeMismatchException",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "org_springframework_web_server_responsestatusexception",
+      "label": "org.springframework.web.server.ResponseStatusException",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "org_springframework_jdbc_core_jdbctemplate",
+      "label": "org.springframework.jdbc.core.JdbcTemplate",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "org_springframework_stereotype_component",
+      "label": "org.springframework.stereotype.Component",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "community": 0
+    },
+    {
+      "id": "org_springframework_stereotype_service",
+      "label": "org.springframework.stereotype.Service",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "community": 0
+    },
+    {
+      "id": "org_springframework_transaction_annotation_transactional",
+      "label": "org.springframework.transaction.annotation.Transactional",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "community": 0
+    },
+    {
       "id": "org_springframework_data_jpa_repository_jparepository",
       "label": "org.springframework.data.jpa.repository.JpaRepository",
       "file_type": "code",
@@ -3774,35 +4803,8 @@
       "community": 0
     },
     {
-      "id": "org_springframework_stereotype_service",
-      "label": "org.springframework.stereotype.Service",
-      "file_type": "code",
-      "source_file": "",
-      "source_location": "",
-      "_origin": "ast",
-      "community": 0
-    },
-    {
-      "id": "org_springframework_transaction_annotation_transactional",
-      "label": "org.springframework.transaction.annotation.Transactional",
-      "file_type": "code",
-      "source_file": "",
-      "source_location": "",
-      "_origin": "ast",
-      "community": 0
-    },
-    {
       "id": "org_springframework_boot_commandlinerunner",
       "label": "org.springframework.boot.CommandLineRunner",
-      "file_type": "code",
-      "source_file": "",
-      "source_location": "",
-      "_origin": "ast",
-      "community": 0
-    },
-    {
-      "id": "org_springframework_stereotype_component",
-      "label": "org.springframework.stereotype.Component",
       "file_type": "code",
       "source_file": "",
       "source_location": "",
@@ -3897,8 +4899,8 @@
       "_origin": "ast"
     },
     {
-      "id": "org_springframework_jdbc_core_jdbctemplate",
-      "label": "org.springframework.jdbc.core.JdbcTemplate",
+      "id": "org_junit_jupiter_api_test",
+      "label": "org.junit.jupiter.api.Test",
       "file_type": "code",
       "source_file": "",
       "source_location": "",
@@ -3930,14 +4932,6 @@
       "source_location": "",
       "_origin": "ast",
       "community": 9
-    },
-    {
-      "id": "org_junit_jupiter_api_test",
-      "label": "org.junit.jupiter.api.Test",
-      "file_type": "code",
-      "source_file": "",
-      "source_location": "",
-      "_origin": "ast"
     }
   ],
   "links": [
@@ -3980,6 +4974,929 @@
       "confidence": "EXTRACTED",
       "source_file": "backend/src/main/java/com/nova/bank/NovaApplication.java",
       "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_accounts_accountcontroller",
+      "target": "backend_src_main_java_com_nova_bank_accounts_accountcontroller_accountcontroller",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/accounts/AccountController.java",
+      "source_location": "L11",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_accounts_accountcontroller_accountcontroller",
+      "target": "backend_src_main_java_com_nova_bank_accounts_accountcontroller_java_restcontroller",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/accounts/AccountController.java",
+      "source_location": "L11",
+      "weight": 1.0,
+      "context": "attribute",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_accounts_accountcontroller_accountcontroller",
+      "target": "backend_src_main_java_com_nova_bank_accounts_accountcontroller_java_requestmapping",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/accounts/AccountController.java",
+      "source_location": "L11",
+      "weight": 1.0,
+      "context": "attribute",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_accounts_accountcontroller_accountcontroller",
+      "target": "backend_src_main_java_com_nova_bank_accounts_accountservice_accountservice",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/accounts/AccountController.java",
+      "source_location": "L12",
+      "weight": 1.0,
+      "context": "field",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_accounts_accountcontroller_accountcontroller",
+      "target": "backend_src_main_java_com_nova_bank_accounts_accountcontroller_accountcontroller_accountcontroller",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/accounts/AccountController.java",
+      "source_location": "L13",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_accounts_accountcontroller_accountcontroller_accountcontroller",
+      "target": "backend_src_main_java_com_nova_bank_accounts_accountservice_accountservice",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/accounts/AccountController.java",
+      "source_location": "L13",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_accounts_accountcontroller_accountcontroller",
+      "target": "backend_src_main_java_com_nova_bank_accounts_accountcontroller_accountcontroller_transactions",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/accounts/AccountController.java",
+      "source_location": "L14",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_accounts_accountcontroller_accountcontroller_transactions",
+      "target": "backend_src_main_java_com_nova_bank_auth_authservice_principal",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/accounts/AccountController.java",
+      "source_location": "L14",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_accounts_accountcontroller_accountcontroller_transactions",
+      "target": "backend_src_main_java_com_nova_bank_accounts_accountservice_result",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/accounts/AccountController.java",
+      "source_location": "L14",
+      "weight": 1.0,
+      "context": "return_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_accounts_accountcontroller_accountcontroller_transactions",
+      "target": "backend_src_main_java_com_nova_bank_accounts_accountcontroller_java_getmapping",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/accounts/AccountController.java",
+      "source_location": "L14",
+      "weight": 1.0,
+      "context": "attribute",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_accounts_accountcontroller_accountcontroller",
+      "target": "backend_src_main_java_com_nova_bank_accounts_accountcontroller_accountcontroller_statement",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/accounts/AccountController.java",
+      "source_location": "L17",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_accounts_accountcontroller_accountcontroller_statement",
+      "target": "backend_src_main_java_com_nova_bank_auth_authservice_principal",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/accounts/AccountController.java",
+      "source_location": "L17",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_accounts_accountcontroller_accountcontroller_statement",
+      "target": "backend_src_main_java_com_nova_bank_accounts_accountcontroller_java_responseentity",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/accounts/AccountController.java",
+      "source_location": "L17",
+      "weight": 1.0,
+      "context": "return_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_accounts_accountcontroller_accountcontroller_statement",
+      "target": "backend_src_main_java_com_nova_bank_accounts_accountcontroller_java_getmapping",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/accounts/AccountController.java",
+      "source_location": "L17",
+      "weight": 1.0,
+      "context": "attribute",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_accounts_accounterrors",
+      "target": "backend_src_main_java_com_nova_bank_common_apierror_apierror",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/accounts/AccountErrors.java",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_accounts_accounterrors",
+      "target": "org_springframework_http_responseentity",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/accounts/AccountErrors.java",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_accounts_accounterrors",
+      "target": "org_springframework_web_bind_annotation_exceptionhandler",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/accounts/AccountErrors.java",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_accounts_accounterrors",
+      "target": "org_springframework_web_bind_annotation_restcontrolleradvice",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/accounts/AccountErrors.java",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_accounts_accounterrors",
+      "target": "org_springframework_web_method_annotation_methodargumenttypemismatchexception",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/accounts/AccountErrors.java",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_accounts_accounterrors",
+      "target": "org_springframework_web_server_responsestatusexception",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/accounts/AccountErrors.java",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_accounts_accounterrors",
+      "target": "backend_src_main_java_com_nova_bank_accounts_accounterrors_accounterrors",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/accounts/AccountErrors.java",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_accounts_accounterrors_accounterrors",
+      "target": "org_springframework_web_bind_annotation_restcontrolleradvice",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/accounts/AccountErrors.java",
+      "source_location": "L12",
+      "weight": 1.0,
+      "context": "attribute",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_accounts_accounterrors_accounterrors",
+      "target": "backend_src_main_java_com_nova_bank_accounts_accountcontroller_accountcontroller",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/accounts/AccountErrors.java",
+      "source_location": "L12",
+      "weight": 1.0,
+      "context": "attribute",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_accounts_accounterrors_accounterrors",
+      "target": "backend_src_main_java_com_nova_bank_accounts_accounterrors_accounterrors_status",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/accounts/AccountErrors.java",
+      "source_location": "L13",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_accounts_accounterrors_accounterrors_status",
+      "target": "org_springframework_web_server_responsestatusexception",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/accounts/AccountErrors.java",
+      "source_location": "L13",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_accounts_accounterrors_accounterrors_status",
+      "target": "org_springframework_http_responseentity",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/accounts/AccountErrors.java",
+      "source_location": "L13",
+      "weight": 1.0,
+      "context": "return_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_accounts_accounterrors_accounterrors_status",
+      "target": "backend_src_main_java_com_nova_bank_common_apierror_apierror",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/accounts/AccountErrors.java",
+      "source_location": "L13",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_accounts_accounterrors_accounterrors_status",
+      "target": "org_springframework_web_bind_annotation_exceptionhandler",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/accounts/AccountErrors.java",
+      "source_location": "L13",
+      "weight": 1.0,
+      "context": "attribute",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_accounts_accounterrors_accounterrors_status",
+      "target": "org_springframework_web_server_responsestatusexception",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/accounts/AccountErrors.java",
+      "source_location": "L13",
+      "weight": 1.0,
+      "context": "attribute",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_accounts_accounterrors_accounterrors",
+      "target": "backend_src_main_java_com_nova_bank_accounts_accounterrors_accounterrors_invalid",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/accounts/AccountErrors.java",
+      "source_location": "L17",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_accounts_accounterrors_accounterrors_invalid",
+      "target": "org_springframework_web_method_annotation_methodargumenttypemismatchexception",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/accounts/AccountErrors.java",
+      "source_location": "L17",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_accounts_accounterrors_accounterrors_invalid",
+      "target": "org_springframework_http_responseentity",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/accounts/AccountErrors.java",
+      "source_location": "L17",
+      "weight": 1.0,
+      "context": "return_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_accounts_accounterrors_accounterrors_invalid",
+      "target": "backend_src_main_java_com_nova_bank_common_apierror_apierror",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/accounts/AccountErrors.java",
+      "source_location": "L17",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_accounts_accounterrors_accounterrors_invalid",
+      "target": "org_springframework_web_bind_annotation_exceptionhandler",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/accounts/AccountErrors.java",
+      "source_location": "L17",
+      "weight": 1.0,
+      "context": "attribute",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_accounts_accounterrors_accounterrors_invalid",
+      "target": "org_springframework_web_method_annotation_methodargumenttypemismatchexception",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/accounts/AccountErrors.java",
+      "source_location": "L17",
+      "weight": 1.0,
+      "context": "attribute",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_accounts_accountseeder",
+      "target": "org_springframework_jdbc_core_jdbctemplate",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/accounts/AccountSeeder.java",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_accounts_accountseeder",
+      "target": "org_springframework_stereotype_component",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/accounts/AccountSeeder.java",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_accounts_accountseeder",
+      "target": "backend_src_main_java_com_nova_bank_accounts_accountseeder_accountseeder",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/accounts/AccountSeeder.java",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_accounts_accountseeder_accountseeder",
+      "target": "org_springframework_stereotype_component",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/accounts/AccountSeeder.java",
+      "source_location": "L8",
+      "weight": 1.0,
+      "context": "attribute",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_accounts_accountseeder_accountseeder",
+      "target": "org_springframework_jdbc_core_jdbctemplate",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/accounts/AccountSeeder.java",
+      "source_location": "L9",
+      "weight": 1.0,
+      "context": "field",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_accounts_accountseeder_accountseeder",
+      "target": "backend_src_main_java_com_nova_bank_accounts_accountseeder_accountseeder_accountseeder",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/accounts/AccountSeeder.java",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_accounts_accountseeder_accountseeder_accountseeder",
+      "target": "org_springframework_jdbc_core_jdbctemplate",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/accounts/AccountSeeder.java",
+      "source_location": "L10",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_accounts_accountseeder_accountseeder",
+      "target": "backend_src_main_java_com_nova_bank_accounts_accountseeder_accountseeder_seed",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/accounts/AccountSeeder.java",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_accounts_accountseeder_accountseeder",
+      "target": "backend_src_main_java_com_nova_bank_accounts_accountseeder_accountseeder_insert",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/accounts/AccountSeeder.java",
+      "source_location": "L20",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_accounts_accountseeder_accountseeder_seed",
+      "target": "backend_src_main_java_com_nova_bank_accounts_accountseeder_accountseeder_insert",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/accounts/AccountSeeder.java",
+      "source_location": "L13",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_accounts_accountservice",
+      "target": "org_springframework_jdbc_core_jdbctemplate",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/accounts/AccountService.java",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_accounts_accountservice",
+      "target": "org_springframework_stereotype_service",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/accounts/AccountService.java",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_accounts_accountservice",
+      "target": "org_springframework_transaction_annotation_transactional",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/accounts/AccountService.java",
+      "source_location": "L13",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_accounts_accountservice",
+      "target": "org_springframework_web_server_responsestatusexception",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/accounts/AccountService.java",
+      "source_location": "L14",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_accounts_accountservice",
+      "target": "backend_src_main_java_com_nova_bank_accounts_accountservice_accountservice",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/accounts/AccountService.java",
+      "source_location": "L17",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_accounts_accountservice_accountservice",
+      "target": "org_springframework_stereotype_service",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/accounts/AccountService.java",
+      "source_location": "L17",
+      "weight": 1.0,
+      "context": "attribute",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_accounts_accountservice_accountservice",
+      "target": "org_springframework_jdbc_core_jdbctemplate",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/accounts/AccountService.java",
+      "source_location": "L18",
+      "weight": 1.0,
+      "context": "field",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_accounts_accountservice_accountservice",
+      "target": "backend_src_main_java_com_nova_bank_accounts_accountservice_accountservice_accountservice",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/accounts/AccountService.java",
+      "source_location": "L20",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_accounts_accountservice_accountservice_accountservice",
+      "target": "org_springframework_jdbc_core_jdbctemplate",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/accounts/AccountService.java",
+      "source_location": "L20",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_accounts_accountservice_accountservice",
+      "target": "backend_src_main_java_com_nova_bank_accounts_accountservice_metadata",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/accounts/AccountService.java",
+      "source_location": "L23",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_accounts_accountservice_accountservice",
+      "target": "backend_src_main_java_com_nova_bank_accounts_accountservice_item",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/accounts/AccountService.java",
+      "source_location": "L24",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_accounts_accountservice_accountservice",
+      "target": "backend_src_main_java_com_nova_bank_accounts_accountservice_result",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/accounts/AccountService.java",
+      "source_location": "L25",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_accounts_accountservice_result",
+      "target": "backend_src_main_java_com_nova_bank_accounts_accountservice_metadata",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/accounts/AccountService.java",
+      "source_location": "L25",
+      "weight": 1.0,
+      "context": "field",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_accounts_accountservice_result",
+      "target": "backend_src_main_java_com_nova_bank_accounts_accountservice_item",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/accounts/AccountService.java",
+      "source_location": "L25",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_accounts_accountservice_accountservice",
+      "target": "backend_src_main_java_com_nova_bank_accounts_accountservice_filter",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/accounts/AccountService.java",
+      "source_location": "L26",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_accounts_accountservice_accountservice",
+      "target": "backend_src_main_java_com_nova_bank_accounts_accountservice_accountservice_authorize",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/accounts/AccountService.java",
+      "source_location": "L29",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_accounts_accountservice_accountservice_authorize",
+      "target": "backend_src_main_java_com_nova_bank_auth_authservice_principal",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/accounts/AccountService.java",
+      "source_location": "L29",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_accounts_accountservice_accountservice",
+      "target": "backend_src_main_java_com_nova_bank_accounts_accountservice_accountservice_metadata",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/accounts/AccountService.java",
+      "source_location": "L36",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_accounts_accountservice_accountservice_metadata",
+      "target": "backend_src_main_java_com_nova_bank_accounts_accountservice_metadata",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/accounts/AccountService.java",
+      "source_location": "L36",
+      "weight": 1.0,
+      "context": "return_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_accounts_accountservice_accountservice",
+      "target": "backend_src_main_java_com_nova_bank_accounts_accountservice_accountservice_filter",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/accounts/AccountService.java",
+      "source_location": "L40",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_accounts_accountservice_accountservice_filter",
+      "target": "backend_src_main_java_com_nova_bank_accounts_accountservice_filter",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/accounts/AccountService.java",
+      "source_location": "L40",
+      "weight": 1.0,
+      "context": "return_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_accounts_accountservice_accountservice",
+      "target": "backend_src_main_java_com_nova_bank_accounts_accountservice_accountservice_transactions",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/accounts/AccountService.java",
+      "source_location": "L56",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_accounts_accountservice_accountservice_transactions",
+      "target": "backend_src_main_java_com_nova_bank_auth_authservice_principal",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/accounts/AccountService.java",
+      "source_location": "L56",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_accounts_accountservice_accountservice_transactions",
+      "target": "backend_src_main_java_com_nova_bank_accounts_accountservice_result",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/accounts/AccountService.java",
+      "source_location": "L56",
+      "weight": 1.0,
+      "context": "return_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_accounts_accountservice_accountservice_transactions",
+      "target": "org_springframework_transaction_annotation_transactional",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/accounts/AccountService.java",
+      "source_location": "L56",
+      "weight": 1.0,
+      "context": "attribute",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_accounts_accountservice_accountservice",
+      "target": "backend_src_main_java_com_nova_bank_accounts_accountservice_accountservice_statement",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/accounts/AccountService.java",
+      "source_location": "L69",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_accounts_accountservice_accountservice_statement",
+      "target": "backend_src_main_java_com_nova_bank_auth_authservice_principal",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/accounts/AccountService.java",
+      "source_location": "L69",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_accounts_accountservice_accountservice_statement",
+      "target": "org_springframework_transaction_annotation_transactional",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/accounts/AccountService.java",
+      "source_location": "L69",
+      "weight": 1.0,
+      "context": "attribute",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_accounts_accountservice_accountservice",
+      "target": "backend_src_main_java_com_nova_bank_accounts_accountservice_accountservice_statementfilename",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/accounts/AccountService.java",
+      "source_location": "L76",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_accounts_accountservice_accountservice_statementfilename",
+      "target": "backend_src_main_java_com_nova_bank_auth_authservice_principal",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/accounts/AccountService.java",
+      "source_location": "L76",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_accounts_accountservice_accountservice_statementfilename",
+      "target": "org_springframework_transaction_annotation_transactional",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/accounts/AccountService.java",
+      "source_location": "L76",
+      "weight": 1.0,
+      "context": "attribute",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_accounts_accountservice_accountservice_metadata",
+      "target": "backend_src_main_java_com_nova_bank_accounts_accountservice_metadata",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/accounts/AccountService.java",
+      "source_location": "L38",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_accounts_accountservice_accountservice_filter",
+      "target": "backend_src_main_java_com_nova_bank_accounts_accountservice_filter",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/accounts/AccountService.java",
+      "source_location": "L52",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_accounts_accountservice_accountservice_transactions",
+      "target": "backend_src_main_java_com_nova_bank_accounts_accountservice_accountservice_authorize",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/accounts/AccountService.java",
+      "source_location": "L57",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_accounts_accountservice_accountservice_transactions",
+      "target": "backend_src_main_java_com_nova_bank_accounts_accountservice_item",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/accounts/AccountService.java",
+      "source_location": "L65",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_accounts_accountservice_accountservice_transactions",
+      "target": "backend_src_main_java_com_nova_bank_accounts_accountservice_result",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/accounts/AccountService.java",
+      "source_location": "L66",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_accounts_accountservice_accountservice_transactions",
+      "target": "backend_src_main_java_com_nova_bank_accounts_accountservice_accountservice_metadata",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/accounts/AccountService.java",
+      "source_location": "L66",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_accounts_accountservice_accountservice_statement",
+      "target": "backend_src_main_java_com_nova_bank_accounts_accountservice_accountservice_authorize",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/accounts/AccountService.java",
+      "source_location": "L70",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_accounts_accountservice_accountservice_statement",
+      "target": "backend_src_main_java_com_nova_bank_accounts_accountservice_accountservice_metadata",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/accounts/AccountService.java",
+      "source_location": "L70",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_accounts_accountservice_accountservice_statementfilename",
+      "target": "backend_src_main_java_com_nova_bank_accounts_accountservice_accountservice_authorize",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/accounts/AccountService.java",
+      "source_location": "L77",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_accounts_accountservice_accountservice_statementfilename",
+      "target": "backend_src_main_java_com_nova_bank_accounts_accountservice_accountservice_metadata",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/accounts/AccountService.java",
+      "source_location": "L77",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -4974,6 +6891,17 @@
     },
     {
       "source": "backend_src_main_java_com_nova_bank_auth_demoseeder_demoseeder",
+      "target": "backend_src_main_java_com_nova_bank_accounts_accountseeder_accountseeder",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/auth/DemoSeeder.java",
+      "source_location": "L10",
+      "weight": 1.0,
+      "context": "field",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_auth_demoseeder_demoseeder",
       "target": "backend_src_main_java_com_nova_bank_auth_demoseeder_demoseeder_demoseeder",
       "relation": "method",
       "confidence": "EXTRACTED",
@@ -5007,6 +6935,17 @@
     {
       "source": "backend_src_main_java_com_nova_bank_auth_demoseeder_demoseeder_demoseeder",
       "target": "backend_src_main_java_com_nova_bank_portfolio_portfolioseeder_portfolioseeder",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/auth/DemoSeeder.java",
+      "source_location": "L11",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_auth_demoseeder_demoseeder_demoseeder",
+      "target": "backend_src_main_java_com_nova_bank_accounts_accountseeder_accountseeder",
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "backend/src/main/java/com/nova/bank/auth/DemoSeeder.java",
@@ -5353,17 +7292,6 @@
       "confidence": "EXTRACTED",
       "source_file": "backend/src/main/java/com/nova/bank/auth/SecurityConfig.java",
       "source_location": "L2",
-      "weight": 1.0,
-      "_origin": "ast"
-    },
-    {
-      "source": "backend_src_main_java_com_nova_bank_auth_securityconfig",
-      "target": "backend_src_main_java_com_nova_bank_common_apierror_apierror",
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "backend/src/main/java/com/nova/bank/auth/SecurityConfig.java",
-      "source_location": "L3",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -5808,7 +7736,7 @@
     },
     {
       "source": "backend_src_main_java_com_nova_bank_common_apierrors_apierrors",
-      "target": "restcontrolleradvice",
+      "target": "backend_src_main_java_com_nova_bank_common_apierrors_java_restcontrolleradvice",
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "backend/src/main/java/com/nova/bank/common/ApiErrors.java",
@@ -5840,7 +7768,7 @@
     },
     {
       "source": "backend_src_main_java_com_nova_bank_common_apierrors_apierrors_auth",
-      "target": "responseentity",
+      "target": "backend_src_main_java_com_nova_bank_common_apierrors_java_responseentity",
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "backend/src/main/java/com/nova/bank/common/ApiErrors.java",
@@ -5862,7 +7790,7 @@
     },
     {
       "source": "backend_src_main_java_com_nova_bank_common_apierrors_apierrors_auth",
-      "target": "exceptionhandler",
+      "target": "backend_src_main_java_com_nova_bank_common_apierrors_java_exceptionhandler",
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "backend/src/main/java/com/nova/bank/common/ApiErrors.java",
@@ -5894,7 +7822,7 @@
     },
     {
       "source": "backend_src_main_java_com_nova_bank_common_apierrors_apierrors_invalid",
-      "target": "responseentity",
+      "target": "backend_src_main_java_com_nova_bank_common_apierrors_java_responseentity",
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "backend/src/main/java/com/nova/bank/common/ApiErrors.java",
@@ -5916,7 +7844,7 @@
     },
     {
       "source": "backend_src_main_java_com_nova_bank_common_apierrors_apierrors_invalid",
-      "target": "exceptionhandler",
+      "target": "backend_src_main_java_com_nova_bank_common_apierrors_java_exceptionhandler",
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "backend/src/main/java/com/nova/bank/common/ApiErrors.java",
@@ -6563,6 +8491,500 @@
       "confidence": "EXTRACTED",
       "source_file": "backend/src/main/java/com/nova/bank/portfolio/PortfolioService.java",
       "source_location": "L24",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_accounts_accountapitest",
+      "target": "com_fasterxml_jackson_databind_objectmapper",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/accounts/AccountApiTest.java",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_accounts_accountapitest",
+      "target": "org_junit_jupiter_api_test",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/accounts/AccountApiTest.java",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_accounts_accountapitest",
+      "target": "org_springframework_boot_test_autoconfigure_web_servlet_autoconfiguremockmvc",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/accounts/AccountApiTest.java",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_accounts_accountapitest",
+      "target": "org_springframework_boot_test_context_springboottest",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/accounts/AccountApiTest.java",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_accounts_accountapitest",
+      "target": "org_springframework_test_web_servlet_mockmvc",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/accounts/AccountApiTest.java",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_accounts_accountapitest",
+      "target": "backend_src_test_java_com_nova_bank_accounts_accountapitest_accountapitest",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/accounts/AccountApiTest.java",
+      "source_location": "L15",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_accounts_accountapitest_accountapitest",
+      "target": "org_springframework_boot_test_context_springboottest",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/accounts/AccountApiTest.java",
+      "source_location": "L15",
+      "weight": 1.0,
+      "context": "attribute",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_accounts_accountapitest_accountapitest",
+      "target": "org_springframework_boot_test_autoconfigure_web_servlet_autoconfiguremockmvc",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/accounts/AccountApiTest.java",
+      "source_location": "L15",
+      "weight": 1.0,
+      "context": "attribute",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_accounts_accountapitest_accountapitest",
+      "target": "org_springframework_test_web_servlet_mockmvc",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/accounts/AccountApiTest.java",
+      "source_location": "L17",
+      "weight": 1.0,
+      "context": "field",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_accounts_accountapitest_accountapitest",
+      "target": "com_fasterxml_jackson_databind_objectmapper",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/accounts/AccountApiTest.java",
+      "source_location": "L17",
+      "weight": 1.0,
+      "context": "field",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_accounts_accountapitest_accountapitest",
+      "target": "backend_src_test_java_com_nova_bank_accounts_accountapitest_accountapitest_login",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/accounts/AccountApiTest.java",
+      "source_location": "L19",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_accounts_accountapitest_accountapitest",
+      "target": "backend_src_test_java_com_nova_bank_accounts_accountapitest_accountapitest_ownercanfilteranddownloadmaskedstatement",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/accounts/AccountApiTest.java",
+      "source_location": "L20",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_accounts_accountapitest_accountapitest_ownercanfilteranddownloadmaskedstatement",
+      "target": "org_junit_jupiter_api_test",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/accounts/AccountApiTest.java",
+      "source_location": "L20",
+      "weight": 1.0,
+      "context": "attribute",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_accounts_accountapitest_accountapitest",
+      "target": "backend_src_test_java_com_nova_bank_accounts_accountapitest_accountapitest_crossownerandmissingorinvalidtokensneverleakaccount",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/accounts/AccountApiTest.java",
+      "source_location": "L27",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_accounts_accountapitest_accountapitest_crossownerandmissingorinvalidtokensneverleakaccount",
+      "target": "org_junit_jupiter_api_test",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/accounts/AccountApiTest.java",
+      "source_location": "L27",
+      "weight": 1.0,
+      "context": "attribute",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_accounts_accountapitest_accountapitest",
+      "target": "backend_src_test_java_com_nova_bank_accounts_accountapitest_accountapitest_invalidinputsarerejected",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/accounts/AccountApiTest.java",
+      "source_location": "L36",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_accounts_accountapitest_accountapitest_invalidinputsarerejected",
+      "target": "org_junit_jupiter_api_test",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/accounts/AccountApiTest.java",
+      "source_location": "L36",
+      "weight": 1.0,
+      "context": "attribute",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_accounts_accountapitest_accountapitest_ownercanfilteranddownloadmaskedstatement",
+      "target": "backend_src_test_java_com_nova_bank_accounts_accountapitest_accountapitest_login",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/accounts/AccountApiTest.java",
+      "source_location": "L21",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_accounts_accountapitest_accountapitest_crossownerandmissingorinvalidtokensneverleakaccount",
+      "target": "backend_src_test_java_com_nova_bank_accounts_accountapitest_accountapitest_login",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/accounts/AccountApiTest.java",
+      "source_location": "L28",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_accounts_accountapitest_accountapitest_invalidinputsarerejected",
+      "target": "backend_src_test_java_com_nova_bank_accounts_accountapitest_accountapitest_login",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/accounts/AccountApiTest.java",
+      "source_location": "L37",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_accounts_accountservicetest",
+      "target": "org_junit_jupiter_api_test",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/accounts/AccountServiceTest.java",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_accounts_accountservicetest",
+      "target": "org_springframework_boot_test_context_springboottest",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/accounts/AccountServiceTest.java",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_accounts_accountservicetest",
+      "target": "org_springframework_jdbc_core_jdbctemplate",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/accounts/AccountServiceTest.java",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_accounts_accountservicetest",
+      "target": "org_springframework_web_server_responsestatusexception",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/accounts/AccountServiceTest.java",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_accounts_accountservicetest",
+      "target": "backend_src_test_java_com_nova_bank_accounts_accountservicetest_accountservicetest",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/accounts/AccountServiceTest.java",
+      "source_location": "L13",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_accounts_accountservicetest_accountservicetest",
+      "target": "org_springframework_boot_test_context_springboottest",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/accounts/AccountServiceTest.java",
+      "source_location": "L13",
+      "weight": 1.0,
+      "context": "attribute",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_accounts_accountservicetest_accountservicetest",
+      "target": "backend_src_main_java_com_nova_bank_accounts_accountservice_accountservice",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/accounts/AccountServiceTest.java",
+      "source_location": "L15",
+      "weight": 1.0,
+      "context": "field",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_accounts_accountservicetest_accountservicetest",
+      "target": "backend_src_main_java_com_nova_bank_accounts_accountseeder_accountseeder",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/accounts/AccountServiceTest.java",
+      "source_location": "L15",
+      "weight": 1.0,
+      "context": "field",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_accounts_accountservicetest_accountservicetest",
+      "target": "org_springframework_jdbc_core_jdbctemplate",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/accounts/AccountServiceTest.java",
+      "source_location": "L15",
+      "weight": 1.0,
+      "context": "field",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_accounts_accountservicetest_accountservicetest",
+      "target": "backend_src_test_java_com_nova_bank_accounts_accountservicetest_accountservicetest_principal",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/accounts/AccountServiceTest.java",
+      "source_location": "L17",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_accounts_accountservicetest_accountservicetest_principal",
+      "target": "backend_src_main_java_com_nova_bank_auth_authservice_principal",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/accounts/AccountServiceTest.java",
+      "source_location": "L17",
+      "weight": 1.0,
+      "context": "return_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_accounts_accountservicetest_accountservicetest",
+      "target": "backend_src_test_java_com_nova_bank_accounts_accountservicetest_accountservicetest_query",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/accounts/AccountServiceTest.java",
+      "source_location": "L18",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_accounts_accountservicetest_accountservicetest_query",
+      "target": "backend_src_main_java_com_nova_bank_accounts_accountservice_result",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/accounts/AccountServiceTest.java",
+      "source_location": "L18",
+      "weight": 1.0,
+      "context": "return_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_accounts_accountservicetest_accountservicetest",
+      "target": "backend_src_test_java_com_nova_bank_accounts_accountservicetest_accountservicetest_defaultsusedemoclockandpendingdebitsareexact",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/accounts/AccountServiceTest.java",
+      "source_location": "L19",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_accounts_accountservicetest_accountservicetest_defaultsusedemoclockandpendingdebitsareexact",
+      "target": "org_junit_jupiter_api_test",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/accounts/AccountServiceTest.java",
+      "source_location": "L19",
+      "weight": 1.0,
+      "context": "attribute",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_accounts_accountservicetest_accountservicetest",
+      "target": "backend_src_test_java_com_nova_bank_accounts_accountservicetest_accountservicetest_combinedfilterssearchreferenceandpaginatedeterministically",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/accounts/AccountServiceTest.java",
+      "source_location": "L26",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_accounts_accountservicetest_accountservicetest_combinedfilterssearchreferenceandpaginatedeterministically",
+      "target": "org_junit_jupiter_api_test",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/accounts/AccountServiceTest.java",
+      "source_location": "L26",
+      "weight": 1.0,
+      "context": "attribute",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_accounts_accountservicetest_accountservicetest",
+      "target": "backend_src_test_java_com_nova_bank_accounts_accountservicetest_accountservicetest_invalidrangespagingandenumsfailclosed",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/accounts/AccountServiceTest.java",
+      "source_location": "L33",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_accounts_accountservicetest_accountservicetest_invalidrangespagingandenumsfailclosed",
+      "target": "org_junit_jupiter_api_test",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/accounts/AccountServiceTest.java",
+      "source_location": "L33",
+      "weight": 1.0,
+      "context": "attribute",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_accounts_accountservicetest_accountservicetest",
+      "target": "backend_src_test_java_com_nova_bank_accounts_accountservicetest_accountservicetest_ownercheckprecedesallreadsandexport",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/accounts/AccountServiceTest.java",
+      "source_location": "L42",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_accounts_accountservicetest_accountservicetest_ownercheckprecedesallreadsandexport",
+      "target": "org_junit_jupiter_api_test",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/accounts/AccountServiceTest.java",
+      "source_location": "L42",
+      "weight": 1.0,
+      "context": "attribute",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_accounts_accountservicetest_accountservicetest_query",
+      "target": "backend_src_test_java_com_nova_bank_accounts_accountservicetest_accountservicetest_principal",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/accounts/AccountServiceTest.java",
+      "source_location": "L18",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_accounts_accountservicetest_accountservicetest_defaultsusedemoclockandpendingdebitsareexact",
+      "target": "backend_src_test_java_com_nova_bank_accounts_accountservicetest_accountservicetest_query",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/accounts/AccountServiceTest.java",
+      "source_location": "L20",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_accounts_accountservicetest_accountservicetest_combinedfilterssearchreferenceandpaginatedeterministically",
+      "target": "backend_src_test_java_com_nova_bank_accounts_accountservicetest_accountservicetest_query",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/accounts/AccountServiceTest.java",
+      "source_location": "L27",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_accounts_accountservicetest_accountservicetest_invalidrangespagingandenumsfailclosed",
+      "target": "backend_src_test_java_com_nova_bank_accounts_accountservicetest_accountservicetest_query",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/accounts/AccountServiceTest.java",
+      "source_location": "L34",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_accounts_accountservicetest_accountservicetest_ownercheckprecedesallreadsandexport",
+      "target": "backend_src_test_java_com_nova_bank_accounts_accountservicetest_accountservicetest_principal",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/accounts/AccountServiceTest.java",
+      "source_location": "L43",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -7685,6 +10107,17 @@
       "_origin": "ast"
     },
     {
+      "source": "frontend_e2e_accounts_spec",
+      "target": "ref_playwright_test",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/e2e/accounts.spec.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
       "source": "frontend_e2e_auth_spec",
       "target": "ref_playwright_test",
       "relation": "imports_from",
@@ -8322,6 +10755,419 @@
       "_origin": "ast"
     },
     {
+      "source": "frontend_src_app_accounts_account_detail_component_spec",
+      "target": "ref_angular_core",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/accounts/account-detail.component.spec.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_accounts_account_detail_component_spec",
+      "target": "ref_angular_router",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/accounts/account-detail.component.spec.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_accounts_account_detail_component_spec",
+      "target": "ref_angular_common",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/accounts/account-detail.component.spec.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_accounts_account_detail_component_spec",
+      "target": "ref_angular_common",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/accounts/account-detail.component.spec.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_accounts_account_detail_component_spec",
+      "target": "frontend_src_app_accounts_account_detail_component",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/accounts/account-detail.component.spec.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_accounts_account_detail_component_spec",
+      "target": "frontend_src_app_accounts_account_detail_component_accountdetailcomponent",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/accounts/account-detail.component.spec.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_accounts_account_detail_component",
+      "target": "ref_angular_common",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/accounts/account-detail.component.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_accounts_account_detail_component",
+      "target": "ref_angular_core",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/accounts/account-detail.component.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_accounts_account_detail_component",
+      "target": "ref_angular_forms",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/accounts/account-detail.component.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_accounts_account_detail_component",
+      "target": "ref_angular_router",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/accounts/account-detail.component.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_accounts_account_detail_component",
+      "target": "ref_angular_common",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/accounts/account-detail.component.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_accounts_account_detail_component",
+      "target": "ref_rxjs",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/accounts/account-detail.component.ts",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_accounts_account_detail_component",
+      "target": "frontend_src_app_accounts_account_service",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/accounts/account-detail.component.ts",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_accounts_account_detail_component",
+      "target": "frontend_src_app_accounts_account_service_accountservice",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/accounts/account-detail.component.ts",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_accounts_account_detail_component",
+      "target": "frontend_src_app_accounts_account_service_transactions",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/accounts/account-detail.component.ts",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_accounts_account_detail_component",
+      "target": "frontend_src_app_accounts_account_detail_component_accountdetailcomponent",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/accounts/account-detail.component.ts",
+      "source_location": "L11",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_accounts_account_detail_component_accountdetailcomponent",
+      "target": "frontend_src_app_accounts_account_detail_component_ts_component",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/accounts/account-detail.component.ts",
+      "source_location": "L10",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_accounts_account_detail_component_accountdetailcomponent",
+      "target": "frontend_src_app_accounts_account_detail_component_accountdetailcomponent_constructor",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/accounts/account-detail.component.ts",
+      "source_location": "L14",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_accounts_account_detail_component_accountdetailcomponent",
+      "target": "frontend_src_app_accounts_account_detail_component_accountdetailcomponent_ngoninit",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/accounts/account-detail.component.ts",
+      "source_location": "L15",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_accounts_account_detail_component_accountdetailcomponent",
+      "target": "frontend_src_app_accounts_account_detail_component_accountdetailcomponent_datedays",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/accounts/account-detail.component.ts",
+      "source_location": "L20",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_accounts_account_detail_component_accountdetailcomponent",
+      "target": "frontend_src_app_accounts_account_detail_component_accountdetailcomponent_load",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/accounts/account-detail.component.ts",
+      "source_location": "L22",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_accounts_account_detail_component_accountdetailcomponent",
+      "target": "frontend_src_app_accounts_account_detail_component_accountdetailcomponent_reset",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/accounts/account-detail.component.ts",
+      "source_location": "L32",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_accounts_account_detail_component_accountdetailcomponent",
+      "target": "frontend_src_app_accounts_account_detail_component_accountdetailcomponent_changepage",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/accounts/account-detail.component.ts",
+      "source_location": "L33",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_accounts_account_detail_component_accountdetailcomponent",
+      "target": "frontend_src_app_accounts_account_detail_component_accountdetailcomponent_downloadstatement",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/accounts/account-detail.component.ts",
+      "source_location": "L35",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_accounts_account_detail_component_accountdetailcomponent",
+      "target": "frontend_src_app_accounts_account_detail_component_accountdetailcomponent_ngondestroy",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/accounts/account-detail.component.ts",
+      "source_location": "L39",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_accounts_account_detail_component_accountdetailcomponent_ngoninit",
+      "target": "frontend_src_app_accounts_account_detail_component_accountdetailcomponent_load",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/accounts/account-detail.component.ts",
+      "source_location": "L17",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_accounts_account_detail_component_accountdetailcomponent_load",
+      "target": "frontend_src_app_accounts_account_detail_component_accountdetailcomponent_datedays",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/accounts/account-detail.component.ts",
+      "source_location": "L28",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_accounts_account_detail_component_accountdetailcomponent_changepage",
+      "target": "frontend_src_app_accounts_account_detail_component_accountdetailcomponent_load",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/accounts/account-detail.component.ts",
+      "source_location": "L33",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_accounts_account_service",
+      "target": "ref_angular_core",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/accounts/account.service.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_accounts_account_service",
+      "target": "ref_angular_common",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/accounts/account.service.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_accounts_account_service",
+      "target": "ref_rxjs",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/accounts/account.service.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_accounts_account_service",
+      "target": "frontend_src_app_accounts_account_service_accountdetail",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/accounts/account.service.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_accounts_account_service",
+      "target": "frontend_src_app_accounts_account_service_transaction",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/accounts/account.service.ts",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_accounts_account_service",
+      "target": "frontend_src_app_accounts_account_service_transactions",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/accounts/account.service.ts",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_accounts_account_service",
+      "target": "frontend_src_app_accounts_account_service_accountservice",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/accounts/account.service.ts",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_accounts_account_service_accountservice",
+      "target": "frontend_src_app_accounts_account_service_ts_injectable",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/accounts/account.service.ts",
+      "source_location": "L9",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_accounts_account_service_accountservice",
+      "target": "frontend_src_app_accounts_account_service_accountservice_constructor",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/accounts/account.service.ts",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_accounts_account_service_accountservice",
+      "target": "frontend_src_app_accounts_account_service_accountservice_transactions",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/accounts/account.service.ts",
+      "source_location": "L11",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_accounts_account_service_accountservice",
+      "target": "frontend_src_app_accounts_account_service_accountservice_statement",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/accounts/account.service.ts",
+      "source_location": "L15",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
       "source": "frontend_src_app_app_component",
       "target": "ref_angular_core",
       "relation": "imports_from",
@@ -8461,6 +11307,14 @@
     {
       "source": "frontend_src_app_app_routes",
       "target": "frontend_src_app_portfolio_portfolio_component",
+      "relation": "dynamic_import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/app.routes.ts",
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_app_routes",
+      "target": "frontend_src_app_accounts_account_detail_component",
       "relation": "dynamic_import",
       "confidence": "EXTRACTED",
       "source_file": "frontend/src/app/app.routes.ts",
@@ -9899,6 +12753,28 @@
       "_origin": "ast"
     },
     {
+      "source": "frontend_src_app_accounts_account_detail_component_accountdetailcomponent",
+      "target": "frontend_src_app_accounts_account_service_transactions",
+      "relation": "references",
+      "context": "field",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/accounts/account-detail.component.ts",
+      "source_location": "L13",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_accounts_account_detail_component_accountdetailcomponent_constructor",
+      "target": "frontend_src_app_accounts_account_service_accountservice",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/accounts/account-detail.component.ts",
+      "source_location": "L14",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
       "source": "frontend_src_app_app_component_appcomponent_constructor",
       "target": "frontend_src_app_auth_auth_service_authservice",
       "relation": "references",
@@ -9976,6 +12852,39 @@
       "_origin": "ast"
     },
     {
+      "source": "backend_src_main_java_com_nova_bank_accounts_accountcontroller",
+      "target": "backend_src_main_java_com_nova_bank_auth_authservice_authservice",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backend/src/main/java/com/nova/bank/accounts/AccountController.java",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_accounts_accounterrors",
+      "target": "backend_src_main_java_com_nova_bank_common_apierror_apierror",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backend/src/main/java/com/nova/bank/accounts/AccountErrors.java",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_accounts_accountservice",
+      "target": "backend_src_main_java_com_nova_bank_auth_authservice_authservice",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backend/src/main/java/com/nova/bank/accounts/AccountService.java",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
       "source": "backend_src_main_java_com_nova_bank_auth_securityconfig",
       "target": "backend_src_main_java_com_nova_bank_common_apierror_apierror",
       "relation": "imports",
@@ -10031,6 +12940,17 @@
       "_origin": "ast"
     },
     {
+      "source": "backend_src_test_java_com_nova_bank_accounts_accountservicetest",
+      "target": "backend_src_main_java_com_nova_bank_auth_authservice_authservice",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backend/src/test/java/com/nova/bank/accounts/AccountServiceTest.java",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
       "source": "backend_src_test_java_com_nova_bank_portfolio_portfolioservicetest",
       "target": "backend_src_main_java_com_nova_bank_auth_authservice_authservice",
       "relation": "imports",
@@ -10058,34 +12978,10 @@
       "target": "backend_src_main_java_com_nova_bank_common_apierror_apierror",
       "relation": "calls",
       "context": "call",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
       "source_file": "backend/src/main/java/com/nova/bank/auth/SecurityConfig.java",
       "source_location": "L25",
-      "weight": 1.0,
-      "_origin": "ast"
-    },
-    {
-      "source": "backend_src_test_java_com_nova_bank_auth_authapitest_authapitest_loginactivitylogoutandroleboundary",
-      "target": "backend_src_main_java_com_nova_bank_auth_authfailure_authfailure_status",
-      "relation": "calls",
-      "context": "call",
-      "confidence": "INFERRED",
-      "confidence_score": 0.85,
-      "source_file": "backend/src/test/java/com/nova/bank/auth/AuthApiTest.java",
-      "source_location": "L17",
-      "weight": 1.0,
-      "_origin": "ast"
-    },
-    {
-      "source": "backend_src_test_java_com_nova_bank_auth_authapitest_authapitest_validationbadtokenandlockoutarerejected",
-      "target": "backend_src_main_java_com_nova_bank_auth_authfailure_authfailure_status",
-      "relation": "calls",
-      "context": "call",
-      "confidence": "INFERRED",
-      "confidence_score": 0.85,
-      "source_file": "backend/src/test/java/com/nova/bank/auth/AuthApiTest.java",
-      "source_location": "L28",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -10138,54 +13034,6 @@
       "_origin": "ast"
     },
     {
-      "source": "backend_src_test_java_com_nova_bank_portfolio_portfolioapitest_portfolioapitest_login",
-      "target": "backend_src_main_java_com_nova_bank_auth_authfailure_authfailure_status",
-      "relation": "calls",
-      "context": "call",
-      "confidence": "INFERRED",
-      "confidence_score": 0.85,
-      "source_file": "backend/src/test/java/com/nova/bank/portfolio/PortfolioApiTest.java",
-      "source_location": "L19",
-      "weight": 1.0,
-      "_origin": "ast"
-    },
-    {
-      "source": "backend_src_test_java_com_nova_bank_portfolio_portfolioapitest_portfolioapitest_bothpersonasreceiveonlytheirmaskedaccounts",
-      "target": "backend_src_main_java_com_nova_bank_auth_authfailure_authfailure_status",
-      "relation": "calls",
-      "context": "call",
-      "confidence": "INFERRED",
-      "confidence_score": 0.85,
-      "source_file": "backend/src/test/java/com/nova/bank/portfolio/PortfolioApiTest.java",
-      "source_location": "L24",
-      "weight": 1.0,
-      "_origin": "ast"
-    },
-    {
-      "source": "backend_src_test_java_com_nova_bank_portfolio_portfolioapitest_portfolioapitest_missingandinvalidtokensdonotreturnportfolio",
-      "target": "backend_src_main_java_com_nova_bank_auth_authfailure_authfailure_status",
-      "relation": "calls",
-      "context": "call",
-      "confidence": "INFERRED",
-      "confidence_score": 0.85,
-      "source_file": "backend/src/test/java/com/nova/bank/portfolio/PortfolioApiTest.java",
-      "source_location": "L31",
-      "weight": 1.0,
-      "_origin": "ast"
-    },
-    {
-      "source": "backend_src_test_java_com_nova_bank_portfolio_portfolioapitest_portfolioapitest_previousloginiscapturedatloginforeachsession",
-      "target": "backend_src_main_java_com_nova_bank_auth_authfailure_authfailure_status",
-      "relation": "calls",
-      "context": "call",
-      "confidence": "INFERRED",
-      "confidence_score": 0.85,
-      "source_file": "backend/src/test/java/com/nova/bank/portfolio/PortfolioApiTest.java",
-      "source_location": "L37",
-      "weight": 1.0,
-      "_origin": "ast"
-    },
-    {
       "source": "frontend_src_app_app_routes",
       "target": "frontend_src_app_auth_auth_guard_authguard",
       "relation": "indirect_call",
@@ -10206,6 +13054,30 @@
       "confidence_score": 0.85,
       "source_file": "frontend/src/main.ts",
       "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_accounts_account_detail_component_accountdetailcomponent_load",
+      "target": "frontend_src_app_accounts_account_service_accountservice_transactions",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "frontend/src/app/accounts/account-detail.component.ts",
+      "source_location": "L30",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_accounts_account_detail_component_accountdetailcomponent_downloadstatement",
+      "target": "frontend_src_app_accounts_account_service_accountservice_statement",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "frontend/src/app/accounts/account-detail.component.ts",
+      "source_location": "L37",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -10294,6 +13166,18 @@
       "_origin": "ast"
     },
     {
+      "source": "backend_src_main_java_com_nova_bank_auth_demoseeder_demoseeder_run",
+      "target": "backend_src_main_java_com_nova_bank_accounts_accountseeder_accountseeder_seed",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "backend/src/main/java/com/nova/bank/auth/DemoSeeder.java",
+      "source_location": "L20",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
       "source": "backend_src_main_java_com_nova_bank_auth_demoseeder_demoseeder_seed",
       "target": "backend_src_main_java_com_nova_bank_auth_userrepository_userrepository_findbyusername",
       "relation": "calls",
@@ -10337,6 +13221,18 @@
       "confidence": "INFERRED",
       "confidence_score": 0.85,
       "source_file": "backend/src/main/java/com/nova/bank/portfolio/PortfolioService.java",
+      "source_location": "L20",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_accounts_accountservicetest_accountservicetest_defaultsusedemoclockandpendingdebitsareexact",
+      "target": "backend_src_main_java_com_nova_bank_accounts_accountseeder_accountseeder_seed",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "backend/src/test/java/com/nova/bank/accounts/AccountServiceTest.java",
       "source_location": "L20",
       "weight": 1.0,
       "_origin": "ast"
@@ -10402,48 +13298,6 @@
       "_origin": "ast"
     },
     {
-      "source": "frontend_src_app_auth_auth_service_authservice",
-      "target": "frontend_src_app_app_component_appcomponent_constructor",
-      "relation": "references",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "parameter_type",
-      "source_file": "frontend/src/app/app.component.ts",
-      "source_location": "L7",
-      "weight": 1.0,
-      "_src": "frontend_src_app_app_component_appcomponent_constructor",
-      "_tgt": "frontend_src_app_auth_auth_service_authservice"
-    },
-    {
-      "source": "frontend_src_app_auth_auth_service_authservice",
-      "target": "frontend_src_app_auth_home_component_homecomponent_constructor",
-      "relation": "references",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "parameter_type",
-      "source_file": "frontend/src/app/auth/home.component.ts",
-      "source_location": "L5",
-      "weight": 1.0,
-      "_src": "frontend_src_app_auth_home_component_homecomponent_constructor",
-      "_tgt": "frontend_src_app_auth_auth_service_authservice"
-    },
-    {
-      "source": "frontend_src_app_auth_auth_service_authservice",
-      "target": "frontend_src_app_auth_login_component_logincomponent_constructor",
-      "relation": "references",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "parameter_type",
-      "source_file": "frontend/src/app/auth/login.component.ts",
-      "source_location": "L13",
-      "weight": 1.0,
-      "_src": "frontend_src_app_auth_login_component_logincomponent_constructor",
-      "_tgt": "frontend_src_app_auth_auth_service_authservice"
-    },
-    {
       "source": "backend_src_main_java_com_nova_bank_auth_auditrepository_auditrepository",
       "target": "backend_src_main_java_com_nova_bank_auth_authservice_authservice",
       "relation": "references",
@@ -10454,8 +13308,8 @@
       "source_file": "backend/src/main/java/com/nova/bank/auth/AuthService.java",
       "source_location": "L12",
       "weight": 1.0,
-      "_src": "backend_src_main_java_com_nova_bank_auth_authservice_authservice",
-      "_tgt": "backend_src_main_java_com_nova_bank_auth_auditrepository_auditrepository"
+      "_src": "backend_src_main_java_com_nova_bank_auth_auditrepository_auditrepository",
+      "_tgt": "backend_src_main_java_com_nova_bank_auth_authservice_authservice"
     },
     {
       "source": "backend_src_main_java_com_nova_bank_auth_auditrepository_auditrepository",
@@ -10468,8 +13322,8 @@
       "source_file": "backend/src/main/java/com/nova/bank/auth/AuthService.java",
       "source_location": "L14",
       "weight": 1.0,
-      "_src": "backend_src_main_java_com_nova_bank_auth_authservice_authservice_authservice",
-      "_tgt": "backend_src_main_java_com_nova_bank_auth_auditrepository_auditrepository"
+      "_src": "backend_src_main_java_com_nova_bank_auth_auditrepository_auditrepository",
+      "_tgt": "backend_src_main_java_com_nova_bank_auth_authservice_authservice_authservice"
     },
     {
       "source": "backend_src_main_java_com_nova_bank_auth_auditrepository_auditrepository",
@@ -10482,8 +13336,8 @@
       "source_file": "backend/src/test/java/com/nova/bank/auth/AuthApiTest.java",
       "source_location": "L14",
       "weight": 1.0,
-      "_src": "backend_src_test_java_com_nova_bank_auth_authapitest_authapitest",
-      "_tgt": "backend_src_main_java_com_nova_bank_auth_auditrepository_auditrepository"
+      "_src": "backend_src_main_java_com_nova_bank_auth_auditrepository_auditrepository",
+      "_tgt": "backend_src_test_java_com_nova_bank_auth_authapitest_authapitest"
     },
     {
       "source": "backend_src_main_java_com_nova_bank_auth_auditrepository_auditrepository",
@@ -10496,36 +13350,103 @@
       "source_file": "backend/src/test/java/com/nova/bank/auth/AuthServiceTest.java",
       "source_location": "L10",
       "weight": 1.0,
-      "_src": "backend_src_test_java_com_nova_bank_auth_authservicetest_authservicetest",
-      "_tgt": "backend_src_main_java_com_nova_bank_auth_auditrepository_auditrepository"
+      "_src": "backend_src_main_java_com_nova_bank_auth_auditrepository_auditrepository",
+      "_tgt": "backend_src_test_java_com_nova_bank_auth_authservicetest_authservicetest"
     },
     {
-      "source": "backend_src_main_java_com_nova_bank_auth_authservice_authservice",
-      "target": "backend_src_main_java_com_nova_bank_auth_authcontroller_authcontroller",
+      "source": "postmapping",
+      "target": "backend_src_main_java_com_nova_bank_auth_authcontroller_authcontroller_activity",
       "relation": "references",
-      "_origin": "ast",
       "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "field",
       "source_file": "backend/src/main/java/com/nova/bank/auth/AuthController.java",
-      "source_location": "L7",
+      "source_location": "L10",
       "weight": 1.0,
-      "_src": "backend_src_main_java_com_nova_bank_auth_authcontroller_authcontroller",
-      "_tgt": "backend_src_main_java_com_nova_bank_auth_authservice_authservice"
+      "context": "attribute",
+      "_origin": "ast",
+      "_src": "backend_src_main_java_com_nova_bank_auth_authcontroller_authcontroller_activity",
+      "_tgt": "postmapping"
     },
     {
-      "source": "backend_src_main_java_com_nova_bank_auth_authservice_authservice",
-      "target": "backend_src_main_java_com_nova_bank_auth_authcontroller_authcontroller_authcontroller",
+      "source": "postmapping",
+      "target": "backend_src_main_java_com_nova_bank_auth_authcontroller_authcontroller_logout",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/auth/AuthController.java",
+      "source_location": "L11",
+      "weight": 1.0,
+      "context": "attribute",
+      "_origin": "ast",
+      "_src": "backend_src_main_java_com_nova_bank_auth_authcontroller_authcontroller_logout",
+      "_tgt": "postmapping"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_auth_authdtos_loginrequest",
+      "target": "backend_src_main_java_com_nova_bank_auth_authservice_authservice_login",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "context": "parameter_type",
-      "source_file": "backend/src/main/java/com/nova/bank/auth/AuthController.java",
-      "source_location": "L8",
+      "source_file": "backend/src/main/java/com/nova/bank/auth/AuthService.java",
+      "source_location": "L20",
       "weight": 1.0,
-      "_src": "backend_src_main_java_com_nova_bank_auth_authcontroller_authcontroller_authcontroller",
-      "_tgt": "backend_src_main_java_com_nova_bank_auth_authservice_authservice"
+      "_src": "backend_src_main_java_com_nova_bank_auth_authdtos_loginrequest",
+      "_tgt": "backend_src_main_java_com_nova_bank_auth_authservice_authservice_login"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_auth_authdtos_userview",
+      "target": "backend_src_main_java_com_nova_bank_auth_authdtos_loginresponse",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/auth/AuthDtos.java",
+      "source_location": "L10",
+      "weight": 1.0,
+      "context": "field",
+      "_origin": "ast",
+      "_src": "backend_src_main_java_com_nova_bank_auth_authdtos_loginresponse",
+      "_tgt": "backend_src_main_java_com_nova_bank_auth_authdtos_userview"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_auth_authdtos_loginresponse",
+      "target": "backend_src_main_java_com_nova_bank_auth_authservice_authservice_login",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "return_type",
+      "source_file": "backend/src/main/java/com/nova/bank/auth/AuthService.java",
+      "source_location": "L20",
+      "weight": 1.0,
+      "_src": "backend_src_main_java_com_nova_bank_auth_authdtos_loginresponse",
+      "_tgt": "backend_src_main_java_com_nova_bank_auth_authservice_authservice_login"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_auth_authfailure_authfailure",
+      "target": "backend_src_main_java_com_nova_bank_auth_authservice_authservice_login",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "attribute",
+      "source_file": "backend/src/main/java/com/nova/bank/auth/AuthService.java",
+      "source_location": "L20",
+      "weight": 1.0,
+      "_src": "backend_src_main_java_com_nova_bank_auth_authfailure_authfailure",
+      "_tgt": "backend_src_main_java_com_nova_bank_auth_authservice_authservice_login"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_auth_authfailure_authfailure",
+      "target": "backend_src_main_java_com_nova_bank_common_apierrors_apierrors_auth",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "attribute",
+      "source_file": "backend/src/main/java/com/nova/bank/common/ApiErrors.java",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_src": "backend_src_main_java_com_nova_bank_auth_authfailure_authfailure",
+      "_tgt": "backend_src_main_java_com_nova_bank_common_apierrors_apierrors_auth"
     },
     {
       "source": "backend_src_main_java_com_nova_bank_auth_authservice_authservice",
@@ -10538,95 +13459,11 @@
       "source_file": "backend/src/main/java/com/nova/bank/auth/JwtFilter.java",
       "source_location": "L12",
       "weight": 1.0,
-      "_src": "backend_src_main_java_com_nova_bank_auth_jwtfilter_jwtfilter",
-      "_tgt": "backend_src_main_java_com_nova_bank_auth_authservice_authservice"
-    },
-    {
-      "source": "backend_src_main_java_com_nova_bank_auth_authservice_authservice",
-      "target": "backend_src_main_java_com_nova_bank_auth_jwtfilter_jwtfilter_jwtfilter",
-      "relation": "references",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "parameter_type",
-      "source_file": "backend/src/main/java/com/nova/bank/auth/JwtFilter.java",
-      "source_location": "L13",
-      "weight": 1.0,
-      "_src": "backend_src_main_java_com_nova_bank_auth_jwtfilter_jwtfilter_jwtfilter",
-      "_tgt": "backend_src_main_java_com_nova_bank_auth_authservice_authservice"
-    },
-    {
-      "source": "backend_src_main_java_com_nova_bank_auth_authservice_authservice",
-      "target": "backend_src_test_java_com_nova_bank_auth_authservicetest_authservicetest",
-      "relation": "references",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "field",
-      "source_file": "backend/src/test/java/com/nova/bank/auth/AuthServiceTest.java",
-      "source_location": "L10",
-      "weight": 1.0,
-      "_src": "backend_src_test_java_com_nova_bank_auth_authservicetest_authservicetest",
-      "_tgt": "backend_src_main_java_com_nova_bank_auth_authservice_authservice"
-    },
-    {
-      "source": "backend_src_main_java_com_nova_bank_auth_authservice_principal",
-      "target": "backend_src_main_java_com_nova_bank_auth_authcontroller_authcontroller_logout",
-      "relation": "references",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "parameter_type",
-      "source_file": "backend/src/main/java/com/nova/bank/auth/AuthController.java",
-      "source_location": "L11",
-      "weight": 1.0,
-      "_src": "backend_src_main_java_com_nova_bank_auth_authcontroller_authcontroller_logout",
-      "_tgt": "backend_src_main_java_com_nova_bank_auth_authservice_principal"
-    },
-    {
-      "source": "backend_src_main_java_com_nova_bank_auth_authservice_principal",
-      "target": "backend_src_main_java_com_nova_bank_auth_authservice_authservice_logout",
-      "relation": "references",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "parameter_type",
-      "source_file": "backend/src/main/java/com/nova/bank/auth/AuthService.java",
-      "source_location": "L46",
-      "weight": 1.0,
-      "_src": "backend_src_main_java_com_nova_bank_auth_authservice_authservice_logout",
-      "_tgt": "backend_src_main_java_com_nova_bank_auth_authservice_principal"
-    },
-    {
-      "source": "backend_src_main_java_com_nova_bank_auth_jwtfilter_jwtfilter",
-      "target": "backend_src_main_java_com_nova_bank_auth_securityconfig_securityconfig_security",
-      "relation": "references",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "parameter_type",
-      "source_file": "backend/src/main/java/com/nova/bank/auth/SecurityConfig.java",
-      "source_location": "L19",
-      "weight": 1.0,
-      "_src": "backend_src_main_java_com_nova_bank_auth_securityconfig_securityconfig_security",
+      "_src": "backend_src_main_java_com_nova_bank_auth_authservice_authservice",
       "_tgt": "backend_src_main_java_com_nova_bank_auth_jwtfilter_jwtfilter"
     },
     {
-      "source": "backend_src_main_java_com_nova_bank_auth_jwtservice_jwtservice",
-      "target": "backend_src_main_java_com_nova_bank_auth_authservice_authservice_authservice",
-      "relation": "references",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "parameter_type",
-      "source_file": "backend/src/main/java/com/nova/bank/auth/AuthService.java",
-      "source_location": "L14",
-      "weight": 1.0,
-      "_src": "backend_src_main_java_com_nova_bank_auth_authservice_authservice_authservice",
-      "_tgt": "backend_src_main_java_com_nova_bank_auth_jwtservice_jwtservice"
-    },
-    {
-      "source": "backend_src_main_java_com_nova_bank_auth_jwtservice_jwtservice",
+      "source": "backend_src_main_java_com_nova_bank_auth_authservice_authservice",
       "target": "backend_src_main_java_com_nova_bank_auth_jwtfilter_jwtfilter_jwtfilter",
       "relation": "references",
       "_origin": "ast",
@@ -10636,11 +13473,11 @@
       "source_file": "backend/src/main/java/com/nova/bank/auth/JwtFilter.java",
       "source_location": "L13",
       "weight": 1.0,
-      "_src": "backend_src_main_java_com_nova_bank_auth_jwtfilter_jwtfilter_jwtfilter",
-      "_tgt": "backend_src_main_java_com_nova_bank_auth_jwtservice_jwtservice"
+      "_src": "backend_src_main_java_com_nova_bank_auth_authservice_authservice",
+      "_tgt": "backend_src_main_java_com_nova_bank_auth_jwtfilter_jwtfilter_jwtfilter"
     },
     {
-      "source": "backend_src_main_java_com_nova_bank_auth_jwtservice_jwtservice",
+      "source": "backend_src_main_java_com_nova_bank_auth_authservice_authservice",
       "target": "backend_src_test_java_com_nova_bank_auth_authservicetest_authservicetest",
       "relation": "references",
       "_origin": "ast",
@@ -10650,204 +13487,47 @@
       "source_file": "backend/src/test/java/com/nova/bank/auth/AuthServiceTest.java",
       "source_location": "L10",
       "weight": 1.0,
-      "_src": "backend_src_test_java_com_nova_bank_auth_authservicetest_authservicetest",
-      "_tgt": "backend_src_main_java_com_nova_bank_auth_jwtservice_jwtservice"
+      "_src": "backend_src_main_java_com_nova_bank_auth_authservice_authservice",
+      "_tgt": "backend_src_test_java_com_nova_bank_auth_authservicetest_authservicetest"
     },
     {
-      "source": "backend_src_main_java_com_nova_bank_auth_sessionrepository_sessionrepository",
-      "target": "backend_src_main_java_com_nova_bank_auth_authservice_authservice_authservice",
+      "source": "backend_src_main_java_com_nova_bank_auth_authservice_principal",
+      "target": "backend_src_main_java_com_nova_bank_portfolio_portfoliocontroller_portfoliocontroller_summary",
       "relation": "references",
-      "_origin": "ast",
       "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "parameter_type",
-      "source_file": "backend/src/main/java/com/nova/bank/auth/AuthService.java",
-      "source_location": "L14",
-      "weight": 1.0,
-      "_src": "backend_src_main_java_com_nova_bank_auth_authservice_authservice_authservice",
-      "_tgt": "backend_src_main_java_com_nova_bank_auth_sessionrepository_sessionrepository"
-    },
-    {
-      "source": "backend_src_main_java_com_nova_bank_auth_sessionrepository_sessionrepository",
-      "target": "backend_src_test_java_com_nova_bank_auth_authapitest_authapitest",
-      "relation": "references",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "field",
-      "source_file": "backend/src/test/java/com/nova/bank/auth/AuthApiTest.java",
-      "source_location": "L14",
-      "weight": 1.0,
-      "_src": "backend_src_test_java_com_nova_bank_auth_authapitest_authapitest",
-      "_tgt": "backend_src_main_java_com_nova_bank_auth_sessionrepository_sessionrepository"
-    },
-    {
-      "source": "backend_src_main_java_com_nova_bank_auth_sessionrepository_sessionrepository",
-      "target": "backend_src_test_java_com_nova_bank_auth_authservicetest_authservicetest",
-      "relation": "references",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "field",
-      "source_file": "backend/src/test/java/com/nova/bank/auth/AuthServiceTest.java",
-      "source_location": "L10",
-      "weight": 1.0,
-      "_src": "backend_src_test_java_com_nova_bank_auth_authservicetest_authservicetest",
-      "_tgt": "backend_src_main_java_com_nova_bank_auth_sessionrepository_sessionrepository"
-    },
-    {
-      "source": "backend_src_main_java_com_nova_bank_auth_userrepository_userrepository",
-      "target": "backend_src_main_java_com_nova_bank_auth_authservice_authservice_authservice",
-      "relation": "references",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "parameter_type",
-      "source_file": "backend/src/main/java/com/nova/bank/auth/AuthService.java",
-      "source_location": "L14",
-      "weight": 1.0,
-      "_src": "backend_src_main_java_com_nova_bank_auth_authservice_authservice_authservice",
-      "_tgt": "backend_src_main_java_com_nova_bank_auth_userrepository_userrepository"
-    },
-    {
-      "source": "backend_src_main_java_com_nova_bank_auth_userrepository_userrepository",
-      "target": "backend_src_main_java_com_nova_bank_auth_demoseeder_demoseeder_demoseeder",
-      "relation": "references",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "parameter_type",
-      "source_file": "backend/src/main/java/com/nova/bank/auth/DemoSeeder.java",
+      "source_file": "backend/src/main/java/com/nova/bank/portfolio/PortfolioController.java",
       "source_location": "L11",
       "weight": 1.0,
-      "_src": "backend_src_main_java_com_nova_bank_auth_demoseeder_demoseeder_demoseeder",
-      "_tgt": "backend_src_main_java_com_nova_bank_auth_userrepository_userrepository"
-    },
-    {
-      "source": "backend_src_main_java_com_nova_bank_auth_userrepository_userrepository",
-      "target": "backend_src_test_java_com_nova_bank_auth_authapitest_authapitest",
-      "relation": "references",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "field",
-      "source_file": "backend/src/test/java/com/nova/bank/auth/AuthApiTest.java",
-      "source_location": "L14",
-      "weight": 1.0,
-      "_src": "backend_src_test_java_com_nova_bank_auth_authapitest_authapitest",
-      "_tgt": "backend_src_main_java_com_nova_bank_auth_userrepository_userrepository"
-    },
-    {
-      "source": "backend_src_main_java_com_nova_bank_auth_userrepository_userrepository",
-      "target": "backend_src_test_java_com_nova_bank_auth_authservicetest_authservicetest",
-      "relation": "references",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "field",
-      "source_file": "backend/src/test/java/com/nova/bank/auth/AuthServiceTest.java",
-      "source_location": "L10",
-      "weight": 1.0,
-      "_src": "backend_src_test_java_com_nova_bank_auth_authservicetest_authservicetest",
-      "_tgt": "backend_src_main_java_com_nova_bank_auth_userrepository_userrepository"
-    },
-    {
-      "source": "backend_src_main_java_com_nova_bank_auth_authdtos_loginrequest",
-      "target": "backend_src_main_java_com_nova_bank_auth_authcontroller_authcontroller_login",
-      "relation": "references",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
       "context": "parameter_type",
-      "source_file": "backend/src/main/java/com/nova/bank/auth/AuthController.java",
-      "source_location": "L9",
-      "weight": 1.0,
-      "_src": "backend_src_main_java_com_nova_bank_auth_authcontroller_authcontroller_login",
-      "_tgt": "backend_src_main_java_com_nova_bank_auth_authdtos_loginrequest"
+      "_origin": "ast",
+      "_src": "backend_src_main_java_com_nova_bank_portfolio_portfoliocontroller_portfoliocontroller_summary",
+      "_tgt": "backend_src_main_java_com_nova_bank_auth_authservice_principal"
     },
     {
-      "source": "backend_src_main_java_com_nova_bank_auth_authdtos_loginrequest",
-      "target": "backend_src_main_java_com_nova_bank_auth_authservice_authservice_login",
+      "source": "backend_src_main_java_com_nova_bank_auth_authservice_principal",
+      "target": "backend_src_main_java_com_nova_bank_portfolio_portfolioservice_portfolioservice_summary",
       "relation": "references",
-      "_origin": "ast",
       "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
+      "source_file": "backend/src/main/java/com/nova/bank/portfolio/PortfolioService.java",
+      "source_location": "L17",
+      "weight": 1.0,
       "context": "parameter_type",
-      "source_file": "backend/src/main/java/com/nova/bank/auth/AuthService.java",
-      "source_location": "L20",
-      "weight": 1.0,
-      "_src": "backend_src_main_java_com_nova_bank_auth_authservice_authservice_login",
-      "_tgt": "backend_src_main_java_com_nova_bank_auth_authdtos_loginrequest"
+      "_origin": "ast",
+      "_src": "backend_src_main_java_com_nova_bank_portfolio_portfolioservice_portfolioservice_summary",
+      "_tgt": "backend_src_main_java_com_nova_bank_auth_authservice_principal"
     },
     {
-      "source": "backend_src_main_java_com_nova_bank_auth_authdtos_loginresponse",
-      "target": "backend_src_main_java_com_nova_bank_auth_authcontroller_authcontroller_login",
+      "source": "backend_src_main_java_com_nova_bank_auth_authservice_principal",
+      "target": "backend_src_test_java_com_nova_bank_portfolio_portfolioservicetest_portfolioservicetest_principal",
       "relation": "references",
-      "_origin": "ast",
       "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
+      "source_file": "backend/src/test/java/com/nova/bank/portfolio/PortfolioServiceTest.java",
+      "source_location": "L17",
+      "weight": 1.0,
       "context": "return_type",
-      "source_file": "backend/src/main/java/com/nova/bank/auth/AuthController.java",
-      "source_location": "L9",
-      "weight": 1.0,
-      "_src": "backend_src_main_java_com_nova_bank_auth_authcontroller_authcontroller_login",
-      "_tgt": "backend_src_main_java_com_nova_bank_auth_authdtos_loginresponse"
-    },
-    {
-      "source": "backend_src_main_java_com_nova_bank_auth_authdtos_loginresponse",
-      "target": "backend_src_main_java_com_nova_bank_auth_authservice_authservice_login",
-      "relation": "references",
       "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "return_type",
-      "source_file": "backend/src/main/java/com/nova/bank/auth/AuthService.java",
-      "source_location": "L20",
-      "weight": 1.0,
-      "_src": "backend_src_main_java_com_nova_bank_auth_authservice_authservice_login",
-      "_tgt": "backend_src_main_java_com_nova_bank_auth_authdtos_loginresponse"
-    },
-    {
-      "source": "backend_src_main_java_com_nova_bank_auth_authdtos_message",
-      "target": "backend_src_main_java_com_nova_bank_auth_authcontroller_authcontroller_activity",
-      "relation": "references",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "return_type",
-      "source_file": "backend/src/main/java/com/nova/bank/auth/AuthController.java",
-      "source_location": "L10",
-      "weight": 1.0,
-      "_src": "backend_src_main_java_com_nova_bank_auth_authcontroller_authcontroller_activity",
-      "_tgt": "backend_src_main_java_com_nova_bank_auth_authdtos_message"
-    },
-    {
-      "source": "backend_src_main_java_com_nova_bank_auth_authdtos_message",
-      "target": "backend_src_main_java_com_nova_bank_auth_authcontroller_authcontroller_logout",
-      "relation": "references",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "return_type",
-      "source_file": "backend/src/main/java/com/nova/bank/auth/AuthController.java",
-      "source_location": "L11",
-      "weight": 1.0,
-      "_src": "backend_src_main_java_com_nova_bank_auth_authcontroller_authcontroller_logout",
-      "_tgt": "backend_src_main_java_com_nova_bank_auth_authdtos_message"
-    },
-    {
-      "source": "backend_src_main_java_com_nova_bank_auth_jwtservice_tokenids",
-      "target": "backend_src_main_java_com_nova_bank_auth_authservice_authservice_authenticate",
-      "relation": "references",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "parameter_type",
-      "source_file": "backend/src/main/java/com/nova/bank/auth/AuthService.java",
-      "source_location": "L36",
-      "weight": 1.0,
-      "_src": "backend_src_main_java_com_nova_bank_auth_authservice_authservice_authenticate",
-      "_tgt": "backend_src_main_java_com_nova_bank_auth_jwtservice_tokenids"
+      "_src": "backend_src_test_java_com_nova_bank_portfolio_portfolioservicetest_portfolioservicetest_principal",
+      "_tgt": "backend_src_main_java_com_nova_bank_auth_authservice_principal"
     },
     {
       "source": "backend_src_main_java_com_nova_bank_auth_authsession_authsession",
@@ -10860,36 +13540,21 @@
       "source_file": "backend/src/main/java/com/nova/bank/auth/SessionRepository.java",
       "source_location": "L9",
       "weight": 1.0,
-      "_src": "backend_src_main_java_com_nova_bank_auth_sessionrepository_sessionrepository_lockbyid",
+      "_src": "backend_src_main_java_com_nova_bank_auth_authsession_authsession",
+      "_tgt": "backend_src_main_java_com_nova_bank_auth_sessionrepository_sessionrepository_lockbyid"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_auth_authsession_authsession",
+      "target": "backend_src_main_java_com_nova_bank_auth_sessionrepository_sessionrepository",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/auth/SessionRepository.java",
+      "source_location": "L8",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "_origin": "ast",
+      "_src": "backend_src_main_java_com_nova_bank_auth_sessionrepository_sessionrepository",
       "_tgt": "backend_src_main_java_com_nova_bank_auth_authsession_authsession"
-    },
-    {
-      "source": "backend_src_main_java_com_nova_bank_auth_bankuser_bankuser",
-      "target": "backend_src_main_java_com_nova_bank_auth_authaudit_authaudit_authaudit",
-      "relation": "references",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "parameter_type",
-      "source_file": "backend/src/main/java/com/nova/bank/auth/AuthAudit.java",
-      "source_location": "L13",
-      "weight": 1.0,
-      "_src": "backend_src_main_java_com_nova_bank_auth_authaudit_authaudit_authaudit",
-      "_tgt": "backend_src_main_java_com_nova_bank_auth_bankuser_bankuser"
-    },
-    {
-      "source": "backend_src_main_java_com_nova_bank_auth_bankuser_bankuser",
-      "target": "backend_src_main_java_com_nova_bank_auth_authsession_authsession_authsession",
-      "relation": "references",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "parameter_type",
-      "source_file": "backend/src/main/java/com/nova/bank/auth/AuthSession.java",
-      "source_location": "L14",
-      "weight": 1.0,
-      "_src": "backend_src_main_java_com_nova_bank_auth_authsession_authsession_authsession",
-      "_tgt": "backend_src_main_java_com_nova_bank_auth_bankuser_bankuser"
     },
     {
       "source": "backend_src_main_java_com_nova_bank_auth_bankuser_bankuser",
@@ -10902,8 +13567,8 @@
       "source_file": "backend/src/main/java/com/nova/bank/auth/UserRepository.java",
       "source_location": "L9",
       "weight": 1.0,
-      "_src": "backend_src_main_java_com_nova_bank_auth_userrepository_userrepository_findbyusername",
-      "_tgt": "backend_src_main_java_com_nova_bank_auth_bankuser_bankuser"
+      "_src": "backend_src_main_java_com_nova_bank_auth_bankuser_bankuser",
+      "_tgt": "backend_src_main_java_com_nova_bank_auth_userrepository_userrepository_findbyusername"
     },
     {
       "source": "backend_src_main_java_com_nova_bank_auth_bankuser_bankuser",
@@ -10916,36 +13581,144 @@
       "source_file": "backend/src/main/java/com/nova/bank/auth/UserRepository.java",
       "source_location": "L10",
       "weight": 1.0,
-      "_src": "backend_src_main_java_com_nova_bank_auth_userrepository_userrepository_lockbyusername",
+      "_src": "backend_src_main_java_com_nova_bank_auth_bankuser_bankuser",
+      "_tgt": "backend_src_main_java_com_nova_bank_auth_userrepository_userrepository_lockbyusername"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_auth_bankuser_bankuser",
+      "target": "backend_src_main_java_com_nova_bank_auth_userrepository_userrepository",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/auth/UserRepository.java",
+      "source_location": "L8",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "_origin": "ast",
+      "_src": "backend_src_main_java_com_nova_bank_auth_userrepository_userrepository",
       "_tgt": "backend_src_main_java_com_nova_bank_auth_bankuser_bankuser"
     },
     {
-      "source": "backend_src_main_java_com_nova_bank_auth_authfailure_authfailure",
-      "target": "backend_src_main_java_com_nova_bank_auth_authservice_authservice_login",
+      "source": "backend_src_main_java_com_nova_bank_auth_jwtfilter_jwtfilter",
+      "target": "backend_src_main_java_com_nova_bank_auth_securityconfig_securityconfig_security",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "context": "attribute",
-      "source_file": "backend/src/main/java/com/nova/bank/auth/AuthService.java",
-      "source_location": "L20",
+      "context": "parameter_type",
+      "source_file": "backend/src/main/java/com/nova/bank/auth/SecurityConfig.java",
+      "source_location": "L19",
       "weight": 1.0,
-      "_src": "backend_src_main_java_com_nova_bank_auth_authservice_authservice_login",
-      "_tgt": "backend_src_main_java_com_nova_bank_auth_authfailure_authfailure"
+      "_src": "backend_src_main_java_com_nova_bank_auth_jwtfilter_jwtfilter",
+      "_tgt": "backend_src_main_java_com_nova_bank_auth_securityconfig_securityconfig_security"
     },
     {
-      "source": "backend_src_main_java_com_nova_bank_auth_authfailure_authfailure",
-      "target": "backend_src_main_java_com_nova_bank_common_apierrors_apierrors_auth",
+      "source": "backend_src_main_java_com_nova_bank_auth_jwtservice_jwtservice",
+      "target": "backend_src_test_java_com_nova_bank_auth_authservicetest_authservicetest",
       "relation": "references",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "context": "attribute",
-      "source_file": "backend/src/main/java/com/nova/bank/common/ApiErrors.java",
+      "context": "field",
+      "source_file": "backend/src/test/java/com/nova/bank/auth/AuthServiceTest.java",
       "source_location": "L10",
       "weight": 1.0,
-      "_src": "backend_src_main_java_com_nova_bank_common_apierrors_apierrors_auth",
-      "_tgt": "backend_src_main_java_com_nova_bank_auth_authfailure_authfailure"
+      "_src": "backend_src_main_java_com_nova_bank_auth_jwtservice_jwtservice",
+      "_tgt": "backend_src_test_java_com_nova_bank_auth_authservicetest_authservicetest"
+    },
+    {
+      "source": "bean",
+      "target": "backend_src_main_java_com_nova_bank_auth_securityconfig_securityconfig_security",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/auth/SecurityConfig.java",
+      "source_location": "L19",
+      "weight": 1.0,
+      "context": "attribute",
+      "_origin": "ast",
+      "_src": "backend_src_main_java_com_nova_bank_auth_securityconfig_securityconfig_security",
+      "_tgt": "bean"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_auth_sessionrepository_sessionrepository",
+      "target": "backend_src_test_java_com_nova_bank_auth_authapitest_authapitest",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "field",
+      "source_file": "backend/src/test/java/com/nova/bank/auth/AuthApiTest.java",
+      "source_location": "L14",
+      "weight": 1.0,
+      "_src": "backend_src_main_java_com_nova_bank_auth_sessionrepository_sessionrepository",
+      "_tgt": "backend_src_test_java_com_nova_bank_auth_authapitest_authapitest"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_auth_sessionrepository_sessionrepository",
+      "target": "backend_src_test_java_com_nova_bank_auth_authservicetest_authservicetest",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "field",
+      "source_file": "backend/src/test/java/com/nova/bank/auth/AuthServiceTest.java",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_src": "backend_src_main_java_com_nova_bank_auth_sessionrepository_sessionrepository",
+      "_tgt": "backend_src_test_java_com_nova_bank_auth_authservicetest_authservicetest"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_auth_userrepository_userrepository",
+      "target": "backend_src_test_java_com_nova_bank_auth_authapitest_authapitest",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "field",
+      "source_file": "backend/src/test/java/com/nova/bank/auth/AuthApiTest.java",
+      "source_location": "L14",
+      "weight": 1.0,
+      "_src": "backend_src_main_java_com_nova_bank_auth_userrepository_userrepository",
+      "_tgt": "backend_src_test_java_com_nova_bank_auth_authapitest_authapitest"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_auth_userrepository_userrepository",
+      "target": "backend_src_test_java_com_nova_bank_auth_authservicetest_authservicetest",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "field",
+      "source_file": "backend/src/test/java/com/nova/bank/auth/AuthServiceTest.java",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_src": "backend_src_main_java_com_nova_bank_auth_userrepository_userrepository",
+      "_tgt": "backend_src_test_java_com_nova_bank_auth_authservicetest_authservicetest"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_auth_userrepository_userrepository",
+      "target": "backend_src_main_java_com_nova_bank_portfolio_portfolioservice_portfolioservice",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/portfolio/PortfolioService.java",
+      "source_location": "L14",
+      "weight": 1.0,
+      "context": "field",
+      "_origin": "ast",
+      "_src": "backend_src_main_java_com_nova_bank_portfolio_portfolioservice_portfolioservice",
+      "_tgt": "backend_src_main_java_com_nova_bank_auth_userrepository_userrepository"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_auth_userrepository_userrepository",
+      "target": "backend_src_main_java_com_nova_bank_portfolio_portfolioservice_portfolioservice_portfolioservice",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/portfolio/PortfolioService.java",
+      "source_location": "L15",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast",
+      "_src": "backend_src_main_java_com_nova_bank_portfolio_portfolioservice_portfolioservice_portfolioservice",
+      "_tgt": "backend_src_main_java_com_nova_bank_auth_userrepository_userrepository"
     },
     {
       "source": "backend_src_main_java_com_nova_bank_common_apierror_apierror",
@@ -10958,8 +13731,8 @@
       "source_file": "backend/src/main/java/com/nova/bank/common/ApiErrors.java",
       "source_location": "L10",
       "weight": 1.0,
-      "_src": "backend_src_main_java_com_nova_bank_common_apierrors_apierrors_auth",
-      "_tgt": "backend_src_main_java_com_nova_bank_common_apierror_apierror"
+      "_src": "backend_src_main_java_com_nova_bank_common_apierror_apierror",
+      "_tgt": "backend_src_main_java_com_nova_bank_common_apierrors_apierrors_auth"
     },
     {
       "source": "backend_src_main_java_com_nova_bank_common_apierror_apierror",
@@ -10972,15 +13745,186 @@
       "source_file": "backend/src/main/java/com/nova/bank/common/ApiErrors.java",
       "source_location": "L11",
       "weight": 1.0,
-      "_src": "backend_src_main_java_com_nova_bank_common_apierrors_apierrors_invalid",
-      "_tgt": "backend_src_main_java_com_nova_bank_common_apierror_apierror"
+      "_src": "backend_src_main_java_com_nova_bank_common_apierror_apierror",
+      "_tgt": "backend_src_main_java_com_nova_bank_common_apierrors_apierrors_invalid"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_portfolio_account_account",
+      "target": "backend_src_main_java_com_nova_bank_portfolio_accountrepository_accountrepository",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/portfolio/AccountRepository.java",
+      "source_location": "L7",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "_origin": "ast",
+      "_src": "backend_src_main_java_com_nova_bank_portfolio_accountrepository_accountrepository",
+      "_tgt": "backend_src_main_java_com_nova_bank_portfolio_account_account"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_portfolio_account_account",
+      "target": "backend_src_main_java_com_nova_bank_portfolio_accountrepository_accountrepository_findbyowneridandstatusorderbyid",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/portfolio/AccountRepository.java",
+      "source_location": "L8",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "_origin": "ast",
+      "_src": "backend_src_main_java_com_nova_bank_portfolio_accountrepository_accountrepository_findbyowneridandstatusorderbyid",
+      "_tgt": "backend_src_main_java_com_nova_bank_portfolio_account_account"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_portfolio_accountrepository_accountrepository",
+      "target": "backend_src_main_java_com_nova_bank_portfolio_portfolioservice_portfolioservice",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/portfolio/PortfolioService.java",
+      "source_location": "L14",
+      "weight": 1.0,
+      "context": "field",
+      "_origin": "ast",
+      "_src": "backend_src_main_java_com_nova_bank_portfolio_portfolioservice_portfolioservice",
+      "_tgt": "backend_src_main_java_com_nova_bank_portfolio_accountrepository_accountrepository"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_portfolio_accountrepository_accountrepository",
+      "target": "backend_src_main_java_com_nova_bank_portfolio_portfolioservice_portfolioservice_portfolioservice",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/portfolio/PortfolioService.java",
+      "source_location": "L15",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast",
+      "_src": "backend_src_main_java_com_nova_bank_portfolio_portfolioservice_portfolioservice_portfolioservice",
+      "_tgt": "backend_src_main_java_com_nova_bank_portfolio_accountrepository_accountrepository"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_portfolio_accountrepository_accountrepository",
+      "target": "backend_src_test_java_com_nova_bank_portfolio_portfolioservicetest_portfolioservicetest",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/portfolio/PortfolioServiceTest.java",
+      "source_location": "L16",
+      "weight": 1.0,
+      "context": "field",
+      "_origin": "ast",
+      "_src": "backend_src_test_java_com_nova_bank_portfolio_portfolioservicetest_portfolioservicetest",
+      "_tgt": "backend_src_main_java_com_nova_bank_portfolio_accountrepository_accountrepository"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_portfolio_portfolioseeder_portfolioseeder",
+      "target": "backend_src_test_java_com_nova_bank_portfolio_portfolioservicetest_portfolioservicetest",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/portfolio/PortfolioServiceTest.java",
+      "source_location": "L16",
+      "weight": 1.0,
+      "context": "field",
+      "_origin": "ast",
+      "_src": "backend_src_test_java_com_nova_bank_portfolio_portfolioservicetest_portfolioservicetest",
+      "_tgt": "backend_src_main_java_com_nova_bank_portfolio_portfolioseeder_portfolioseeder"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_portfolio_portfolioservice_portfolioservice",
+      "target": "backend_src_test_java_com_nova_bank_portfolio_portfolioservicetest_portfolioservicetest",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/portfolio/PortfolioServiceTest.java",
+      "source_location": "L16",
+      "weight": 1.0,
+      "context": "field",
+      "_origin": "ast",
+      "_src": "backend_src_test_java_com_nova_bank_portfolio_portfolioservicetest_portfolioservicetest",
+      "_tgt": "backend_src_main_java_com_nova_bank_portfolio_portfolioservice_portfolioservice"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_auth_authapitest_java_test",
+      "target": "backend_src_test_java_com_nova_bank_auth_authapitest_authapitest_validationbadtokenandlockoutarerejected",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/auth/AuthApiTest.java",
+      "source_location": "L27",
+      "weight": 1.0,
+      "context": "attribute",
+      "_origin": "ast",
+      "_src": "backend_src_test_java_com_nova_bank_auth_authapitest_authapitest_validationbadtokenandlockoutarerejected",
+      "_tgt": "backend_src_test_java_com_nova_bank_auth_authapitest_java_test"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_auth_authservicetest_java_test",
+      "target": "backend_src_test_java_com_nova_bank_auth_authservicetest_authservicetest_logoutandidleexpiryinvalidatepersistedsession",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/auth/AuthServiceTest.java",
+      "source_location": "L22",
+      "weight": 1.0,
+      "context": "attribute",
+      "_origin": "ast",
+      "_src": "backend_src_test_java_com_nova_bank_auth_authservicetest_authservicetest_logoutandidleexpiryinvalidatepersistedsession",
+      "_tgt": "backend_src_test_java_com_nova_bank_auth_authservicetest_java_test"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_auth_authservicetest_java_test",
+      "target": "backend_src_test_java_com_nova_bank_auth_authservicetest_authservicetest_unknownuserandforgedsessionarerejected",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/auth/AuthServiceTest.java",
+      "source_location": "L30",
+      "weight": 1.0,
+      "context": "attribute",
+      "_origin": "ast",
+      "_src": "backend_src_test_java_com_nova_bank_auth_authservicetest_authservicetest_unknownuserandforgedsessionarerejected",
+      "_tgt": "backend_src_test_java_com_nova_bank_auth_authservicetest_java_test"
+    },
+    {
+      "source": "frontend_src_app_auth_auth_service_authservice",
+      "target": "frontend_src_app_auth_home_component_homecomponent_constructor",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "frontend/src/app/auth/home.component.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_src": "frontend_src_app_auth_auth_service_authservice",
+      "_tgt": "frontend_src_app_auth_home_component_homecomponent_constructor"
+    },
+    {
+      "source": "frontend_src_app_auth_auth_service_authservice",
+      "target": "frontend_src_app_auth_login_component_logincomponent_constructor",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "frontend/src/app/auth/login.component.ts",
+      "source_location": "L13",
+      "weight": 1.0,
+      "_src": "frontend_src_app_auth_auth_service_authservice",
+      "_tgt": "frontend_src_app_auth_login_component_logincomponent_constructor"
+    },
+    {
+      "source": "frontend_src_app_auth_auth_service_authservice",
+      "target": "frontend_src_app_portfolio_portfolio_component_portfoliocomponent_constructor",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/portfolio/portfolio.component.ts",
+      "source_location": "L13",
+      "weight": 1.0,
+      "_origin": "ast",
+      "_src": "frontend_src_app_portfolio_portfolio_component_portfoliocomponent_constructor",
+      "_tgt": "frontend_src_app_auth_auth_service_authservice"
     }
   ],
   "metadata": {
-    "built_at": "2026-11-16T14:55:07.729436+00:00",
+    "built_at": "2026-11-16T15:02:09.832764+00:00",
     "version": "graph_update-v1",
     "codebase_root": "/data/artifacts-v2/T0132PcJVCRTV000416112614280356/developer",
     "force": true,
-    "files_scanned": 307
+    "files_scanned": 322
   }
 }
