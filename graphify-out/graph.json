@@ -2297,6 +2297,323 @@
       "_origin": "ast"
     },
     {
+      "id": "backend_src_main_java_com_nova_bank_support_supportcontroller",
+      "label": "SupportController.java",
+      "file_type": "code",
+      "source_file": "backend/src/main/java/com/nova/bank/support/SupportController.java",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_main_java_com_nova_bank_support_supportcontroller_supportcontroller",
+      "label": "SupportController",
+      "file_type": "code",
+      "source_file": "backend/src/main/java/com/nova/bank/support/SupportController.java",
+      "source_location": "L12",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_main_java_com_nova_bank_support_supportcontroller_java_restcontroller",
+      "label": "RestController",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_main_java_com_nova_bank_support_supportcontroller_java_requestmapping",
+      "label": "RequestMapping",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_main_java_com_nova_bank_support_supportcontroller_supportcontroller_supportcontroller",
+      "label": ".SupportController()",
+      "file_type": "code",
+      "source_file": "backend/src/main/java/com/nova/bank/support/SupportController.java",
+      "source_location": "L14",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_main_java_com_nova_bank_support_supportcontroller_inquiry",
+      "label": "Inquiry",
+      "file_type": "code",
+      "source_file": "backend/src/main/java/com/nova/bank/support/SupportController.java",
+      "source_location": "L15",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_main_java_com_nova_bank_support_supportcontroller_chat",
+      "label": "Chat",
+      "file_type": "code",
+      "source_file": "backend/src/main/java/com/nova/bank/support/SupportController.java",
+      "source_location": "L16",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_main_java_com_nova_bank_support_supportcontroller_supportcontroller_inquiry",
+      "label": ".inquiry()",
+      "file_type": "code",
+      "source_file": "backend/src/main/java/com/nova/bank/support/SupportController.java",
+      "source_location": "L17",
+      "_java_ret": "Confirmation",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_main_java_com_nova_bank_support_supportcontroller_java_postmapping",
+      "label": "PostMapping",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "responsestatus",
+      "label": "ResponseStatus",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_main_java_com_nova_bank_support_supportcontroller_supportcontroller_chat",
+      "label": ".chat()",
+      "file_type": "code",
+      "source_file": "backend/src/main/java/com/nova/bank/support/SupportController.java",
+      "source_location": "L19",
+      "_java_ret": "Reply",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_main_java_com_nova_bank_support_supportservice",
+      "label": "SupportService.java",
+      "file_type": "code",
+      "source_file": "backend/src/main/java/com/nova/bank/support/SupportService.java",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_main_java_com_nova_bank_support_supportservice_supportservice",
+      "label": "SupportService",
+      "file_type": "code",
+      "source_file": "backend/src/main/java/com/nova/bank/support/SupportService.java",
+      "source_location": "L21",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_main_java_com_nova_bank_support_supportservice_supportservice_supportservice",
+      "label": ".SupportService()",
+      "file_type": "code",
+      "source_file": "backend/src/main/java/com/nova/bank/support/SupportService.java",
+      "source_location": "L25",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_main_java_com_nova_bank_support_supportservice_supportservice_customer",
+      "label": ".customer()",
+      "file_type": "code",
+      "source_file": "backend/src/main/java/com/nova/bank/support/SupportService.java",
+      "source_location": "L28",
+      "_callable": true,
+      "metadata": {
+        "unresolved_calls": [
+          {
+            "callee": "queryForObject",
+            "receiver_type": "JdbcTemplate",
+            "lang": "java",
+            "line": "L30"
+          }
+        ]
+      },
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_main_java_com_nova_bank_support_supportservice_supportservice_clean",
+      "label": ".clean()",
+      "file_type": "code",
+      "source_file": "backend/src/main/java/com/nova/bank/support/SupportService.java",
+      "source_location": "L34",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_main_java_com_nova_bank_support_supportservice_supportservice_inquire",
+      "label": ".inquire()",
+      "file_type": "code",
+      "source_file": "backend/src/main/java/com/nova/bank/support/SupportService.java",
+      "source_location": "L39",
+      "_java_ret": "Confirmation",
+      "_callable": true,
+      "metadata": {
+        "unresolved_calls": [
+          {
+            "callee": "randomUUID",
+            "receiver_type": "UUID",
+            "lang": "java",
+            "line": "L41"
+          },
+          {
+            "callee": "update",
+            "receiver_type": "JdbcTemplate",
+            "lang": "java",
+            "line": "L42"
+          },
+          {
+            "callee": "from",
+            "receiver_type": "Timestamp",
+            "lang": "java",
+            "line": "L42"
+          },
+          {
+            "callee": "now",
+            "receiver_type": "Instant",
+            "lang": "java",
+            "line": "L42"
+          }
+        ]
+      },
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_main_java_com_nova_bank_support_supportservice_supportservice_money",
+      "label": ".money()",
+      "file_type": "code",
+      "source_file": "backend/src/main/java/com/nova/bank/support/SupportService.java",
+      "source_location": "L45",
+      "_callable": true,
+      "metadata": {
+        "unresolved_calls": [
+          {
+            "callee": "format",
+            "receiver_type": "String",
+            "lang": "java",
+            "line": "L45"
+          }
+        ]
+      },
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_main_java_com_nova_bank_support_supportservice_supportservice_chat",
+      "label": ".chat()",
+      "file_type": "code",
+      "source_file": "backend/src/main/java/com/nova/bank/support/SupportService.java",
+      "source_location": "L47",
+      "_java_ret": "Reply",
+      "_callable": true,
+      "metadata": {
+        "unresolved_calls": [
+          {
+            "callee": "promotions",
+            "receiver_type": "var",
+            "lang": "java",
+            "line": "L52"
+          },
+          {
+            "callee": "demoDate",
+            "receiver_type": "var",
+            "lang": "java",
+            "line": "L53"
+          },
+          {
+            "callee": "accounts",
+            "receiver_type": "var",
+            "lang": "java",
+            "line": "L57"
+          },
+          {
+            "callee": "isEmpty",
+            "receiver_type": "var",
+            "lang": "java",
+            "line": "L58"
+          },
+          {
+            "callee": "get",
+            "receiver_type": "var",
+            "lang": "java",
+            "line": "L59"
+          },
+          {
+            "callee": "name",
+            "receiver_type": "var",
+            "lang": "java",
+            "line": "L59"
+          },
+          {
+            "callee": "maskedIdentifier",
+            "receiver_type": "var",
+            "lang": "java",
+            "line": "L59"
+          },
+          {
+            "callee": "currentBalance",
+            "receiver_type": "var",
+            "lang": "java",
+            "line": "L59"
+          },
+          {
+            "callee": "availableCredit",
+            "receiver_type": "var",
+            "lang": "java",
+            "line": "L59"
+          },
+          {
+            "callee": "query",
+            "receiver_type": "JdbcTemplate",
+            "lang": "java",
+            "line": "L62"
+          },
+          {
+            "callee": "ofPattern",
+            "receiver_type": "DateTimeFormatter",
+            "lang": "java",
+            "line": "L62"
+          },
+          {
+            "callee": "relationshipBalance",
+            "receiver_type": "var",
+            "lang": "java",
+            "line": "L63"
+          }
+        ]
+      },
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_main_java_com_nova_bank_support_supportservice_confirmation",
+      "label": "Confirmation",
+      "file_type": "code",
+      "source_file": "backend/src/main/java/com/nova/bank/support/SupportService.java",
+      "source_location": "L67",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_main_java_com_nova_bank_support_supportservice_reply",
+      "label": "Reply",
+      "file_type": "code",
+      "source_file": "backend/src/main/java/com/nova/bank/support/SupportService.java",
+      "source_location": "L68",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
       "id": "backend_src_test_java_com_nova_bank_accounts_accountapitest",
       "label": "AccountApiTest.java",
       "file_type": "code",
@@ -3270,6 +3587,201 @@
       "_origin": "ast"
     },
     {
+      "id": "backend_src_test_java_com_nova_bank_support_supportapitest",
+      "label": "SupportApiTest.java",
+      "file_type": "code",
+      "source_file": "backend/src/test/java/com/nova/bank/support/SupportApiTest.java",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_test_java_com_nova_bank_support_supportapitest_supportapitest",
+      "label": "SupportApiTest",
+      "file_type": "code",
+      "source_file": "backend/src/test/java/com/nova/bank/support/SupportApiTest.java",
+      "source_location": "L15",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_test_java_com_nova_bank_support_supportapitest_supportapitest_login",
+      "label": ".login()",
+      "file_type": "code",
+      "source_file": "backend/src/test/java/com/nova/bank/support/SupportApiTest.java",
+      "source_location": "L18",
+      "_callable": true,
+      "metadata": {
+        "unresolved_calls": [
+          {
+            "callee": "perform",
+            "receiver_type": "MockMvc",
+            "lang": "java",
+            "line": "L18"
+          },
+          {
+            "callee": "readTree",
+            "receiver_type": "ObjectMapper",
+            "lang": "java",
+            "line": "L18"
+          }
+        ]
+      },
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_test_java_com_nova_bank_support_supportapitest_supportapitest_inquirypersistsandinvalidrequestsfail",
+      "label": ".inquiryPersistsAndInvalidRequestsFail()",
+      "file_type": "code",
+      "source_file": "backend/src/test/java/com/nova/bank/support/SupportApiTest.java",
+      "source_location": "L19",
+      "_callable": true,
+      "metadata": {
+        "unresolved_calls": [
+          {
+            "callee": "perform",
+            "receiver_type": "MockMvc",
+            "lang": "java",
+            "line": "L21"
+          },
+          {
+            "callee": "readTree",
+            "receiver_type": "ObjectMapper",
+            "lang": "java",
+            "line": "L24"
+          },
+          {
+            "callee": "queryForObject",
+            "receiver_type": "JdbcTemplate",
+            "lang": "java",
+            "line": "L25"
+          },
+          {
+            "callee": "fromString",
+            "receiver_type": "UUID",
+            "lang": "java",
+            "line": "L25"
+          }
+        ]
+      },
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_test_java_com_nova_bank_support_supportapitest_supportapitest_chatrejectsunauthenticatedandseparatespersonas",
+      "label": ".chatRejectsUnauthenticatedAndSeparatesPersonas()",
+      "file_type": "code",
+      "source_file": "backend/src/test/java/com/nova/bank/support/SupportApiTest.java",
+      "source_location": "L28",
+      "_callable": true,
+      "metadata": {
+        "unresolved_calls": [
+          {
+            "callee": "perform",
+            "receiver_type": "MockMvc",
+            "lang": "java",
+            "line": "L30"
+          }
+        ]
+      },
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_test_java_com_nova_bank_support_supportservicetest",
+      "label": "SupportServiceTest.java",
+      "file_type": "code",
+      "source_file": "backend/src/test/java/com/nova/bank/support/SupportServiceTest.java",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_test_java_com_nova_bank_support_supportservicetest_supportservicetest",
+      "label": "SupportServiceTest",
+      "file_type": "code",
+      "source_file": "backend/src/test/java/com/nova/bank/support/SupportServiceTest.java",
+      "source_location": "L12",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_test_java_com_nova_bank_support_supportservicetest_supportservicetest_user",
+      "label": ".user()",
+      "file_type": "code",
+      "source_file": "backend/src/test/java/com/nova/bank/support/SupportServiceTest.java",
+      "source_location": "L15",
+      "_java_ret": "Principal",
+      "_callable": true,
+      "metadata": {
+        "unresolved_calls": [
+          {
+            "callee": "fromString",
+            "receiver_type": "UUID",
+            "lang": "java",
+            "line": "L15"
+          },
+          {
+            "callee": "randomUUID",
+            "receiver_type": "UUID",
+            "lang": "java",
+            "line": "L15"
+          }
+        ]
+      },
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_test_java_com_nova_bank_support_supportservicetest_supportservicetest_persistsuniquereceiptsandrejectsinvalidinput",
+      "label": ".persistsUniqueReceiptsAndRejectsInvalidInput()",
+      "file_type": "code",
+      "source_file": "backend/src/test/java/com/nova/bank/support/SupportServiceTest.java",
+      "source_location": "L16",
+      "_callable": true,
+      "metadata": {
+        "unresolved_calls": [
+          {
+            "callee": "referenceNumber",
+            "receiver_type": "var",
+            "lang": "java",
+            "line": "L18"
+          },
+          {
+            "callee": "status",
+            "receiver_type": "var",
+            "lang": "java",
+            "line": "L18"
+          },
+          {
+            "callee": "estimatedResponse",
+            "receiver_type": "var",
+            "lang": "java",
+            "line": "L18"
+          },
+          {
+            "callee": "queryForObject",
+            "receiver_type": "JdbcTemplate",
+            "lang": "java",
+            "line": "L19"
+          },
+          {
+            "callee": "userId",
+            "receiver_type": "var",
+            "lang": "java",
+            "line": "L19"
+          }
+        ]
+      },
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_test_java_com_nova_bank_support_supportservicetest_supportservicetest_assistantusesdatabaseownerandhonesthandoff",
+      "label": ".assistantUsesDatabaseOwnerAndHonestHandoff()",
+      "file_type": "code",
+      "source_file": "backend/src/test/java/com/nova/bank/support/SupportServiceTest.java",
+      "source_location": "L24",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
       "id": "frontend_angular",
       "label": "angular.json",
       "file_type": "code",
@@ -3542,6 +4054,14 @@
       "label": "promotions.spec.ts",
       "file_type": "code",
       "source_file": "frontend/e2e/promotions.spec.ts",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_e2e_support_spec",
+      "label": "support.spec.ts",
+      "file_type": "code",
+      "source_file": "frontend/e2e/support.spec.ts",
       "source_location": "L1",
       "_origin": "ast"
     },
@@ -4362,7 +4882,7 @@
       "label": "AppComponent",
       "file_type": "code",
       "source_file": "frontend/src/app/app.component.ts",
-      "source_location": "L7",
+      "source_location": "L8",
       "_callable": true,
       "_callable_class": true,
       "_ts_fields": {
@@ -4385,7 +4905,7 @@
       "label": ".constructor()",
       "file_type": "code",
       "source_file": "frontend/src/app/app.component.ts",
-      "source_location": "L7",
+      "source_location": "L8",
       "_callable": true,
       "_origin": "ast",
       "community": 1
@@ -5221,6 +5741,315 @@
             "receiver_type": "Subscription",
             "lang": "typescript",
             "line": "L22"
+          }
+        ]
+      },
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_app_support_chat_component",
+      "label": "chat.component.ts",
+      "file_type": "code",
+      "source_file": "frontend/src/app/support/chat.component.ts",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_app_support_chat_component_chatcomponent",
+      "label": "ChatComponent",
+      "file_type": "code",
+      "source_file": "frontend/src/app/support/chat.component.ts",
+      "source_location": "L10",
+      "_callable": true,
+      "_callable_class": true,
+      "_ts_fields": {
+        "input": "FormControl",
+        "request": "Subscription",
+        "service": "SupportService"
+      },
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_app_support_chat_component_ts_component",
+      "label": "Component",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_app_support_chat_component_chatcomponent_constructor",
+      "label": ".constructor()",
+      "file_type": "code",
+      "source_file": "frontend/src/app/support/chat.component.ts",
+      "source_location": "L14",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_app_support_chat_component_chatcomponent_send",
+      "label": ".send()",
+      "file_type": "code",
+      "source_file": "frontend/src/app/support/chat.component.ts",
+      "source_location": "L16",
+      "_callable": true,
+      "metadata": {
+        "unresolved_calls": [
+          {
+            "callee": "setValue",
+            "receiver_type": "FormControl",
+            "lang": "typescript",
+            "line": "L16"
+          }
+        ]
+      },
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_app_support_chat_component_chatcomponent_close",
+      "label": ".close()",
+      "file_type": "code",
+      "source_file": "frontend/src/app/support/chat.component.ts",
+      "source_location": "L18",
+      "_callable": true,
+      "metadata": {
+        "unresolved_calls": [
+          {
+            "callee": "unsubscribe",
+            "receiver_type": "Subscription",
+            "lang": "typescript",
+            "line": "L18"
+          },
+          {
+            "callee": "setValue",
+            "receiver_type": "FormControl",
+            "lang": "typescript",
+            "line": "L18"
+          }
+        ]
+      },
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_app_support_chat_component_chatcomponent_ngondestroy",
+      "label": ".ngOnDestroy()",
+      "file_type": "code",
+      "source_file": "frontend/src/app/support/chat.component.ts",
+      "source_location": "L19",
+      "_callable": true,
+      "metadata": {
+        "unresolved_calls": [
+          {
+            "callee": "unsubscribe",
+            "receiver_type": "Subscription",
+            "lang": "typescript",
+            "line": "L19"
+          }
+        ]
+      },
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_app_support_support_component_spec",
+      "label": "support.component.spec.ts",
+      "file_type": "code",
+      "source_file": "frontend/src/app/support/support.component.spec.ts",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_app_support_support_component",
+      "label": "support.component.ts",
+      "file_type": "code",
+      "source_file": "frontend/src/app/support/support.component.ts",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_app_support_support_component_supportcomponent",
+      "label": "SupportComponent",
+      "file_type": "code",
+      "source_file": "frontend/src/app/support/support.component.ts",
+      "source_location": "L11",
+      "_callable": true,
+      "_callable_class": true,
+      "_ts_fields": {
+        "auth": "AuthService",
+        "confirmation": "Confirmation",
+        "form": "FormGroup",
+        "request": "Subscription",
+        "search": "FormControl",
+        "service": "SupportService"
+      },
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_app_support_support_component_ts_component",
+      "label": "Component",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_app_support_support_component_supportcomponent_constructor",
+      "label": ".constructor()",
+      "file_type": "code",
+      "source_file": "frontend/src/app/support/support.component.ts",
+      "source_location": "L21",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_app_support_support_component_supportcomponent_filtered",
+      "label": ".filtered()",
+      "file_type": "code",
+      "source_file": "frontend/src/app/support/support.component.ts",
+      "source_location": "L22",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_app_support_support_component_supportcomponent_submit",
+      "label": ".submit()",
+      "file_type": "code",
+      "source_file": "frontend/src/app/support/support.component.ts",
+      "source_location": "L24",
+      "_callable": true,
+      "metadata": {
+        "unresolved_calls": [
+          {
+            "callee": "markAllAsTouched",
+            "receiver_type": "FormGroup",
+            "lang": "typescript",
+            "line": "L25"
+          },
+          {
+            "callee": "getRawValue",
+            "receiver_type": "FormGroup",
+            "lang": "typescript",
+            "line": "L26"
+          },
+          {
+            "callee": "reset",
+            "receiver_type": "FormGroup",
+            "lang": "typescript",
+            "line": "L29"
+          }
+        ]
+      },
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_app_support_support_component_supportcomponent_ngondestroy",
+      "label": ".ngOnDestroy()",
+      "file_type": "code",
+      "source_file": "frontend/src/app/support/support.component.ts",
+      "source_location": "L31",
+      "_callable": true,
+      "metadata": {
+        "unresolved_calls": [
+          {
+            "callee": "unsubscribe",
+            "receiver_type": "Subscription",
+            "lang": "typescript",
+            "line": "L31"
+          }
+        ]
+      },
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_app_support_support_service",
+      "label": "support.service.ts",
+      "file_type": "code",
+      "source_file": "frontend/src/app/support/support.service.ts",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_app_support_support_service_confirmation",
+      "label": "Confirmation",
+      "file_type": "code",
+      "source_file": "frontend/src/app/support/support.service.ts",
+      "source_location": "L5",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_app_support_support_service_chatreply",
+      "label": "ChatReply",
+      "file_type": "code",
+      "source_file": "frontend/src/app/support/support.service.ts",
+      "source_location": "L6",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_app_support_support_service_supportservice",
+      "label": "SupportService",
+      "file_type": "code",
+      "source_file": "frontend/src/app/support/support.service.ts",
+      "source_location": "L8",
+      "_callable": true,
+      "_callable_class": true,
+      "_ts_fields": {
+        "http": "HttpClient"
+      },
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_app_support_support_service_ts_injectable",
+      "label": "Injectable",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_app_support_support_service_supportservice_constructor",
+      "label": ".constructor()",
+      "file_type": "code",
+      "source_file": "frontend/src/app/support/support.service.ts",
+      "source_location": "L9",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_app_support_support_service_supportservice_inquire",
+      "label": ".inquire()",
+      "file_type": "code",
+      "source_file": "frontend/src/app/support/support.service.ts",
+      "source_location": "L10",
+      "_callable": true,
+      "metadata": {
+        "unresolved_calls": [
+          {
+            "callee": "post",
+            "receiver_type": "HttpClient",
+            "lang": "typescript",
+            "line": "L10"
+          }
+        ]
+      },
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_app_support_support_service_supportservice_chat",
+      "label": ".chat()",
+      "file_type": "code",
+      "source_file": "frontend/src/app/support/support.service.ts",
+      "source_location": "L11",
+      "_callable": true,
+      "metadata": {
+        "unresolved_calls": [
+          {
+            "callee": "post",
+            "receiver_type": "HttpClient",
+            "lang": "typescript",
+            "line": "L11"
           }
         ]
       },
@@ -10137,6 +10966,585 @@
       "_origin": "ast"
     },
     {
+      "source": "backend_src_main_java_com_nova_bank_support_supportcontroller",
+      "target": "backend_src_main_java_com_nova_bank_support_supportcontroller_supportcontroller",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/support/SupportController.java",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_support_supportcontroller_supportcontroller",
+      "target": "backend_src_main_java_com_nova_bank_support_supportcontroller_java_restcontroller",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/support/SupportController.java",
+      "source_location": "L12",
+      "weight": 1.0,
+      "context": "attribute",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_support_supportcontroller_supportcontroller",
+      "target": "backend_src_main_java_com_nova_bank_support_supportcontroller_java_requestmapping",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/support/SupportController.java",
+      "source_location": "L12",
+      "weight": 1.0,
+      "context": "attribute",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_support_supportcontroller_supportcontroller",
+      "target": "backend_src_main_java_com_nova_bank_support_supportservice_supportservice",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/support/SupportController.java",
+      "source_location": "L13",
+      "weight": 1.0,
+      "context": "field",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_support_supportcontroller_supportcontroller",
+      "target": "backend_src_main_java_com_nova_bank_support_supportcontroller_supportcontroller_supportcontroller",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/support/SupportController.java",
+      "source_location": "L14",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_support_supportcontroller_supportcontroller_supportcontroller",
+      "target": "backend_src_main_java_com_nova_bank_support_supportservice_supportservice",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/support/SupportController.java",
+      "source_location": "L14",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_support_supportcontroller_supportcontroller",
+      "target": "backend_src_main_java_com_nova_bank_support_supportcontroller_inquiry",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/support/SupportController.java",
+      "source_location": "L15",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_support_supportcontroller_supportcontroller",
+      "target": "backend_src_main_java_com_nova_bank_support_supportcontroller_chat",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/support/SupportController.java",
+      "source_location": "L16",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_support_supportcontroller_supportcontroller",
+      "target": "backend_src_main_java_com_nova_bank_support_supportcontroller_supportcontroller_inquiry",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/support/SupportController.java",
+      "source_location": "L17",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_support_supportcontroller_supportcontroller_inquiry",
+      "target": "backend_src_main_java_com_nova_bank_auth_authservice_principal",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/support/SupportController.java",
+      "source_location": "L17",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_support_supportcontroller_supportcontroller_inquiry",
+      "target": "backend_src_main_java_com_nova_bank_support_supportcontroller_inquiry",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/support/SupportController.java",
+      "source_location": "L17",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_support_supportcontroller_supportcontroller_inquiry",
+      "target": "backend_src_main_java_com_nova_bank_support_supportservice_confirmation",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/support/SupportController.java",
+      "source_location": "L17",
+      "weight": 1.0,
+      "context": "return_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_support_supportcontroller_supportcontroller_inquiry",
+      "target": "backend_src_main_java_com_nova_bank_support_supportcontroller_java_postmapping",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/support/SupportController.java",
+      "source_location": "L17",
+      "weight": 1.0,
+      "context": "attribute",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_support_supportcontroller_supportcontroller_inquiry",
+      "target": "responsestatus",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/support/SupportController.java",
+      "source_location": "L17",
+      "weight": 1.0,
+      "context": "attribute",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_support_supportcontroller_supportcontroller",
+      "target": "backend_src_main_java_com_nova_bank_support_supportcontroller_supportcontroller_chat",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/support/SupportController.java",
+      "source_location": "L19",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_support_supportcontroller_supportcontroller_chat",
+      "target": "backend_src_main_java_com_nova_bank_auth_authservice_principal",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/support/SupportController.java",
+      "source_location": "L19",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_support_supportcontroller_supportcontroller_chat",
+      "target": "backend_src_main_java_com_nova_bank_support_supportcontroller_chat",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/support/SupportController.java",
+      "source_location": "L19",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_support_supportcontroller_supportcontroller_chat",
+      "target": "backend_src_main_java_com_nova_bank_support_supportservice_reply",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/support/SupportController.java",
+      "source_location": "L19",
+      "weight": 1.0,
+      "context": "return_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_support_supportcontroller_supportcontroller_chat",
+      "target": "backend_src_main_java_com_nova_bank_support_supportcontroller_java_postmapping",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/support/SupportController.java",
+      "source_location": "L19",
+      "weight": 1.0,
+      "context": "attribute",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_support_supportservice",
+      "target": "backend_src_main_java_com_nova_bank_portfolio_portfolioservice_portfolioservice",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/support/SupportService.java",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_support_supportservice",
+      "target": "backend_src_main_java_com_nova_bank_promotions_promotionservice_promotionservice",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/support/SupportService.java",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_support_supportservice",
+      "target": "org_springframework_jdbc_core_jdbctemplate",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/support/SupportService.java",
+      "source_location": "L14",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_support_supportservice",
+      "target": "org_springframework_stereotype_service",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/support/SupportService.java",
+      "source_location": "L16",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_support_supportservice",
+      "target": "org_springframework_transaction_annotation_transactional",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/support/SupportService.java",
+      "source_location": "L17",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_support_supportservice",
+      "target": "backend_src_main_java_com_nova_bank_support_supportservice_supportservice",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/support/SupportService.java",
+      "source_location": "L21",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_support_supportservice_supportservice",
+      "target": "org_springframework_stereotype_service",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/support/SupportService.java",
+      "source_location": "L21",
+      "weight": 1.0,
+      "context": "attribute",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_support_supportservice_supportservice",
+      "target": "org_springframework_jdbc_core_jdbctemplate",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/support/SupportService.java",
+      "source_location": "L22",
+      "weight": 1.0,
+      "context": "field",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_support_supportservice_supportservice",
+      "target": "backend_src_main_java_com_nova_bank_portfolio_portfolioservice_portfolioservice",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/support/SupportService.java",
+      "source_location": "L23",
+      "weight": 1.0,
+      "context": "field",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_support_supportservice_supportservice",
+      "target": "backend_src_main_java_com_nova_bank_promotions_promotionservice_promotionservice",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/support/SupportService.java",
+      "source_location": "L24",
+      "weight": 1.0,
+      "context": "field",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_support_supportservice_supportservice",
+      "target": "backend_src_main_java_com_nova_bank_support_supportservice_supportservice_supportservice",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/support/SupportService.java",
+      "source_location": "L25",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_support_supportservice_supportservice_supportservice",
+      "target": "org_springframework_jdbc_core_jdbctemplate",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/support/SupportService.java",
+      "source_location": "L25",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_support_supportservice_supportservice_supportservice",
+      "target": "backend_src_main_java_com_nova_bank_portfolio_portfolioservice_portfolioservice",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/support/SupportService.java",
+      "source_location": "L25",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_support_supportservice_supportservice_supportservice",
+      "target": "backend_src_main_java_com_nova_bank_promotions_promotionservice_promotionservice",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/support/SupportService.java",
+      "source_location": "L25",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_support_supportservice_supportservice",
+      "target": "backend_src_main_java_com_nova_bank_support_supportservice_supportservice_customer",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/support/SupportService.java",
+      "source_location": "L28",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_support_supportservice_supportservice_customer",
+      "target": "backend_src_main_java_com_nova_bank_auth_authservice_principal",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/support/SupportService.java",
+      "source_location": "L28",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_support_supportservice_supportservice",
+      "target": "backend_src_main_java_com_nova_bank_support_supportservice_supportservice_clean",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/support/SupportService.java",
+      "source_location": "L34",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_support_supportservice_supportservice",
+      "target": "backend_src_main_java_com_nova_bank_support_supportservice_supportservice_inquire",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/support/SupportService.java",
+      "source_location": "L39",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_support_supportservice_supportservice_inquire",
+      "target": "backend_src_main_java_com_nova_bank_auth_authservice_principal",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/support/SupportService.java",
+      "source_location": "L39",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_support_supportservice_supportservice_inquire",
+      "target": "backend_src_main_java_com_nova_bank_support_supportservice_confirmation",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/support/SupportService.java",
+      "source_location": "L39",
+      "weight": 1.0,
+      "context": "return_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_support_supportservice_supportservice_inquire",
+      "target": "org_springframework_transaction_annotation_transactional",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/support/SupportService.java",
+      "source_location": "L39",
+      "weight": 1.0,
+      "context": "attribute",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_support_supportservice_supportservice",
+      "target": "backend_src_main_java_com_nova_bank_support_supportservice_supportservice_money",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/support/SupportService.java",
+      "source_location": "L45",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_support_supportservice_supportservice",
+      "target": "backend_src_main_java_com_nova_bank_support_supportservice_supportservice_chat",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/support/SupportService.java",
+      "source_location": "L47",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_support_supportservice_supportservice_chat",
+      "target": "backend_src_main_java_com_nova_bank_auth_authservice_principal",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/support/SupportService.java",
+      "source_location": "L47",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_support_supportservice_supportservice_chat",
+      "target": "backend_src_main_java_com_nova_bank_support_supportservice_reply",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/support/SupportService.java",
+      "source_location": "L47",
+      "weight": 1.0,
+      "context": "return_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_support_supportservice_supportservice_chat",
+      "target": "org_springframework_transaction_annotation_transactional",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/support/SupportService.java",
+      "source_location": "L47",
+      "weight": 1.0,
+      "context": "attribute",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_support_supportservice_supportservice",
+      "target": "backend_src_main_java_com_nova_bank_support_supportservice_confirmation",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/support/SupportService.java",
+      "source_location": "L67",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_support_supportservice_supportservice",
+      "target": "backend_src_main_java_com_nova_bank_support_supportservice_reply",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/support/SupportService.java",
+      "source_location": "L68",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_support_supportservice_supportservice_inquire",
+      "target": "backend_src_main_java_com_nova_bank_support_supportservice_supportservice_customer",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/support/SupportService.java",
+      "source_location": "L40",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_support_supportservice_supportservice_inquire",
+      "target": "backend_src_main_java_com_nova_bank_support_supportservice_supportservice_clean",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/support/SupportService.java",
+      "source_location": "L40",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_support_supportservice_supportservice_inquire",
+      "target": "backend_src_main_java_com_nova_bank_support_supportservice_confirmation",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/support/SupportService.java",
+      "source_location": "L43",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_support_supportservice_supportservice_chat",
+      "target": "backend_src_main_java_com_nova_bank_support_supportservice_supportservice_customer",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/support/SupportService.java",
+      "source_location": "L48",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_support_supportservice_supportservice_chat",
+      "target": "backend_src_main_java_com_nova_bank_support_supportservice_supportservice_clean",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/support/SupportService.java",
+      "source_location": "L48",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_support_supportservice_supportservice_chat",
+      "target": "backend_src_main_java_com_nova_bank_support_supportservice_reply",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/support/SupportService.java",
+      "source_location": "L49",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_support_supportservice_supportservice_chat",
+      "target": "backend_src_main_java_com_nova_bank_support_supportservice_supportservice_money",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/support/SupportService.java",
+      "source_location": "L59",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
       "source": "backend_src_test_java_com_nova_bank_accounts_accountapitest",
       "target": "com_fasterxml_jackson_databind_objectmapper",
       "relation": "imports",
@@ -11921,6 +13329,372 @@
       "_origin": "ast"
     },
     {
+      "source": "backend_src_test_java_com_nova_bank_support_supportapitest",
+      "target": "com_fasterxml_jackson_databind_objectmapper",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/support/SupportApiTest.java",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_support_supportapitest",
+      "target": "org_junit_jupiter_api_test",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/support/SupportApiTest.java",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_support_supportapitest",
+      "target": "org_springframework_boot_test_autoconfigure_web_servlet_autoconfiguremockmvc",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/support/SupportApiTest.java",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_support_supportapitest",
+      "target": "org_springframework_boot_test_context_springboottest",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/support/SupportApiTest.java",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_support_supportapitest",
+      "target": "org_springframework_jdbc_core_jdbctemplate",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/support/SupportApiTest.java",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_support_supportapitest",
+      "target": "org_springframework_test_web_servlet_mockmvc",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/support/SupportApiTest.java",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_support_supportapitest",
+      "target": "backend_src_test_java_com_nova_bank_support_supportapitest_supportapitest",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/support/SupportApiTest.java",
+      "source_location": "L15",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_support_supportapitest_supportapitest",
+      "target": "org_springframework_boot_test_context_springboottest",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/support/SupportApiTest.java",
+      "source_location": "L15",
+      "weight": 1.0,
+      "context": "attribute",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_support_supportapitest_supportapitest",
+      "target": "org_springframework_boot_test_autoconfigure_web_servlet_autoconfiguremockmvc",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/support/SupportApiTest.java",
+      "source_location": "L15",
+      "weight": 1.0,
+      "context": "attribute",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_support_supportapitest_supportapitest",
+      "target": "org_springframework_test_web_servlet_mockmvc",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/support/SupportApiTest.java",
+      "source_location": "L17",
+      "weight": 1.0,
+      "context": "field",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_support_supportapitest_supportapitest",
+      "target": "com_fasterxml_jackson_databind_objectmapper",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/support/SupportApiTest.java",
+      "source_location": "L17",
+      "weight": 1.0,
+      "context": "field",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_support_supportapitest_supportapitest",
+      "target": "org_springframework_jdbc_core_jdbctemplate",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/support/SupportApiTest.java",
+      "source_location": "L17",
+      "weight": 1.0,
+      "context": "field",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_support_supportapitest_supportapitest",
+      "target": "backend_src_test_java_com_nova_bank_support_supportapitest_supportapitest_login",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/support/SupportApiTest.java",
+      "source_location": "L18",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_support_supportapitest_supportapitest",
+      "target": "backend_src_test_java_com_nova_bank_support_supportapitest_supportapitest_inquirypersistsandinvalidrequestsfail",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/support/SupportApiTest.java",
+      "source_location": "L19",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_support_supportapitest_supportapitest_inquirypersistsandinvalidrequestsfail",
+      "target": "org_junit_jupiter_api_test",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/support/SupportApiTest.java",
+      "source_location": "L19",
+      "weight": 1.0,
+      "context": "attribute",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_support_supportapitest_supportapitest",
+      "target": "backend_src_test_java_com_nova_bank_support_supportapitest_supportapitest_chatrejectsunauthenticatedandseparatespersonas",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/support/SupportApiTest.java",
+      "source_location": "L28",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_support_supportapitest_supportapitest_chatrejectsunauthenticatedandseparatespersonas",
+      "target": "org_junit_jupiter_api_test",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/support/SupportApiTest.java",
+      "source_location": "L28",
+      "weight": 1.0,
+      "context": "attribute",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_support_supportapitest_supportapitest_inquirypersistsandinvalidrequestsfail",
+      "target": "backend_src_test_java_com_nova_bank_support_supportapitest_supportapitest_login",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/support/SupportApiTest.java",
+      "source_location": "L22",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_support_supportapitest_supportapitest_chatrejectsunauthenticatedandseparatespersonas",
+      "target": "backend_src_test_java_com_nova_bank_support_supportapitest_supportapitest_login",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/support/SupportApiTest.java",
+      "source_location": "L31",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_support_supportservicetest",
+      "target": "org_junit_jupiter_api_test",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/support/SupportServiceTest.java",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_support_supportservicetest",
+      "target": "org_springframework_boot_test_context_springboottest",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/support/SupportServiceTest.java",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_support_supportservicetest",
+      "target": "org_springframework_jdbc_core_jdbctemplate",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/support/SupportServiceTest.java",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_support_supportservicetest",
+      "target": "backend_src_test_java_com_nova_bank_support_supportservicetest_supportservicetest",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/support/SupportServiceTest.java",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_support_supportservicetest_supportservicetest",
+      "target": "org_springframework_boot_test_context_springboottest",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/support/SupportServiceTest.java",
+      "source_location": "L12",
+      "weight": 1.0,
+      "context": "attribute",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_support_supportservicetest_supportservicetest",
+      "target": "backend_src_main_java_com_nova_bank_support_supportservice_supportservice",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/support/SupportServiceTest.java",
+      "source_location": "L14",
+      "weight": 1.0,
+      "context": "field",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_support_supportservicetest_supportservicetest",
+      "target": "org_springframework_jdbc_core_jdbctemplate",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/support/SupportServiceTest.java",
+      "source_location": "L14",
+      "weight": 1.0,
+      "context": "field",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_support_supportservicetest_supportservicetest",
+      "target": "backend_src_test_java_com_nova_bank_support_supportservicetest_supportservicetest_user",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/support/SupportServiceTest.java",
+      "source_location": "L15",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_support_supportservicetest_supportservicetest_user",
+      "target": "backend_src_main_java_com_nova_bank_auth_authservice_principal",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/support/SupportServiceTest.java",
+      "source_location": "L15",
+      "weight": 1.0,
+      "context": "return_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_support_supportservicetest_supportservicetest",
+      "target": "backend_src_test_java_com_nova_bank_support_supportservicetest_supportservicetest_persistsuniquereceiptsandrejectsinvalidinput",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/support/SupportServiceTest.java",
+      "source_location": "L16",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_support_supportservicetest_supportservicetest_persistsuniquereceiptsandrejectsinvalidinput",
+      "target": "org_junit_jupiter_api_test",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/support/SupportServiceTest.java",
+      "source_location": "L16",
+      "weight": 1.0,
+      "context": "attribute",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_support_supportservicetest_supportservicetest",
+      "target": "backend_src_test_java_com_nova_bank_support_supportservicetest_supportservicetest_assistantusesdatabaseownerandhonesthandoff",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/support/SupportServiceTest.java",
+      "source_location": "L24",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_support_supportservicetest_supportservicetest_assistantusesdatabaseownerandhonesthandoff",
+      "target": "org_junit_jupiter_api_test",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/support/SupportServiceTest.java",
+      "source_location": "L24",
+      "weight": 1.0,
+      "context": "attribute",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_support_supportservicetest_supportservicetest_persistsuniquereceiptsandrejectsinvalidinput",
+      "target": "backend_src_test_java_com_nova_bank_support_supportservicetest_supportservicetest_user",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/support/SupportServiceTest.java",
+      "source_location": "L17",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_support_supportservicetest_supportservicetest_assistantusesdatabaseownerandhonesthandoff",
+      "target": "backend_src_test_java_com_nova_bank_support_supportservicetest_supportservicetest_user",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/support/SupportServiceTest.java",
+      "source_location": "L25",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
       "source": "frontend_angular",
       "target": "frontend_angular_schema",
       "relation": "contains",
@@ -12250,6 +14024,17 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "frontend/e2e/promotions.spec.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_e2e_support_spec",
+      "target": "ref_playwright_test",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/e2e/support.spec.ts",
       "source_location": "L1",
       "weight": 1.0,
       "_origin": "ast"
@@ -13339,11 +15124,33 @@
     },
     {
       "source": "frontend_src_app_app_component",
+      "target": "frontend_src_app_support_chat_component",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/app.component.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_app_component",
+      "target": "frontend_src_app_support_chat_component_chatcomponent",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/app.component.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_app_component",
       "target": "frontend_src_app_app_component_appcomponent",
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "frontend/src/app/app.component.ts",
-      "source_location": "L7",
+      "source_location": "L8",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -13353,7 +15160,7 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "frontend/src/app/app.component.ts",
-      "source_location": "L6",
+      "source_location": "L7",
       "weight": 1.0,
       "context": "decorator",
       "_origin": "ast"
@@ -13364,7 +15171,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "frontend/src/app/app.component.ts",
-      "source_location": "L7",
+      "source_location": "L8",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -13438,6 +15245,14 @@
     {
       "source": "frontend_src_app_app_routes",
       "target": "frontend_src_app_promotions_promotions_component",
+      "relation": "dynamic_import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/app.routes.ts",
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_app_routes",
+      "target": "frontend_src_app_support_support_component",
       "relation": "dynamic_import",
       "confidence": "EXTRACTED",
       "source_file": "frontend/src/app/app.routes.ts",
@@ -14858,6 +16673,529 @@
       "_origin": "ast"
     },
     {
+      "source": "frontend_src_app_support_chat_component",
+      "target": "ref_angular_common",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/support/chat.component.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_support_chat_component",
+      "target": "ref_angular_core",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/support/chat.component.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_support_chat_component",
+      "target": "ref_angular_forms",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/support/chat.component.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_support_chat_component",
+      "target": "ref_angular_router",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/support/chat.component.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_support_chat_component",
+      "target": "ref_rxjs",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/support/chat.component.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_support_chat_component",
+      "target": "frontend_src_app_support_support_service",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/support/chat.component.ts",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_support_chat_component",
+      "target": "frontend_src_app_support_support_service_supportservice",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/support/chat.component.ts",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_support_chat_component",
+      "target": "frontend_src_app_support_chat_component_chatcomponent",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/support/chat.component.ts",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_support_chat_component_chatcomponent",
+      "target": "frontend_src_app_support_chat_component_ts_component",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/support/chat.component.ts",
+      "source_location": "L9",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_support_chat_component_chatcomponent",
+      "target": "frontend_src_app_support_chat_component_chatcomponent_constructor",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/support/chat.component.ts",
+      "source_location": "L14",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_support_chat_component_chatcomponent",
+      "target": "frontend_src_app_support_chat_component_chatcomponent_send",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/support/chat.component.ts",
+      "source_location": "L16",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_support_chat_component_chatcomponent",
+      "target": "frontend_src_app_support_chat_component_chatcomponent_close",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/support/chat.component.ts",
+      "source_location": "L18",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_support_chat_component_chatcomponent",
+      "target": "frontend_src_app_support_chat_component_chatcomponent_ngondestroy",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/support/chat.component.ts",
+      "source_location": "L19",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_support_support_component_spec",
+      "target": "ref_angular_core",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/support/support.component.spec.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_support_support_component_spec",
+      "target": "ref_angular_router",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/support/support.component.spec.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_support_support_component_spec",
+      "target": "ref_angular_common",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/support/support.component.spec.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_support_support_component_spec",
+      "target": "ref_angular_common",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/support/support.component.spec.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_support_support_component_spec",
+      "target": "frontend_src_app_auth_auth_service",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/support/support.component.spec.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_support_support_component_spec",
+      "target": "frontend_src_app_auth_auth_service_authservice",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/support/support.component.spec.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_support_support_component_spec",
+      "target": "frontend_src_app_support_support_component",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/support/support.component.spec.ts",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_support_support_component_spec",
+      "target": "frontend_src_app_support_support_component_supportcomponent",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/support/support.component.spec.ts",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_support_support_component_spec",
+      "target": "frontend_src_app_support_chat_component",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/support/support.component.spec.ts",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_support_support_component_spec",
+      "target": "frontend_src_app_support_chat_component_chatcomponent",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/support/support.component.spec.ts",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_support_support_component",
+      "target": "ref_angular_common",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/support/support.component.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_support_support_component",
+      "target": "ref_angular_core",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/support/support.component.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_support_support_component",
+      "target": "ref_angular_forms",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/support/support.component.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_support_support_component",
+      "target": "ref_angular_router",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/support/support.component.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_support_support_component",
+      "target": "ref_rxjs",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/support/support.component.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_support_support_component",
+      "target": "frontend_src_app_auth_auth_service",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/support/support.component.ts",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_support_support_component",
+      "target": "frontend_src_app_auth_auth_service_authservice",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/support/support.component.ts",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_support_support_component",
+      "target": "frontend_src_app_support_support_service",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/support/support.component.ts",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_support_support_component",
+      "target": "frontend_src_app_support_support_service_confirmation",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/support/support.component.ts",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_support_support_component",
+      "target": "frontend_src_app_support_support_service_supportservice",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/support/support.component.ts",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_support_support_component",
+      "target": "frontend_src_app_support_support_component_supportcomponent",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/support/support.component.ts",
+      "source_location": "L11",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_support_support_component_supportcomponent",
+      "target": "frontend_src_app_support_support_component_ts_component",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/support/support.component.ts",
+      "source_location": "L10",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_support_support_component_supportcomponent",
+      "target": "frontend_src_app_support_support_component_supportcomponent_constructor",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/support/support.component.ts",
+      "source_location": "L21",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_support_support_component_supportcomponent",
+      "target": "frontend_src_app_support_support_component_supportcomponent_filtered",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/support/support.component.ts",
+      "source_location": "L22",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_support_support_component_supportcomponent",
+      "target": "frontend_src_app_support_support_component_supportcomponent_submit",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/support/support.component.ts",
+      "source_location": "L24",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_support_support_component_supportcomponent",
+      "target": "frontend_src_app_support_support_component_supportcomponent_ngondestroy",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/support/support.component.ts",
+      "source_location": "L31",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_support_support_service",
+      "target": "ref_angular_core",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/support/support.service.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_support_support_service",
+      "target": "ref_angular_common",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/support/support.service.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_support_support_service",
+      "target": "ref_rxjs",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/support/support.service.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_support_support_service",
+      "target": "frontend_src_app_support_support_service_confirmation",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/support/support.service.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_support_support_service",
+      "target": "frontend_src_app_support_support_service_chatreply",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/support/support.service.ts",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_support_support_service",
+      "target": "frontend_src_app_support_support_service_supportservice",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/support/support.service.ts",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_support_support_service_supportservice",
+      "target": "frontend_src_app_support_support_service_ts_injectable",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/support/support.service.ts",
+      "source_location": "L8",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_support_support_service_supportservice",
+      "target": "frontend_src_app_support_support_service_supportservice_constructor",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/support/support.service.ts",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_support_support_service_supportservice",
+      "target": "frontend_src_app_support_support_service_supportservice_inquire",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/support/support.service.ts",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_support_support_service_supportservice",
+      "target": "frontend_src_app_support_support_service_supportservice_chat",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/support/support.service.ts",
+      "source_location": "L11",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
       "source": "frontend_src_main",
       "target": "ref_angular_platform_browser",
       "relation": "imports_from",
@@ -15307,7 +17645,7 @@
       "context": "parameter_type",
       "confidence": "EXTRACTED",
       "source_file": "frontend/src/app/app.component.ts",
-      "source_location": "L7",
+      "source_location": "L8",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -15455,6 +17793,50 @@
       "_origin": "ast"
     },
     {
+      "source": "frontend_src_app_support_chat_component_chatcomponent_constructor",
+      "target": "frontend_src_app_support_support_service_supportservice",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/support/chat.component.ts",
+      "source_location": "L14",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_support_support_component_supportcomponent",
+      "target": "frontend_src_app_support_support_service_confirmation",
+      "relation": "references",
+      "context": "field",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/support/support.component.ts",
+      "source_location": "L20",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_support_support_component_supportcomponent_constructor",
+      "target": "frontend_src_app_auth_auth_service_authservice",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/support/support.component.ts",
+      "source_location": "L21",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_support_support_component_supportcomponent_constructor",
+      "target": "frontend_src_app_support_support_service_supportservice",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/support/support.component.ts",
+      "source_location": "L21",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
       "source": "backend_src_main_java_com_nova_bank_accounts_accountcontroller",
       "target": "backend_src_main_java_com_nova_bank_auth_authservice_authservice",
       "relation": "imports",
@@ -15576,6 +17958,50 @@
       "_origin": "ast"
     },
     {
+      "source": "backend_src_main_java_com_nova_bank_support_supportcontroller",
+      "target": "backend_src_main_java_com_nova_bank_auth_authservice_authservice",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backend/src/main/java/com/nova/bank/support/SupportController.java",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_support_supportservice",
+      "target": "backend_src_main_java_com_nova_bank_auth_authservice_authservice",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backend/src/main/java/com/nova/bank/support/SupportService.java",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_support_supportservice",
+      "target": "backend_src_main_java_com_nova_bank_portfolio_portfolioservice_portfolioservice",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backend/src/main/java/com/nova/bank/support/SupportService.java",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_support_supportservice",
+      "target": "backend_src_main_java_com_nova_bank_promotions_promotionservice_promotionservice",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backend/src/main/java/com/nova/bank/support/SupportService.java",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
       "source": "backend_src_test_java_com_nova_bank_accounts_accountservicetest",
       "target": "backend_src_main_java_com_nova_bank_auth_authservice_authservice",
       "relation": "imports",
@@ -15605,6 +18031,17 @@
       "confidence_score": 1.0,
       "source_file": "backend/src/test/java/com/nova/bank/promotions/PromotionServiceTest.java",
       "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_support_supportservicetest",
+      "target": "backend_src_main_java_com_nova_bank_auth_authservice_authservice",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backend/src/test/java/com/nova/bank/support/SupportServiceTest.java",
+      "source_location": "L2",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -15773,6 +18210,30 @@
       "confidence_score": 0.85,
       "source_file": "frontend/src/app/promotions/promotions.component.ts",
       "source_location": "L21",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_support_chat_component_chatcomponent_send",
+      "target": "frontend_src_app_support_support_service_supportservice_chat",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "frontend/src/app/support/chat.component.ts",
+      "source_location": "L16",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_support_support_component_supportcomponent_submit",
+      "target": "frontend_src_app_support_support_service_supportservice_inquire",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "frontend/src/app/support/support.component.ts",
+      "source_location": "L29",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -16002,8 +18463,8 @@
       "weight": 1.0,
       "context": "attribute",
       "_origin": "ast",
-      "_src": "backend_src_main_java_com_nova_bank_accounts_accounterrors_accounterrors",
-      "_tgt": "backend_src_main_java_com_nova_bank_accounts_accountcontroller_accountcontroller"
+      "_src": "backend_src_main_java_com_nova_bank_accounts_accountcontroller_accountcontroller",
+      "_tgt": "backend_src_main_java_com_nova_bank_accounts_accounterrors_accounterrors"
     },
     {
       "source": "backend_src_main_java_com_nova_bank_accounts_accountcontroller_java_getmapping",
@@ -16028,8 +18489,8 @@
       "weight": 1.0,
       "context": "field",
       "_origin": "ast",
-      "_src": "backend_src_main_java_com_nova_bank_auth_demoseeder_demoseeder",
-      "_tgt": "backend_src_main_java_com_nova_bank_accounts_accountseeder_accountseeder"
+      "_src": "backend_src_main_java_com_nova_bank_accounts_accountseeder_accountseeder",
+      "_tgt": "backend_src_main_java_com_nova_bank_auth_demoseeder_demoseeder"
     },
     {
       "source": "backend_src_main_java_com_nova_bank_accounts_accountseeder_accountseeder",
@@ -16041,8 +18502,8 @@
       "weight": 1.0,
       "context": "parameter_type",
       "_origin": "ast",
-      "_src": "backend_src_main_java_com_nova_bank_auth_demoseeder_demoseeder_demoseeder",
-      "_tgt": "backend_src_main_java_com_nova_bank_accounts_accountseeder_accountseeder"
+      "_src": "backend_src_main_java_com_nova_bank_accounts_accountseeder_accountseeder",
+      "_tgt": "backend_src_main_java_com_nova_bank_auth_demoseeder_demoseeder_demoseeder"
     },
     {
       "source": "backend_src_main_java_com_nova_bank_accounts_accountseeder_accountseeder",
@@ -16054,8 +18515,8 @@
       "weight": 1.0,
       "context": "field",
       "_origin": "ast",
-      "_src": "backend_src_test_java_com_nova_bank_accounts_accountservicetest_accountservicetest",
-      "_tgt": "backend_src_main_java_com_nova_bank_accounts_accountseeder_accountseeder"
+      "_src": "backend_src_main_java_com_nova_bank_accounts_accountseeder_accountseeder",
+      "_tgt": "backend_src_test_java_com_nova_bank_accounts_accountservicetest_accountservicetest"
     },
     {
       "source": "backend_src_main_java_com_nova_bank_accounts_accountservice_accountservice",
@@ -16067,8 +18528,8 @@
       "weight": 1.0,
       "context": "field",
       "_origin": "ast",
-      "_src": "backend_src_test_java_com_nova_bank_accounts_accountservicetest_accountservicetest",
-      "_tgt": "backend_src_main_java_com_nova_bank_accounts_accountservice_accountservice"
+      "_src": "backend_src_main_java_com_nova_bank_accounts_accountservice_accountservice",
+      "_tgt": "backend_src_test_java_com_nova_bank_accounts_accountservicetest_accountservicetest"
     },
     {
       "source": "backend_src_main_java_com_nova_bank_accounts_accountservice_metadata",
@@ -16080,8 +18541,8 @@
       "weight": 1.0,
       "context": "field",
       "_origin": "ast",
-      "_src": "backend_src_main_java_com_nova_bank_accounts_accountservice_result",
-      "_tgt": "backend_src_main_java_com_nova_bank_accounts_accountservice_metadata"
+      "_src": "backend_src_main_java_com_nova_bank_accounts_accountservice_metadata",
+      "_tgt": "backend_src_main_java_com_nova_bank_accounts_accountservice_result"
     },
     {
       "source": "backend_src_main_java_com_nova_bank_accounts_accountservice_item",
@@ -16093,8 +18554,8 @@
       "weight": 1.0,
       "context": "generic_arg",
       "_origin": "ast",
-      "_src": "backend_src_main_java_com_nova_bank_accounts_accountservice_result",
-      "_tgt": "backend_src_main_java_com_nova_bank_accounts_accountservice_item"
+      "_src": "backend_src_main_java_com_nova_bank_accounts_accountservice_item",
+      "_tgt": "backend_src_main_java_com_nova_bank_accounts_accountservice_result"
     },
     {
       "source": "backend_src_main_java_com_nova_bank_accounts_accountservice_result",
@@ -16106,8 +18567,8 @@
       "weight": 1.0,
       "context": "return_type",
       "_origin": "ast",
-      "_src": "backend_src_test_java_com_nova_bank_accounts_accountservicetest_accountservicetest_query",
-      "_tgt": "backend_src_main_java_com_nova_bank_accounts_accountservice_result"
+      "_src": "backend_src_main_java_com_nova_bank_accounts_accountservice_result",
+      "_tgt": "backend_src_test_java_com_nova_bank_accounts_accountservicetest_accountservicetest_query"
     },
     {
       "source": "backend_src_main_java_com_nova_bank_auth_auditrepository_auditrepository",
@@ -16164,6 +18625,32 @@
       "weight": 1.0,
       "_src": "backend_src_main_java_com_nova_bank_auth_auditrepository_auditrepository",
       "_tgt": "backend_src_test_java_com_nova_bank_auth_authservicetest_authservicetest"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_auth_authcontroller_java_postmapping",
+      "target": "backend_src_main_java_com_nova_bank_auth_authcontroller_authcontroller_activity",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/auth/AuthController.java",
+      "source_location": "L10",
+      "weight": 1.0,
+      "context": "attribute",
+      "_origin": "ast",
+      "_src": "backend_src_main_java_com_nova_bank_auth_authcontroller_authcontroller_activity",
+      "_tgt": "backend_src_main_java_com_nova_bank_auth_authcontroller_java_postmapping"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_auth_authcontroller_java_postmapping",
+      "target": "backend_src_main_java_com_nova_bank_auth_authcontroller_authcontroller_logout",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/auth/AuthController.java",
+      "source_location": "L11",
+      "weight": 1.0,
+      "context": "attribute",
+      "_origin": "ast",
+      "_src": "backend_src_main_java_com_nova_bank_auth_authcontroller_authcontroller_logout",
+      "_tgt": "backend_src_main_java_com_nova_bank_auth_authcontroller_java_postmapping"
     },
     {
       "source": "backend_src_main_java_com_nova_bank_auth_authdtos_loginrequest",
@@ -16304,6 +18791,19 @@
     },
     {
       "source": "backend_src_main_java_com_nova_bank_auth_authservice_principal",
+      "target": "backend_src_test_java_com_nova_bank_accounts_accountservicetest_accountservicetest_principal",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/accounts/AccountServiceTest.java",
+      "source_location": "L17",
+      "weight": 1.0,
+      "context": "return_type",
+      "_origin": "ast",
+      "_src": "backend_src_main_java_com_nova_bank_auth_authservice_principal",
+      "_tgt": "backend_src_test_java_com_nova_bank_accounts_accountservicetest_accountservicetest_principal"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_auth_authservice_principal",
       "target": "backend_src_test_java_com_nova_bank_portfolio_portfolioservicetest_portfolioservicetest_principal",
       "relation": "references",
       "confidence": "EXTRACTED",
@@ -16317,15 +18817,80 @@
     },
     {
       "source": "backend_src_main_java_com_nova_bank_auth_authservice_principal",
-      "target": "backend_src_test_java_com_nova_bank_accounts_accountservicetest_accountservicetest_principal",
+      "target": "backend_src_main_java_com_nova_bank_promotions_promotioncontroller_promotioncontroller_interest",
       "relation": "references",
       "confidence": "EXTRACTED",
-      "source_file": "backend/src/test/java/com/nova/bank/accounts/AccountServiceTest.java",
+      "source_file": "backend/src/main/java/com/nova/bank/promotions/PromotionController.java",
+      "source_location": "L13",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast",
+      "_src": "backend_src_main_java_com_nova_bank_promotions_promotioncontroller_promotioncontroller_interest",
+      "_tgt": "backend_src_main_java_com_nova_bank_auth_authservice_principal"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_auth_authservice_principal",
+      "target": "backend_src_main_java_com_nova_bank_promotions_promotioncontroller_promotioncontroller_list",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/promotions/PromotionController.java",
+      "source_location": "L12",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast",
+      "_src": "backend_src_main_java_com_nova_bank_promotions_promotioncontroller_promotioncontroller_list",
+      "_tgt": "backend_src_main_java_com_nova_bank_auth_authservice_principal"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_auth_authservice_principal",
+      "target": "backend_src_main_java_com_nova_bank_promotions_promotionservice_promotionservice_customer",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/promotions/PromotionService.java",
+      "source_location": "L23",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast",
+      "_src": "backend_src_main_java_com_nova_bank_promotions_promotionservice_promotionservice_customer",
+      "_tgt": "backend_src_main_java_com_nova_bank_auth_authservice_principal"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_auth_authservice_principal",
+      "target": "backend_src_main_java_com_nova_bank_promotions_promotionservice_promotionservice_expressinterest",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/promotions/PromotionService.java",
+      "source_location": "L33",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast",
+      "_src": "backend_src_main_java_com_nova_bank_promotions_promotionservice_promotionservice_expressinterest",
+      "_tgt": "backend_src_main_java_com_nova_bank_auth_authservice_principal"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_auth_authservice_principal",
+      "target": "backend_src_main_java_com_nova_bank_promotions_promotionservice_promotionservice_list",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/promotions/PromotionService.java",
+      "source_location": "L28",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast",
+      "_src": "backend_src_main_java_com_nova_bank_promotions_promotionservice_promotionservice_list",
+      "_tgt": "backend_src_main_java_com_nova_bank_auth_authservice_principal"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_auth_authservice_principal",
+      "target": "backend_src_test_java_com_nova_bank_promotions_promotionservicetest_promotionservicetest_principal",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/promotions/PromotionServiceTest.java",
       "source_location": "L17",
       "weight": 1.0,
       "context": "return_type",
       "_origin": "ast",
-      "_src": "backend_src_test_java_com_nova_bank_accounts_accountservicetest_accountservicetest_principal",
+      "_src": "backend_src_test_java_com_nova_bank_promotions_promotionservicetest_promotionservicetest_principal",
       "_tgt": "backend_src_main_java_com_nova_bank_auth_authservice_principal"
     },
     {
@@ -16548,6 +19113,32 @@
       "_tgt": "backend_src_main_java_com_nova_bank_common_apierrors_apierrors_invalid"
     },
     {
+      "source": "backend_src_main_java_com_nova_bank_common_apierror_apierror",
+      "target": "backend_src_main_java_com_nova_bank_promotions_promotionerrors_promotionerrors_invalid",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/promotions/PromotionErrors.java",
+      "source_location": "L14",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "_origin": "ast",
+      "_src": "backend_src_main_java_com_nova_bank_promotions_promotionerrors_promotionerrors_invalid",
+      "_tgt": "backend_src_main_java_com_nova_bank_common_apierror_apierror"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_common_apierror_apierror",
+      "target": "backend_src_main_java_com_nova_bank_promotions_promotionerrors_promotionerrors_status",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/promotions/PromotionErrors.java",
+      "source_location": "L13",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "_origin": "ast",
+      "_src": "backend_src_main_java_com_nova_bank_promotions_promotionerrors_promotionerrors_status",
+      "_tgt": "backend_src_main_java_com_nova_bank_common_apierror_apierror"
+    },
+    {
       "source": "backend_src_main_java_com_nova_bank_common_apierrors_java_responseentity",
       "target": "backend_src_main_java_com_nova_bank_common_apierrors_apierrors_invalid",
       "relation": "references",
@@ -16665,6 +19256,58 @@
       "_tgt": "backend_src_test_java_com_nova_bank_portfolio_portfolioservicetest_portfolioservicetest"
     },
     {
+      "source": "backend_src_main_java_com_nova_bank_promotions_promotioncontroller_promotioncontroller",
+      "target": "backend_src_main_java_com_nova_bank_promotions_promotionerrors_promotionerrors",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/promotions/PromotionErrors.java",
+      "source_location": "L12",
+      "weight": 1.0,
+      "context": "attribute",
+      "_origin": "ast",
+      "_src": "backend_src_main_java_com_nova_bank_promotions_promotionerrors_promotionerrors",
+      "_tgt": "backend_src_main_java_com_nova_bank_promotions_promotioncontroller_promotioncontroller"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_promotions_promotionseeder_promotionseeder",
+      "target": "backend_src_test_java_com_nova_bank_promotions_promotionservicetest_promotionservicetest",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/promotions/PromotionServiceTest.java",
+      "source_location": "L16",
+      "weight": 1.0,
+      "context": "field",
+      "_origin": "ast",
+      "_src": "backend_src_test_java_com_nova_bank_promotions_promotionservicetest_promotionservicetest",
+      "_tgt": "backend_src_main_java_com_nova_bank_promotions_promotionseeder_promotionseeder"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_promotions_promotionservice_promotionservice",
+      "target": "backend_src_test_java_com_nova_bank_promotions_promotionservicetest_promotionservicetest",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/promotions/PromotionServiceTest.java",
+      "source_location": "L16",
+      "weight": 1.0,
+      "context": "field",
+      "_origin": "ast",
+      "_src": "backend_src_test_java_com_nova_bank_promotions_promotionservicetest_promotionservicetest",
+      "_tgt": "backend_src_main_java_com_nova_bank_promotions_promotionservice_promotionservice"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_promotions_promotionservice_promotion",
+      "target": "backend_src_main_java_com_nova_bank_promotions_promotionservice_catalogue",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/promotions/PromotionService.java",
+      "source_location": "L40",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "_origin": "ast",
+      "_src": "backend_src_main_java_com_nova_bank_promotions_promotionservice_catalogue",
+      "_tgt": "backend_src_main_java_com_nova_bank_promotions_promotionservice_promotion"
+    },
+    {
       "source": "backend_src_test_java_com_nova_bank_auth_authapitest_java_test",
       "target": "backend_src_test_java_com_nova_bank_auth_authapitest_authapitest_validationbadtokenandlockoutarerejected",
       "relation": "references",
@@ -16743,13 +19386,104 @@
       "_origin": "ast",
       "_src": "frontend_src_app_auth_auth_service_authservice",
       "_tgt": "frontend_src_app_portfolio_portfolio_component_portfoliocomponent_constructor"
+    },
+    {
+      "source": "frontend_src_app_auth_auth_service_authservice",
+      "target": "frontend_src_app_promotions_promotions_component_promotionscomponent_constructor",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/promotions/promotions.component.ts",
+      "source_location": "L13",
+      "weight": 1.0,
+      "_origin": "ast",
+      "_src": "frontend_src_app_promotions_promotions_component_promotionscomponent_constructor",
+      "_tgt": "frontend_src_app_auth_auth_service_authservice"
+    },
+    {
+      "source": "frontend_src_app_promotions_promotion_service_promotion",
+      "target": "frontend_src_app_promotions_promotions_component_promotionscomponent_express",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/promotions/promotions.component.ts",
+      "source_location": "L21",
+      "weight": 1.0,
+      "_origin": "ast",
+      "_src": "frontend_src_app_promotions_promotions_component_promotionscomponent_express",
+      "_tgt": "frontend_src_app_promotions_promotion_service_promotion"
+    },
+    {
+      "source": "frontend_src_app_promotions_promotion_service_promotion",
+      "target": "frontend_src_app_promotions_promotions_component_promotionscomponent_featured",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/promotions/promotions.component.ts",
+      "source_location": "L15",
+      "weight": 1.0,
+      "_origin": "ast",
+      "_src": "frontend_src_app_promotions_promotions_component_promotionscomponent_featured",
+      "_tgt": "frontend_src_app_promotions_promotion_service_promotion"
+    },
+    {
+      "source": "frontend_src_app_promotions_promotion_service_promotion",
+      "target": "frontend_src_app_promotions_promotions_component_promotionscomponent_filtered",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/promotions/promotions.component.ts",
+      "source_location": "L17",
+      "weight": 1.0,
+      "_origin": "ast",
+      "_src": "frontend_src_app_promotions_promotions_component_promotionscomponent_filtered",
+      "_tgt": "frontend_src_app_promotions_promotion_service_promotion"
+    },
+    {
+      "source": "frontend_src_app_promotions_promotion_service_promotion",
+      "target": "frontend_src_app_promotions_promotions_component_promotionscomponent_selected",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/promotions/promotions.component.ts",
+      "source_location": "L16",
+      "weight": 1.0,
+      "_origin": "ast",
+      "_src": "frontend_src_app_promotions_promotions_component_promotionscomponent_selected",
+      "_tgt": "frontend_src_app_promotions_promotion_service_promotion"
+    },
+    {
+      "source": "frontend_src_app_promotions_promotion_service_catalogue",
+      "target": "frontend_src_app_promotions_promotions_component_promotionscomponent",
+      "relation": "references",
+      "context": "field",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/promotions/promotions.component.ts",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_origin": "ast",
+      "_src": "frontend_src_app_promotions_promotions_component_promotionscomponent",
+      "_tgt": "frontend_src_app_promotions_promotion_service_catalogue"
+    },
+    {
+      "source": "frontend_src_app_promotions_promotion_service_promotionservice",
+      "target": "frontend_src_app_promotions_promotions_component_promotionscomponent_constructor",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/promotions/promotions.component.ts",
+      "source_location": "L13",
+      "weight": 1.0,
+      "_origin": "ast",
+      "_src": "frontend_src_app_promotions_promotions_component_promotionscomponent_constructor",
+      "_tgt": "frontend_src_app_promotions_promotion_service_promotionservice"
     }
   ],
   "metadata": {
-    "built_at": "2026-11-16T15:08:03.360956+00:00",
+    "built_at": "2026-11-16T15:13:32.507061+00:00",
     "version": "graph_update-v1",
     "codebase_root": "/data/artifacts-v2/T0132PcJVCRTV000416112614280356/developer",
     "force": true,
-    "files_scanned": 337
+    "files_scanned": 352
   }
 }

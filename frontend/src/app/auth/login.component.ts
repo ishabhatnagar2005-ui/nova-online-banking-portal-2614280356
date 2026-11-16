@@ -14,6 +14,6 @@ export class LoginComponent {
   submit():void {
     this.form.markAllAsTouched(); if (this.form.invalid || this.loading) return;
     const {username,password,remember}=this.form.getRawValue(); this.loading=true; this.error='';
-    this.auth.login(username,password).subscribe({next:()=>{ if (remember) localStorage.setItem('nova-remembered-user',username); else localStorage.removeItem('nova-remembered-user'); this.form.controls.password.reset(); this.loading=false; void this.router.navigate(['/home']); },error:(err:unknown)=>{this.loading=false;this.error=err instanceof HttpErrorResponse && err.status===423 ? 'Account locked due to multiple failed login attempts. Use the Facilitator Reset to unlock.' : err instanceof HttpErrorResponse && err.status===401 ? 'Invalid User ID or password. Please try again.' : 'Unable to sign in right now. Please try again.';}});
+    this.auth.login(username,password).subscribe({next:result=>{ if (remember) localStorage.setItem('nova-remembered-user',username); else localStorage.removeItem('nova-remembered-user'); this.form.controls.password.reset(); this.loading=false; void this.router.navigate([result.user.role==='ADMIN' ? '/admin' : '/home']); },error:(err:unknown)=>{this.loading=false;this.error=err instanceof HttpErrorResponse && err.status===423 ? 'Account locked due to multiple failed login attempts. Use the Facilitator Reset to unlock.' : err instanceof HttpErrorResponse && err.status===401 ? 'Invalid User ID or password. Please try again.' : 'Unable to sign in right now. Please try again.';}});
   }
 }
