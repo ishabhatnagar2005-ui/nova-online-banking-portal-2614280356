@@ -10,6 +10,7 @@ public class AuthSession {
     @Column(name="last_activity", nullable=false) Instant lastActivity;
     @Column(name="expires_at", nullable=false) Instant expiresAt;
     @Column(nullable=false) boolean revoked;
+    @Column(name="previous_login") Instant previousLogin;
     protected AuthSession() {}
-    AuthSession(UUID id, BankUser user, Instant now, Instant expiresAt) { this.id=id; this.user=user; this.lastActivity=now; this.expiresAt=expiresAt; }
+    AuthSession(UUID id, BankUser user, Instant now, Instant expiresAt, Instant previousLogin) { this.id=id; this.user=user; this.lastActivity=now; this.expiresAt=expiresAt; this.previousLogin=previousLogin; }
 }

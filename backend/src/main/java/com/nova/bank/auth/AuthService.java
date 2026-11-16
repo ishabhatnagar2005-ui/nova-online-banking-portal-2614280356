@@ -29,7 +29,7 @@ import org.springframework.transaction.annotation.Transactional;
         }
         Instant previous=user.lastLogin; user.failedAttempts=0; user.lastLogin=now;
         UUID sessionId=UUID.randomUUID(); Instant expires=now.plusSeconds(tokenSeconds);
-        sessions.save(new AuthSession(sessionId,user,now,expires)); audit.save(new AuthAudit(user,"LOGIN_SUCCESS",now));
+        sessions.save(new AuthSession(sessionId,user,now,expires,previous)); audit.save(new AuthAudit(user,"LOGIN_SUCCESS",now));
         return new AuthDtos.LoginResponse(jwt.issue(user.id,sessionId,now,expires),"Bearer",tokenSeconds,new AuthDtos.UserView(user.id,user.username,user.fullName,user.role,previous));
     }
     /** Validate and extend active sessions atomically; reject expired or revoked sessions. */
@@ -40,12 +40,12 @@ import org.springframework.transaction.annotation.Transactional;
         if (s==null || !s.user.id.equals(ids.userId()) || s.revoked || s.user.locked) return Optional.empty();
         if (!now.isBefore(s.expiresAt) || !now.isBefore(s.lastActivity.plusSeconds(idleSeconds))) { s.revoked=true; return Optional.empty(); }
         s.lastActivity=now;
-        return Optional.of(new Principal(s.user.id,s.id,s.user.username,s.user.role));
+        return Optional.of(new Principal(s.user.id,s.id,s.user.username,s.user.role,s.previousLogin));
     }
     /** Revoke the current session and record the logout. */
     @Transactional public void logout(Principal principal) {
         var s=sessions.lockById(principal.sessionId()).orElseThrow(() -> new AuthFailure(401,"Authentication required."));
         s.revoked=true; audit.save(new AuthAudit(s.user,"LOGOUT",Instant.now()));
     }
-    public record Principal(UUID userId, UUID sessionId, String username, String role) {}
+    public record Principal(UUID userId, UUID sessionId, String username, String role, Instant previousLogin) {}
 }

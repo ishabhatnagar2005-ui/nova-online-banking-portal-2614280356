@@ -17,4 +17,6 @@ public class BankUser {
     BankUser(UUID id, String username, String hash, String fullName, String role) {
         this.id=id; this.username=username; this.passwordHash=hash; this.fullName=fullName; this.role=role;
     }
+    /** Return the display name for an authenticated identity. */
+    public String getFullName() { return fullName; }
 }
