@@ -1,0 +1,27 @@
+<header class="header"><a class="brand" routerLink="/home">NOVA <span>BANK</span></a><nav><a routerLink="/home">Home</a><a routerLink="/accounts">Accounts</a></nav></header>
+<main class="page">
+  <a class="back" routerLink="/accounts">← Back to accounts</a>
+  <p *ngIf="loading" role="status">Loading account details…</p>
+  <section *ngIf="unavailable" role="alert"><h1>Account Not Available</h1><p>This account is not available to you.</p></section>
+  <section *ngIf="error" role="alert"><h1>Unable to load account</h1><p>Please try again.</p><button type="button" (click)="load()">Retry</button></section>
+  <ng-container *ngIf="data as result">
+    <div class="intro"><div><p class="eyebrow">ACCOUNT DETAILS · DEMONSTRATION</p><h1>{{result.account.name}}</h1><p>{{result.account.maskedIdentifier}} · {{result.account.status}} · {{result.account.currency}}</p></div><button type="button" (click)="downloadStatement()">Download statement</button></div>
+    <p *ngIf="downloadError" role="alert">Statement download failed. Please try again.</p>
+    <p>Last statement: {{result.account.lastStatementDate || 'Not available'}} · Annual interest: {{result.account.interestRate !== null ? (result.account.interestRate | number:'1.2-2') + '% p.a.' : 'Not available'}}</p>
+    <section class="balances" aria-label="Account balances"><div><span>Available</span><strong>{{result.account.availableBalance === null ? 'Not available' : (result.account.availableBalance | currency:'PHP':'code':'1.2-2')}}</strong></div><div><span>Current / ledger</span><strong>{{result.account.currentBalance === null ? 'Not available' : (result.account.currentBalance | currency:'PHP':'code':'1.2-2')}}</strong></div><div><span>Pending debits</span><strong>{{result.account.pending | currency:'PHP':'code':'1.2-2'}}</strong></div><div><span>Annual interest</span><strong>{{result.account.interestRate !== null ? (result.account.interestRate | number:'1.2-2') + '%' : 'Not available'}}</strong></div></section>
+    <section><h2>Transactions</h2><p>Demonstration clock: {{result.demoDate}} UTC · Showing {{result.startDate}} to {{result.endDate}}</p>
+      <form [formGroup]="form" class="filters" (submit)="$event.preventDefault()">
+        <label for="search">Search description or reference<input id="search" type="search" formControlName="search"></label>
+        <label for="preset">Date range<select id="preset" formControlName="preset"><option value="7">Last 7 days</option><option value="30">Last 30 days</option><option value="90">Last 90 days</option><option value="custom">Custom range</option></select></label>
+        <ng-container *ngIf="form.controls.preset.value==='custom'"><label for="start">From<input id="start" type="date" formControlName="startDate" [attr.aria-invalid]="invalidRange"></label><label for="end">To<input id="end" type="date" formControlName="endDate" [attr.aria-invalid]="invalidRange"></label></ng-container>
+        <label for="direction">Direction<select id="direction" formControlName="direction"><option value="">All</option><option value="CREDIT">Money In / Credits</option><option value="DEBIT">Money Out / Debits</option></select></label>
+        <label for="category">Category<select id="category" formControlName="category"><option value="">All Categories</option><option value="INCOME">Income</option><option value="GROCERIES">Groceries</option><option value="SAVINGS">Savings</option><option value="DINING">Dining</option><option value="TRANSPORT">Transport</option><option value="GENERAL">General</option></select></label>
+        <button type="button" class="secondary" (click)="reset()">Reset filters</button>
+      </form>
+      <p *ngIf="invalidRange" role="alert">Enter a valid start and end date.</p>
+      <p *ngIf="!loading && !result.items.length && !invalidRange">No transactions found in this period. Reset filters or broaden your search.</p>
+      <div class="table-wrap" *ngIf="result.items.length"><table><caption class="sr-only">Account transactions</caption><thead><tr><th scope="col">Date</th><th scope="col">Description</th><th scope="col">Category</th><th scope="col">Status</th><th scope="col">Amount</th></tr></thead><tbody><tr *ngFor="let item of result.items"><td>{{item.postedAt | date:'mediumDate':'UTC'}}</td><td><details><summary>{{item.description}}</summary><p>Reference: {{item.reference}}<br>Posted: {{item.postedAt | date:'medium':'UTC'}} UTC<br>Synthetic demonstration transaction.</p></details></td><td>{{item.category}}</td><td>{{item.status}}</td><td [class.credit]="item.direction==='CREDIT'"><strong>{{item.direction==='CREDIT' ? '+' : '−'}}{{item.amount | currency:'PHP':'code':'1.2-2'}}</strong><br>{{item.direction==='CREDIT' ? 'Money In' : 'Money Out'}}</td></tr></tbody></table></div>
+      <div class="pagination"><button type="button" class="secondary" [disabled]="page===0 || loading" (click)="changePage(-1)">Previous</button><span>Page {{page+1}} · {{result.total}} transactions</span><button type="button" class="secondary" [disabled]="(page+1)*size>=result.total || loading" (click)="changePage(1)">Next</button></div>
+    </section>
+  </ng-container>
+</main>
