@@ -1,0 +1,11 @@
+import { TestBed } from '@angular/core/testing';
+import { provideRouter } from '@angular/router';
+import { provideHttpClient } from '@angular/common/http';
+import { provideHttpClientTesting, HttpTestingController } from '@angular/common/http/testing';
+import { LoginComponent } from './login.component';
+describe('LoginComponent',()=>{
+  beforeEach(async()=>{sessionStorage.clear();localStorage.clear();await TestBed.configureTestingModule({imports:[LoginComponent],providers:[provideRouter([]),provideHttpClient(),provideHttpClientTesting()]}).compileComponents();});
+  it('shows required field messages and sends no request for empty input',()=>{const fixture=TestBed.createComponent(LoginComponent);fixture.detectChanges();fixture.componentInstance.submit();fixture.detectChanges();expect(fixture.nativeElement.textContent).toContain('User ID is required');expect(fixture.nativeElement.textContent).toContain('Password is required');TestBed.inject(HttpTestingController).expectNone('/api/v1/auth/login');});
+  it('displays demo-only credentials for both customer personas and links to contact',()=>{const fixture=TestBed.createComponent(LoginComponent);fixture.detectChanges();const fixtures:HTMLElement=fixture.nativeElement.querySelector('.fixtures');expect(fixtures.textContent).toContain('miguel / demo-only');expect(fixtures.textContent).toContain('rosa / demo-only');expect(fixtures.textContent).toContain('isolated environments only');const contact:HTMLAnchorElement=fixture.nativeElement.querySelector('a[href="/contact"]');expect(contact).not.toBeNull();expect(contact.textContent).toContain('Contact Us');});
+  it('shows generic credentials error without saving the password',()=>{const fixture=TestBed.createComponent(LoginComponent);fixture.detectChanges();fixture.componentInstance.form.setValue({username:'miguel',password:'wrong',remember:true});fixture.componentInstance.submit();TestBed.inject(HttpTestingController).expectOne('/api/v1/auth/login').flush({message:'invalid'},{status:401,statusText:'Unauthorized'});fixture.detectChanges();expect(fixture.nativeElement.textContent).toContain('Invalid User ID or password');expect(localStorage.getItem('password')).toBeNull();});
+});

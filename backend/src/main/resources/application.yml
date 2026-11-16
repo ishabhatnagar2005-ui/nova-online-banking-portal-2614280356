@@ -1,0 +1,20 @@
+server:
+  port: ${SERVER_PORT:8080}
+spring:
+  datasource:
+    url: ${DATABASE_URL:jdbc:postgresql://localhost:5432/nova}
+    username: ${DB_USERNAME:nova}
+    password: ${DB_PASSWORD:nova-local-only}
+  jpa:
+    open-in-view: false
+    hibernate:
+      ddl-auto: validate
+  flyway:
+    enabled: true
+nova:
+  demo-mode: ${DEMO_MODE:false}
+  demo-password: ${DEMO_PASSWORD:}
+  jwt-secret: ${JWT_SECRET}
+  cors-origins: ${CORS_ORIGINS:http://localhost:4200}
+  token-seconds: ${TOKEN_SECONDS:86400}
+  idle-seconds: ${IDLE_SECONDS:150}
