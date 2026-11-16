@@ -12,6 +12,8 @@ import static org.assertj.core.api.Assertions.*;
 
 /** Verify calculations and owner isolation with PostgreSQL fixtures. */
 @SpringBootTest(properties={"spring.datasource.url=${TEST_DATABASE_URL:jdbc:postgresql://localhost:5432/nova_portfolio_test}","spring.datasource.username=${TEST_DB_USERNAME:agent}","spring.datasource.password=${TEST_DB_PASSWORD:}","nova.jwt-secret=test-only-signing-secret-at-least-32-bytes","nova.demo-mode=true","nova.demo-password=demo-only"})
+@org.springframework.test.context.ContextConfiguration(initializers=com.nova.bank.DisposableDatabaseGuard.class)
+@Transactional
 class PortfolioServiceTest {
     @Autowired PortfolioService service; @Autowired PortfolioSeeder seeder; @Autowired AccountRepository accounts; @Autowired JdbcTemplate jdbc;
     private AuthService.Principal principal(String suffix) { return new AuthService.Principal(UUID.fromString("a0eebc99-9c0b-4ef8-bb6d-6bb9bd380a"+suffix),UUID.randomUUID(),"test","CUSTOMER",Instant.parse("2026-10-14T08:10:00Z")); }

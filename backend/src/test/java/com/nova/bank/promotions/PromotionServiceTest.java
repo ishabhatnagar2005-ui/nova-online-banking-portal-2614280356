@@ -12,6 +12,8 @@ import static org.assertj.core.api.Assertions.*;
 
 /** Verify eligibility, expiry and writes against PostgreSQL. */
 @SpringBootTest(properties={"spring.datasource.url=${TEST_DATABASE_URL:jdbc:postgresql://localhost:5432/nova_portfolio_test}","spring.datasource.username=${TEST_DB_USERNAME:agent}","spring.datasource.password=${TEST_DB_PASSWORD:}","nova.jwt-secret=test-only-signing-secret-at-least-32-bytes","nova.demo-mode=true","nova.demo-password=demo-only","nova.demo-date=2026-10-14"})
+@org.springframework.test.context.ContextConfiguration(initializers=com.nova.bank.DisposableDatabaseGuard.class)
+@org.springframework.transaction.annotation.Transactional
 class PromotionServiceTest {
     @Autowired PromotionService service; @Autowired PromotionSeeder seeder; @Autowired JdbcTemplate jdbc;
     AuthService.Principal principal(String suffix,String claimed) { return new AuthService.Principal(UUID.fromString("a0eebc99-9c0b-4ef8-bb6d-6bb9bd380a"+suffix),UUID.randomUUID(),claimed,"CUSTOMER",null); }
@@ -39,5 +41,7 @@ class PromotionServiceTest {
         assertThat(service.expressInterest(principal("11","x"),promotion).message()).contains("No real application or credit check");
         assertThat(jdbc.queryForObject("select count(*) from promotion_interests where customer_id=? and promotion_id=? and registered_at is not null",Integer.class,customer,promotion)).isEqualTo(before+1);
         assertThatThrownBy(()->service.expressInterest(null,promotion)).isInstanceOf(org.springframework.security.authentication.AuthenticationCredentialsNotFoundException.class);
+        assertThatThrownBy(()->service.list(null)).isInstanceOf(org.springframework.security.authentication.AuthenticationCredentialsNotFoundException.class);
+        assertThatThrownBy(()->service.expressInterest(principal("11","x"),UUID.randomUUID())).isInstanceOf(ResponseStatusException.class).hasMessageContaining("404");
     }
 }

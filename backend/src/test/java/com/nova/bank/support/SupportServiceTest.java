@@ -10,6 +10,8 @@ import org.springframework.web.server.ResponseStatusException;
 import static org.assertj.core.api.Assertions.*;
 /** Exercise support against real customer and transaction records. */
 @SpringBootTest(properties={"spring.datasource.url=${TEST_DATABASE_URL:jdbc:postgresql://localhost:5432/nova_portfolio_test}","spring.datasource.username=${TEST_DB_USERNAME:agent}","spring.datasource.password=${TEST_DB_PASSWORD:}","nova.jwt-secret=test-only-signing-secret-at-least-32-bytes","nova.demo-mode=true","nova.demo-password=demo-only","nova.demo-date=2026-10-14"})
+@org.springframework.test.context.ContextConfiguration(initializers=com.nova.bank.DisposableDatabaseGuard.class)
+@org.springframework.transaction.annotation.Transactional
 class SupportServiceTest {
     @Autowired SupportService service; @Autowired JdbcTemplate jdbc;
     AuthService.Principal user(String suffix,String name) { return new AuthService.Principal(UUID.fromString("a0eebc99-9c0b-4ef8-bb6d-6bb9bd380a"+suffix),UUID.randomUUID(),name,"CUSTOMER",null); }
@@ -31,5 +33,11 @@ class SupportServiceTest {
         assertThat(service.chat(rosa,"offers").message()).contains("Home Loan Fee Waiver").doesNotContain("Payday Ipon Boost");
         assertThat(service.chat(rosa,"Speak to Agent").message()).contains("no live agent was contacted","no support ticket was opened");
         assertThatThrownBy(()->service.chat(rosa," ")).isInstanceOf(ResponseStatusException.class);
+        assertThat(service.chat(rosa,"hello").message()).contains("scripted demonstration assistant");
+        assertThat(service.chat(rosa,"balance").message()).contains("No transactions are available");
+        assertThatThrownBy(()->service.chat(null,"hello")).isInstanceOf(AuthenticationCredentialsNotFoundException.class);
+        assertThatThrownBy(()->service.chat(rosa,"x".repeat(501))).isInstanceOf(ResponseStatusException.class);
+        assertThatThrownBy(()->service.inquire(miguel,"topic",null,"message")).isInstanceOf(ResponseStatusException.class);
+        assertThatThrownBy(()->service.inquire(miguel,"topic","subject","x".repeat(4001))).isInstanceOf(ResponseStatusException.class);
     }
 }

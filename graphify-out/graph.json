@@ -493,6 +493,346 @@
       "_origin": "ast"
     },
     {
+      "id": "backend_src_main_java_com_nova_bank_admin_admincontroller",
+      "label": "AdminController.java",
+      "file_type": "code",
+      "source_file": "backend/src/main/java/com/nova/bank/admin/AdminController.java",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_main_java_com_nova_bank_admin_admincontroller_admincontroller",
+      "label": "AdminController",
+      "file_type": "code",
+      "source_file": "backend/src/main/java/com/nova/bank/admin/AdminController.java",
+      "source_location": "L10",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_main_java_com_nova_bank_admin_admincontroller_java_restcontroller",
+      "label": "RestController",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_main_java_com_nova_bank_admin_admincontroller_java_requestmapping",
+      "label": "RequestMapping",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_main_java_com_nova_bank_admin_admincontroller_admincontroller_admincontroller",
+      "label": ".AdminController()",
+      "file_type": "code",
+      "source_file": "backend/src/main/java/com/nova/bank/admin/AdminController.java",
+      "source_location": "L13",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_main_java_com_nova_bank_admin_admincontroller_admincontroller_reset",
+      "label": ".reset()",
+      "file_type": "code",
+      "source_file": "backend/src/main/java/com/nova/bank/admin/AdminController.java",
+      "source_location": "L14",
+      "_java_ret": "Message",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_main_java_com_nova_bank_admin_admincontroller_java_postmapping",
+      "label": "PostMapping",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_main_java_com_nova_bank_admin_admincontroller_admincontroller_audit",
+      "label": ".audit()",
+      "file_type": "code",
+      "source_file": "backend/src/main/java/com/nova/bank/admin/AdminController.java",
+      "source_location": "L17",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_main_java_com_nova_bank_admin_admincontroller_java_getmapping",
+      "label": "GetMapping",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_main_java_com_nova_bank_admin_admincontroller_admincontroller_simulation",
+      "label": ".simulation()",
+      "file_type": "code",
+      "source_file": "backend/src/main/java/com/nova/bank/admin/AdminController.java",
+      "source_location": "L18",
+      "_java_ret": "Simulation",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_main_java_com_nova_bank_admin_admincontroller_admincontroller_probe",
+      "label": ".probe()",
+      "file_type": "code",
+      "source_file": "backend/src/main/java/com/nova/bank/admin/AdminController.java",
+      "source_location": "L23",
+      "_java_ret": "ResponseEntity",
+      "_callable": true,
+      "metadata": {
+        "unresolved_calls": [
+          {
+            "callee": "status",
+            "receiver_type": "ResponseEntity",
+            "lang": "java",
+            "line": "L24"
+          },
+          {
+            "callee": "ok",
+            "receiver_type": "ResponseEntity",
+            "lang": "java",
+            "line": "L24"
+          }
+        ]
+      },
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_main_java_com_nova_bank_admin_admincontroller_message",
+      "label": "Message",
+      "file_type": "code",
+      "source_file": "backend/src/main/java/com/nova/bank/admin/AdminController.java",
+      "source_location": "L26",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_main_java_com_nova_bank_admin_admincontroller_simulation",
+      "label": "Simulation",
+      "file_type": "code",
+      "source_file": "backend/src/main/java/com/nova/bank/admin/AdminController.java",
+      "source_location": "L27",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_main_java_com_nova_bank_admin_adminservice",
+      "label": "AdminService.java",
+      "file_type": "code",
+      "source_file": "backend/src/main/java/com/nova/bank/admin/AdminService.java",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_main_java_com_nova_bank_admin_adminservice_adminservice",
+      "label": "AdminService",
+      "file_type": "code",
+      "source_file": "backend/src/main/java/com/nova/bank/admin/AdminService.java",
+      "source_location": "L19",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_main_java_com_nova_bank_admin_adminservice_adminservice_adminservice",
+      "label": ".AdminService()",
+      "file_type": "code",
+      "source_file": "backend/src/main/java/com/nova/bank/admin/AdminService.java",
+      "source_location": "L26",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_main_java_com_nova_bank_admin_adminservice_adminservice_authorize",
+      "label": ".authorize()",
+      "file_type": "code",
+      "source_file": "backend/src/main/java/com/nova/bank/admin/AdminService.java",
+      "source_location": "L30",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_main_java_com_nova_bank_admin_adminservice_adminservice_count",
+      "label": ".count()",
+      "file_type": "code",
+      "source_file": "backend/src/main/java/com/nova/bank/admin/AdminService.java",
+      "source_location": "L34",
+      "_callable": true,
+      "metadata": {
+        "unresolved_calls": [
+          {
+            "callee": "queryForObject",
+            "receiver_type": "JdbcTemplate",
+            "lang": "java",
+            "line": "L34"
+          }
+        ]
+      },
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_main_java_com_nova_bank_admin_adminservice_adminservice_audit",
+      "label": ".audit()",
+      "file_type": "code",
+      "source_file": "backend/src/main/java/com/nova/bank/admin/AdminService.java",
+      "source_location": "L35",
+      "_callable": true,
+      "metadata": {
+        "unresolved_calls": [
+          {
+            "callee": "update",
+            "receiver_type": "JdbcTemplate",
+            "lang": "java",
+            "line": "L36"
+          },
+          {
+            "callee": "randomUUID",
+            "receiver_type": "UUID",
+            "lang": "java",
+            "line": "L36"
+          }
+        ]
+      },
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_main_java_com_nova_bank_admin_adminservice_adminservice_conflict",
+      "label": ".conflict()",
+      "file_type": "code",
+      "source_file": "backend/src/main/java/com/nova/bank/admin/AdminService.java",
+      "source_location": "L38",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_main_java_com_nova_bank_admin_adminservice_adminservice_reset",
+      "label": ".reset()",
+      "file_type": "code",
+      "source_file": "backend/src/main/java/com/nova/bank/admin/AdminService.java",
+      "source_location": "L42",
+      "_callable": true,
+      "metadata": {
+        "unresolved_calls": [
+          {
+            "callee": "execute",
+            "receiver_type": "JdbcTemplate",
+            "lang": "java",
+            "line": "L47"
+          },
+          {
+            "callee": "update",
+            "receiver_type": "JdbcTemplate",
+            "lang": "java",
+            "line": "L55"
+          },
+          {
+            "callee": "encode",
+            "receiver_type": "PasswordEncoder",
+            "lang": "java",
+            "line": "L60"
+          }
+        ]
+      },
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_main_java_com_nova_bank_admin_adminservice_adminservice_auditevents",
+      "label": ".auditEvents()",
+      "file_type": "code",
+      "source_file": "backend/src/main/java/com/nova/bank/admin/AdminService.java",
+      "source_location": "L70",
+      "_callable": true,
+      "metadata": {
+        "unresolved_calls": [
+          {
+            "callee": "query",
+            "receiver_type": "JdbcTemplate",
+            "lang": "java",
+            "line": "L72"
+          }
+        ]
+      },
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_main_java_com_nova_bank_admin_adminservice_adminservice_setprobe",
+      "label": ".setProbe()",
+      "file_type": "code",
+      "source_file": "backend/src/main/java/com/nova/bank/admin/AdminService.java",
+      "source_location": "L75",
+      "_callable": true,
+      "metadata": {
+        "unresolved_calls": [
+          {
+            "callee": "update",
+            "receiver_type": "JdbcTemplate",
+            "lang": "java",
+            "line": "L76"
+          }
+        ]
+      },
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_main_java_com_nova_bank_admin_adminservice_adminservice_probe",
+      "label": ".probe()",
+      "file_type": "code",
+      "source_file": "backend/src/main/java/com/nova/bank/admin/AdminService.java",
+      "source_location": "L79",
+      "_callable": true,
+      "metadata": {
+        "unresolved_calls": [
+          {
+            "callee": "queryForObject",
+            "receiver_type": "JdbcTemplate",
+            "lang": "java",
+            "line": "L80"
+          }
+        ]
+      },
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_main_java_com_nova_bank_admin_adminservice_adminservice_probeenabled",
+      "label": ".probeEnabled()",
+      "file_type": "code",
+      "source_file": "backend/src/main/java/com/nova/bank/admin/AdminService.java",
+      "source_location": "L83",
+      "_callable": true,
+      "metadata": {
+        "unresolved_calls": [
+          {
+            "callee": "queryForObject",
+            "receiver_type": "JdbcTemplate",
+            "lang": "java",
+            "line": "L84"
+          }
+        ]
+      },
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_main_java_com_nova_bank_admin_adminservice_auditevent",
+      "label": "AuditEvent",
+      "file_type": "code",
+      "source_file": "backend/src/main/java/com/nova/bank/admin/AdminService.java",
+      "source_location": "L86",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
       "id": "backend_src_main_java_com_nova_bank_auth_auditrepository",
       "label": "AuditRepository.java",
       "file_type": "code",
@@ -2860,6 +3200,273 @@
       "_origin": "ast"
     },
     {
+      "id": "backend_src_test_java_com_nova_bank_admin_adminapitest",
+      "label": "AdminApiTest.java",
+      "file_type": "code",
+      "source_file": "backend/src/test/java/com/nova/bank/admin/AdminApiTest.java",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_test_java_com_nova_bank_admin_adminapitest_adminapitest",
+      "label": "AdminApiTest",
+      "file_type": "code",
+      "source_file": "backend/src/test/java/com/nova/bank/admin/AdminApiTest.java",
+      "source_location": "L15",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_test_java_com_nova_bank_admin_adminapitest_adminapitest_login",
+      "label": ".login()",
+      "file_type": "code",
+      "source_file": "backend/src/test/java/com/nova/bank/admin/AdminApiTest.java",
+      "source_location": "L18",
+      "_callable": true,
+      "metadata": {
+        "unresolved_calls": [
+          {
+            "callee": "perform",
+            "receiver_type": "MockMvc",
+            "lang": "java",
+            "line": "L18"
+          },
+          {
+            "callee": "readTree",
+            "receiver_type": "ObjectMapper",
+            "lang": "java",
+            "line": "L18"
+          }
+        ]
+      },
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_test_java_com_nova_bank_admin_adminapitest_adminapitest_admincanresetretainsessionanduseauditedsimulation",
+      "label": ".adminCanResetRetainSessionAndUseAuditedSimulation()",
+      "file_type": "code",
+      "source_file": "backend/src/test/java/com/nova/bank/admin/AdminApiTest.java",
+      "source_location": "L19",
+      "_callable": true,
+      "metadata": {
+        "unresolved_calls": [
+          {
+            "callee": "perform",
+            "receiver_type": "MockMvc",
+            "lang": "java",
+            "line": "L21"
+          }
+        ]
+      },
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_test_java_com_nova_bank_admin_adminapitest_adminapitest_customerandanonymouscannotaccesscontrols",
+      "label": ".customerAndAnonymousCannotAccessControls()",
+      "file_type": "code",
+      "source_file": "backend/src/test/java/com/nova/bank/admin/AdminApiTest.java",
+      "source_location": "L28",
+      "_callable": true,
+      "metadata": {
+        "unresolved_calls": [
+          {
+            "callee": "perform",
+            "receiver_type": "MockMvc",
+            "lang": "java",
+            "line": "L30"
+          }
+        ]
+      },
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_test_java_com_nova_bank_admin_admindisabledapitest",
+      "label": "AdminDisabledApiTest.java",
+      "file_type": "code",
+      "source_file": "backend/src/test/java/com/nova/bank/admin/AdminDisabledApiTest.java",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_test_java_com_nova_bank_admin_admindisabledapitest_admindisabledapitest",
+      "label": "AdminDisabledApiTest",
+      "file_type": "code",
+      "source_file": "backend/src/test/java/com/nova/bank/admin/AdminDisabledApiTest.java",
+      "source_location": "L18",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_test_java_com_nova_bank_admin_admindisabledapitest_admindisabledapitest_admincannotuseanycontrolsoutsidedemomode",
+      "label": ".adminCannotUseAnyControlsOutsideDemoMode()",
+      "file_type": "code",
+      "source_file": "backend/src/test/java/com/nova/bank/admin/AdminDisabledApiTest.java",
+      "source_location": "L21",
+      "_callable": true,
+      "metadata": {
+        "unresolved_calls": [
+          {
+            "callee": "randomUUID",
+            "receiver_type": "UUID",
+            "lang": "java",
+            "line": "L22"
+          },
+          {
+            "callee": "of",
+            "receiver_type": "List",
+            "lang": "java",
+            "line": "L23"
+          },
+          {
+            "callee": "perform",
+            "receiver_type": "MockMvc",
+            "lang": "java",
+            "line": "L24"
+          }
+        ]
+      },
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_test_java_com_nova_bank_admin_adminservicetest",
+      "label": "AdminServiceTest.java",
+      "file_type": "code",
+      "source_file": "backend/src/test/java/com/nova/bank/admin/AdminServiceTest.java",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_test_java_com_nova_bank_admin_adminservicetest_adminservicetest",
+      "label": "AdminServiceTest",
+      "file_type": "code",
+      "source_file": "backend/src/test/java/com/nova/bank/admin/AdminServiceTest.java",
+      "source_location": "L16",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_test_java_com_nova_bank_admin_adminservicetest_adminservicetest_actor",
+      "label": ".actor()",
+      "file_type": "code",
+      "source_file": "backend/src/test/java/com/nova/bank/admin/AdminServiceTest.java",
+      "source_location": "L20",
+      "_java_ret": "Principal",
+      "_callable": true,
+      "metadata": {
+        "unresolved_calls": [
+          {
+            "callee": "randomUUID",
+            "receiver_type": "UUID",
+            "lang": "java",
+            "line": "L20"
+          }
+        ]
+      },
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_test_java_com_nova_bank_admin_adminservicetest_adminservicetest_resetrestoresfixturescredentialsandclearsactivitywithouttouchingotherusers",
+      "label": ".resetRestoresFixturesCredentialsAndClearsActivityWithoutTouchingOtherUsers()",
+      "file_type": "code",
+      "source_file": "backend/src/test/java/com/nova/bank/admin/AdminServiceTest.java",
+      "source_location": "L21",
+      "_callable": true,
+      "metadata": {
+        "unresolved_calls": [
+          {
+            "callee": "randomUUID",
+            "receiver_type": "UUID",
+            "lang": "java",
+            "line": "L22"
+          },
+          {
+            "callee": "update",
+            "receiver_type": "JdbcTemplate",
+            "lang": "java",
+            "line": "L22"
+          },
+          {
+            "callee": "fromString",
+            "receiver_type": "UUID",
+            "lang": "java",
+            "line": "L28"
+          },
+          {
+            "callee": "queryForObject",
+            "receiver_type": "JdbcTemplate",
+            "lang": "java",
+            "line": "L32"
+          },
+          {
+            "callee": "matches",
+            "receiver_type": "PasswordEncoder",
+            "lang": "java",
+            "line": "L36"
+          }
+        ]
+      },
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_test_java_com_nova_bank_admin_adminservicetest_adminservicetest_nondemopromotionreferencepreventsanychanges",
+      "label": ".nonDemoPromotionReferencePreventsAnyChanges()",
+      "file_type": "code",
+      "source_file": "backend/src/test/java/com/nova/bank/admin/AdminServiceTest.java",
+      "source_location": "L43",
+      "_callable": true,
+      "metadata": {
+        "unresolved_calls": [
+          {
+            "callee": "randomUUID",
+            "receiver_type": "UUID",
+            "lang": "java",
+            "line": "L44"
+          },
+          {
+            "callee": "update",
+            "receiver_type": "JdbcTemplate",
+            "lang": "java",
+            "line": "L44"
+          },
+          {
+            "callee": "fromString",
+            "receiver_type": "UUID",
+            "lang": "java",
+            "line": "L45"
+          },
+          {
+            "callee": "queryForObject",
+            "receiver_type": "JdbcTemplate",
+            "lang": "java",
+            "line": "L48"
+          }
+        ]
+      },
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_test_java_com_nova_bank_admin_adminservicetest_adminservicetest_rejectscustomerandauditsboundedprobe",
+      "label": ".rejectsCustomerAndAuditsBoundedProbe()",
+      "file_type": "code",
+      "source_file": "backend/src/test/java/com/nova/bank/admin/AdminServiceTest.java",
+      "source_location": "L50",
+      "_callable": true,
+      "metadata": {
+        "unresolved_calls": [
+          {
+            "callee": "randomUUID",
+            "receiver_type": "UUID",
+            "lang": "java",
+            "line": "L51"
+          }
+        ]
+      },
+      "_origin": "ast"
+    },
+    {
       "id": "backend_src_test_java_com_nova_bank_auth_authapitest",
       "label": "AuthApiTest.java",
       "file_type": "code",
@@ -4033,6 +4640,14 @@
       "_origin": "ast"
     },
     {
+      "id": "frontend_e2e_admin_spec",
+      "label": "admin.spec.ts",
+      "file_type": "code",
+      "source_file": "frontend/e2e/admin.spec.ts",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
       "id": "frontend_e2e_auth_spec",
       "label": "auth.spec.ts",
       "file_type": "code",
@@ -4869,6 +5484,268 @@
       "_origin": "ast"
     },
     {
+      "id": "frontend_src_app_admin_admin_component_spec",
+      "label": "admin.component.spec.ts",
+      "file_type": "code",
+      "source_file": "frontend/src/app/admin/admin.component.spec.ts",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_app_admin_admin_component",
+      "label": "admin.component.ts",
+      "file_type": "code",
+      "source_file": "frontend/src/app/admin/admin.component.ts",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_app_admin_admin_component_admincomponent",
+      "label": "AdminComponent",
+      "file_type": "code",
+      "source_file": "frontend/src/app/admin/admin.component.ts",
+      "source_location": "L9",
+      "_callable": true,
+      "_callable_class": true,
+      "_ts_fields": {
+        "admin": "AdminService",
+        "auth": "AuthService"
+      },
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_app_admin_admin_component_ts_component",
+      "label": "Component",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_app_admin_admin_component_admincomponent_constructor",
+      "label": ".constructor()",
+      "file_type": "code",
+      "source_file": "frontend/src/app/admin/admin.component.ts",
+      "source_location": "L11",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_app_admin_admin_component_admincomponent_ngoninit",
+      "label": ".ngOnInit()",
+      "file_type": "code",
+      "source_file": "frontend/src/app/admin/admin.component.ts",
+      "source_location": "L12",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_app_admin_admin_component_admincomponent_load",
+      "label": ".load()",
+      "file_type": "code",
+      "source_file": "frontend/src/app/admin/admin.component.ts",
+      "source_location": "L14",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_app_admin_admin_component_admincomponent_reset",
+      "label": ".reset()",
+      "file_type": "code",
+      "source_file": "frontend/src/app/admin/admin.component.ts",
+      "source_location": "L19",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_app_admin_admin_component_admincomponent_toggle",
+      "label": ".toggle()",
+      "file_type": "code",
+      "source_file": "frontend/src/app/admin/admin.component.ts",
+      "source_location": "L25",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_app_admin_admin_component_admincomponent_probe",
+      "label": ".probe()",
+      "file_type": "code",
+      "source_file": "frontend/src/app/admin/admin.component.ts",
+      "source_location": "L30",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_app_admin_admin_guard",
+      "label": "admin.guard.ts",
+      "file_type": "code",
+      "source_file": "frontend/src/app/admin/admin.guard.ts",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_app_admin_admin_guard_adminguard",
+      "label": "adminGuard()",
+      "file_type": "code",
+      "source_file": "frontend/src/app/admin/admin.guard.ts",
+      "source_location": "L5",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_app_admin_admin_service",
+      "label": "admin.service.ts",
+      "file_type": "code",
+      "source_file": "frontend/src/app/admin/admin.service.ts",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_app_admin_admin_service_auditevent",
+      "label": "AuditEvent",
+      "file_type": "code",
+      "source_file": "frontend/src/app/admin/admin.service.ts",
+      "source_location": "L4",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_app_admin_admin_service_message",
+      "label": "Message",
+      "file_type": "code",
+      "source_file": "frontend/src/app/admin/admin.service.ts",
+      "source_location": "L5",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_app_admin_admin_service_adminservice",
+      "label": "AdminService",
+      "file_type": "code",
+      "source_file": "frontend/src/app/admin/admin.service.ts",
+      "source_location": "L7",
+      "_callable": true,
+      "_callable_class": true,
+      "_ts_fields": {
+        "http": "HttpClient"
+      },
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_app_admin_admin_service_ts_injectable",
+      "label": "Injectable",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_app_admin_admin_service_adminservice_constructor",
+      "label": ".constructor()",
+      "file_type": "code",
+      "source_file": "frontend/src/app/admin/admin.service.ts",
+      "source_location": "L8",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_app_admin_admin_service_adminservice_audit",
+      "label": ".audit()",
+      "file_type": "code",
+      "source_file": "frontend/src/app/admin/admin.service.ts",
+      "source_location": "L9",
+      "_callable": true,
+      "metadata": {
+        "unresolved_calls": [
+          {
+            "callee": "get",
+            "receiver_type": "HttpClient",
+            "lang": "typescript",
+            "line": "L9"
+          }
+        ]
+      },
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_app_admin_admin_service_adminservice_reset",
+      "label": ".reset()",
+      "file_type": "code",
+      "source_file": "frontend/src/app/admin/admin.service.ts",
+      "source_location": "L10",
+      "_callable": true,
+      "metadata": {
+        "unresolved_calls": [
+          {
+            "callee": "post",
+            "receiver_type": "HttpClient",
+            "lang": "typescript",
+            "line": "L10"
+          }
+        ]
+      },
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_app_admin_admin_service_adminservice_simulation",
+      "label": ".simulation()",
+      "file_type": "code",
+      "source_file": "frontend/src/app/admin/admin.service.ts",
+      "source_location": "L11",
+      "_callable": true,
+      "metadata": {
+        "unresolved_calls": [
+          {
+            "callee": "get",
+            "receiver_type": "HttpClient",
+            "lang": "typescript",
+            "line": "L11"
+          }
+        ]
+      },
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_app_admin_admin_service_adminservice_setsimulation",
+      "label": ".setSimulation()",
+      "file_type": "code",
+      "source_file": "frontend/src/app/admin/admin.service.ts",
+      "source_location": "L12",
+      "_callable": true,
+      "metadata": {
+        "unresolved_calls": [
+          {
+            "callee": "post",
+            "receiver_type": "HttpClient",
+            "lang": "typescript",
+            "line": "L12"
+          }
+        ]
+      },
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_app_admin_admin_service_adminservice_probe",
+      "label": ".probe()",
+      "file_type": "code",
+      "source_file": "frontend/src/app/admin/admin.service.ts",
+      "source_location": "L13",
+      "_callable": true,
+      "metadata": {
+        "unresolved_calls": [
+          {
+            "callee": "post",
+            "receiver_type": "HttpClient",
+            "lang": "typescript",
+            "line": "L13"
+          }
+        ]
+      },
+      "_origin": "ast"
+    },
+    {
       "id": "frontend_src_app_app_component",
       "label": "app.component.ts",
       "file_type": "code",
@@ -4924,7 +5801,7 @@
       "label": "routes",
       "file_type": "code",
       "source_file": "frontend/src/app/app.routes.ts",
-      "source_location": "L3",
+      "source_location": "L4",
       "_origin": "ast",
       "community": 1
     },
@@ -6463,6 +7340,15 @@
       "community": 0
     },
     {
+      "id": "org_springframework_security_crypto_password_passwordencoder",
+      "label": "org.springframework.security.crypto.password.PasswordEncoder",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "community": 0
+    },
+    {
       "id": "org_springframework_data_jpa_repository_jparepository",
       "label": "org.springframework.data.jpa.repository.JpaRepository",
       "file_type": "code",
@@ -6474,15 +7360,6 @@
     {
       "id": "org_springframework_stereotype_repository",
       "label": "org.springframework.stereotype.Repository",
-      "file_type": "code",
-      "source_file": "",
-      "source_location": "",
-      "_origin": "ast",
-      "community": 0
-    },
-    {
-      "id": "org_springframework_security_crypto_password_passwordencoder",
-      "label": "org.springframework.security.crypto.password.PasswordEncoder",
       "file_type": "code",
       "source_file": "",
       "source_location": "",
@@ -7573,6 +8450,953 @@
       "confidence": "EXTRACTED",
       "source_file": "backend/src/main/java/com/nova/bank/accounts/AccountService.java",
       "source_location": "L77",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_admin_admincontroller",
+      "target": "org_springframework_http_responseentity",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/admin/AdminController.java",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_admin_admincontroller",
+      "target": "backend_src_main_java_com_nova_bank_admin_admincontroller_admincontroller",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/admin/AdminController.java",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_admin_admincontroller_admincontroller",
+      "target": "backend_src_main_java_com_nova_bank_admin_admincontroller_java_restcontroller",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/admin/AdminController.java",
+      "source_location": "L10",
+      "weight": 1.0,
+      "context": "attribute",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_admin_admincontroller_admincontroller",
+      "target": "backend_src_main_java_com_nova_bank_admin_admincontroller_java_requestmapping",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/admin/AdminController.java",
+      "source_location": "L10",
+      "weight": 1.0,
+      "context": "attribute",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_admin_admincontroller_admincontroller",
+      "target": "backend_src_main_java_com_nova_bank_admin_adminservice_adminservice",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/admin/AdminController.java",
+      "source_location": "L12",
+      "weight": 1.0,
+      "context": "field",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_admin_admincontroller_admincontroller",
+      "target": "backend_src_main_java_com_nova_bank_admin_admincontroller_admincontroller_admincontroller",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/admin/AdminController.java",
+      "source_location": "L13",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_admin_admincontroller_admincontroller_admincontroller",
+      "target": "backend_src_main_java_com_nova_bank_admin_adminservice_adminservice",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/admin/AdminController.java",
+      "source_location": "L13",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_admin_admincontroller_admincontroller",
+      "target": "backend_src_main_java_com_nova_bank_admin_admincontroller_admincontroller_reset",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/admin/AdminController.java",
+      "source_location": "L14",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_admin_admincontroller_admincontroller_reset",
+      "target": "backend_src_main_java_com_nova_bank_auth_authservice_principal",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/admin/AdminController.java",
+      "source_location": "L14",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_admin_admincontroller_admincontroller_reset",
+      "target": "backend_src_main_java_com_nova_bank_admin_admincontroller_message",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/admin/AdminController.java",
+      "source_location": "L14",
+      "weight": 1.0,
+      "context": "return_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_admin_admincontroller_admincontroller_reset",
+      "target": "backend_src_main_java_com_nova_bank_admin_admincontroller_java_postmapping",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/admin/AdminController.java",
+      "source_location": "L14",
+      "weight": 1.0,
+      "context": "attribute",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_admin_admincontroller_admincontroller",
+      "target": "backend_src_main_java_com_nova_bank_admin_admincontroller_admincontroller_audit",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/admin/AdminController.java",
+      "source_location": "L17",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_admin_admincontroller_admincontroller_audit",
+      "target": "backend_src_main_java_com_nova_bank_auth_authservice_principal",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/admin/AdminController.java",
+      "source_location": "L17",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_admin_admincontroller_admincontroller_audit",
+      "target": "backend_src_main_java_com_nova_bank_admin_adminservice_auditevent",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/admin/AdminController.java",
+      "source_location": "L17",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_admin_admincontroller_admincontroller_audit",
+      "target": "backend_src_main_java_com_nova_bank_admin_admincontroller_java_getmapping",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/admin/AdminController.java",
+      "source_location": "L17",
+      "weight": 1.0,
+      "context": "attribute",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_admin_admincontroller_admincontroller",
+      "target": "backend_src_main_java_com_nova_bank_admin_admincontroller_admincontroller_simulation",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/admin/AdminController.java",
+      "source_location": "L18",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_admin_admincontroller_admincontroller_simulation",
+      "target": "backend_src_main_java_com_nova_bank_auth_authservice_principal",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/admin/AdminController.java",
+      "source_location": "L18",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_admin_admincontroller_admincontroller_simulation",
+      "target": "backend_src_main_java_com_nova_bank_admin_admincontroller_simulation",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/admin/AdminController.java",
+      "source_location": "L18",
+      "weight": 1.0,
+      "context": "return_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_admin_admincontroller_admincontroller_simulation",
+      "target": "backend_src_main_java_com_nova_bank_admin_admincontroller_java_getmapping",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/admin/AdminController.java",
+      "source_location": "L18",
+      "weight": 1.0,
+      "context": "attribute",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_admin_admincontroller_admincontroller",
+      "target": "backend_src_main_java_com_nova_bank_admin_admincontroller_admincontroller_simulation",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/admin/AdminController.java",
+      "source_location": "L19",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_admin_admincontroller_admincontroller_simulation",
+      "target": "backend_src_main_java_com_nova_bank_auth_authservice_principal",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/admin/AdminController.java",
+      "source_location": "L19",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_admin_admincontroller_admincontroller_simulation",
+      "target": "backend_src_main_java_com_nova_bank_admin_admincontroller_simulation",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/admin/AdminController.java",
+      "source_location": "L19",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_admin_admincontroller_admincontroller_simulation",
+      "target": "backend_src_main_java_com_nova_bank_admin_admincontroller_simulation",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/admin/AdminController.java",
+      "source_location": "L19",
+      "weight": 1.0,
+      "context": "return_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_admin_admincontroller_admincontroller_simulation",
+      "target": "backend_src_main_java_com_nova_bank_admin_admincontroller_java_postmapping",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/admin/AdminController.java",
+      "source_location": "L19",
+      "weight": 1.0,
+      "context": "attribute",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_admin_admincontroller_admincontroller",
+      "target": "backend_src_main_java_com_nova_bank_admin_admincontroller_admincontroller_probe",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/admin/AdminController.java",
+      "source_location": "L23",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_admin_admincontroller_admincontroller_probe",
+      "target": "backend_src_main_java_com_nova_bank_auth_authservice_principal",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/admin/AdminController.java",
+      "source_location": "L23",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_admin_admincontroller_admincontroller_probe",
+      "target": "org_springframework_http_responseentity",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/admin/AdminController.java",
+      "source_location": "L23",
+      "weight": 1.0,
+      "context": "return_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_admin_admincontroller_admincontroller_probe",
+      "target": "backend_src_main_java_com_nova_bank_admin_admincontroller_message",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/admin/AdminController.java",
+      "source_location": "L23",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_admin_admincontroller_admincontroller_probe",
+      "target": "backend_src_main_java_com_nova_bank_admin_admincontroller_java_postmapping",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/admin/AdminController.java",
+      "source_location": "L23",
+      "weight": 1.0,
+      "context": "attribute",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_admin_admincontroller_admincontroller",
+      "target": "backend_src_main_java_com_nova_bank_admin_admincontroller_message",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/admin/AdminController.java",
+      "source_location": "L26",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_admin_admincontroller_admincontroller",
+      "target": "backend_src_main_java_com_nova_bank_admin_admincontroller_simulation",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/admin/AdminController.java",
+      "source_location": "L27",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_admin_admincontroller_admincontroller_reset",
+      "target": "backend_src_main_java_com_nova_bank_admin_admincontroller_message",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/admin/AdminController.java",
+      "source_location": "L15",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_admin_admincontroller_admincontroller_simulation",
+      "target": "backend_src_main_java_com_nova_bank_admin_admincontroller_simulation",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/admin/AdminController.java",
+      "source_location": "L18",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_admin_admincontroller_admincontroller_probe",
+      "target": "backend_src_main_java_com_nova_bank_admin_admincontroller_message",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/admin/AdminController.java",
+      "source_location": "L24",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_admin_adminservice",
+      "target": "backend_src_main_java_com_nova_bank_accounts_accountseeder_accountseeder",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/admin/AdminService.java",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_admin_adminservice",
+      "target": "backend_src_main_java_com_nova_bank_portfolio_portfolioseeder_portfolioseeder",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/admin/AdminService.java",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_admin_adminservice",
+      "target": "backend_src_main_java_com_nova_bank_promotions_promotionseeder_promotionseeder",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/admin/AdminService.java",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_admin_adminservice",
+      "target": "org_springframework_jdbc_core_jdbctemplate",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/admin/AdminService.java",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_admin_adminservice",
+      "target": "org_springframework_security_crypto_password_passwordencoder",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/admin/AdminService.java",
+      "source_location": "L13",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_admin_adminservice",
+      "target": "org_springframework_stereotype_service",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/admin/AdminService.java",
+      "source_location": "L14",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_admin_adminservice",
+      "target": "org_springframework_transaction_annotation_transactional",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/admin/AdminService.java",
+      "source_location": "L15",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_admin_adminservice",
+      "target": "backend_src_main_java_com_nova_bank_admin_adminservice_adminservice",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/admin/AdminService.java",
+      "source_location": "L19",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_admin_adminservice_adminservice",
+      "target": "org_springframework_stereotype_service",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/admin/AdminService.java",
+      "source_location": "L19",
+      "weight": 1.0,
+      "context": "attribute",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_admin_adminservice_adminservice",
+      "target": "org_springframework_jdbc_core_jdbctemplate",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/admin/AdminService.java",
+      "source_location": "L24",
+      "weight": 1.0,
+      "context": "field",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_admin_adminservice_adminservice",
+      "target": "backend_src_main_java_com_nova_bank_portfolio_portfolioseeder_portfolioseeder",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/admin/AdminService.java",
+      "source_location": "L24",
+      "weight": 1.0,
+      "context": "field",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_admin_adminservice_adminservice",
+      "target": "backend_src_main_java_com_nova_bank_accounts_accountseeder_accountseeder",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/admin/AdminService.java",
+      "source_location": "L24",
+      "weight": 1.0,
+      "context": "field",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_admin_adminservice_adminservice",
+      "target": "backend_src_main_java_com_nova_bank_promotions_promotionseeder_promotionseeder",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/admin/AdminService.java",
+      "source_location": "L25",
+      "weight": 1.0,
+      "context": "field",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_admin_adminservice_adminservice",
+      "target": "org_springframework_security_crypto_password_passwordencoder",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/admin/AdminService.java",
+      "source_location": "L25",
+      "weight": 1.0,
+      "context": "field",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_admin_adminservice_adminservice",
+      "target": "backend_src_main_java_com_nova_bank_admin_adminservice_adminservice_adminservice",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/admin/AdminService.java",
+      "source_location": "L26",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_admin_adminservice_adminservice_adminservice",
+      "target": "org_springframework_jdbc_core_jdbctemplate",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/admin/AdminService.java",
+      "source_location": "L26",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_admin_adminservice_adminservice_adminservice",
+      "target": "backend_src_main_java_com_nova_bank_portfolio_portfolioseeder_portfolioseeder",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/admin/AdminService.java",
+      "source_location": "L26",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_admin_adminservice_adminservice_adminservice",
+      "target": "backend_src_main_java_com_nova_bank_accounts_accountseeder_accountseeder",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/admin/AdminService.java",
+      "source_location": "L26",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_admin_adminservice_adminservice_adminservice",
+      "target": "backend_src_main_java_com_nova_bank_promotions_promotionseeder_promotionseeder",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/admin/AdminService.java",
+      "source_location": "L26",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_admin_adminservice_adminservice_adminservice",
+      "target": "org_springframework_security_crypto_password_passwordencoder",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/admin/AdminService.java",
+      "source_location": "L26",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_admin_adminservice_adminservice",
+      "target": "backend_src_main_java_com_nova_bank_admin_adminservice_adminservice_authorize",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/admin/AdminService.java",
+      "source_location": "L30",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_admin_adminservice_adminservice_authorize",
+      "target": "backend_src_main_java_com_nova_bank_auth_authservice_principal",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/admin/AdminService.java",
+      "source_location": "L30",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_admin_adminservice_adminservice",
+      "target": "backend_src_main_java_com_nova_bank_admin_adminservice_adminservice_count",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/admin/AdminService.java",
+      "source_location": "L34",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_admin_adminservice_adminservice",
+      "target": "backend_src_main_java_com_nova_bank_admin_adminservice_adminservice_audit",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/admin/AdminService.java",
+      "source_location": "L35",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_admin_adminservice_adminservice_audit",
+      "target": "backend_src_main_java_com_nova_bank_auth_authservice_principal",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/admin/AdminService.java",
+      "source_location": "L35",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_admin_adminservice_adminservice",
+      "target": "backend_src_main_java_com_nova_bank_admin_adminservice_adminservice_conflict",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/admin/AdminService.java",
+      "source_location": "L38",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_admin_adminservice_adminservice",
+      "target": "backend_src_main_java_com_nova_bank_admin_adminservice_adminservice_reset",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/admin/AdminService.java",
+      "source_location": "L42",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_admin_adminservice_adminservice_reset",
+      "target": "backend_src_main_java_com_nova_bank_auth_authservice_principal",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/admin/AdminService.java",
+      "source_location": "L42",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_admin_adminservice_adminservice_reset",
+      "target": "org_springframework_transaction_annotation_transactional",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/admin/AdminService.java",
+      "source_location": "L42",
+      "weight": 1.0,
+      "context": "attribute",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_admin_adminservice_adminservice",
+      "target": "backend_src_main_java_com_nova_bank_admin_adminservice_adminservice_auditevents",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/admin/AdminService.java",
+      "source_location": "L70",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_admin_adminservice_adminservice_auditevents",
+      "target": "backend_src_main_java_com_nova_bank_auth_authservice_principal",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/admin/AdminService.java",
+      "source_location": "L70",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_admin_adminservice_adminservice_auditevents",
+      "target": "backend_src_main_java_com_nova_bank_admin_adminservice_auditevent",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/admin/AdminService.java",
+      "source_location": "L70",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_admin_adminservice_adminservice_auditevents",
+      "target": "org_springframework_transaction_annotation_transactional",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/admin/AdminService.java",
+      "source_location": "L70",
+      "weight": 1.0,
+      "context": "attribute",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_admin_adminservice_adminservice",
+      "target": "backend_src_main_java_com_nova_bank_admin_adminservice_adminservice_setprobe",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/admin/AdminService.java",
+      "source_location": "L75",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_admin_adminservice_adminservice_setprobe",
+      "target": "backend_src_main_java_com_nova_bank_auth_authservice_principal",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/admin/AdminService.java",
+      "source_location": "L75",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_admin_adminservice_adminservice_setprobe",
+      "target": "org_springframework_transaction_annotation_transactional",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/admin/AdminService.java",
+      "source_location": "L75",
+      "weight": 1.0,
+      "context": "attribute",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_admin_adminservice_adminservice",
+      "target": "backend_src_main_java_com_nova_bank_admin_adminservice_adminservice_probe",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/admin/AdminService.java",
+      "source_location": "L79",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_admin_adminservice_adminservice_probe",
+      "target": "backend_src_main_java_com_nova_bank_auth_authservice_principal",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/admin/AdminService.java",
+      "source_location": "L79",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_admin_adminservice_adminservice_probe",
+      "target": "org_springframework_transaction_annotation_transactional",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/admin/AdminService.java",
+      "source_location": "L79",
+      "weight": 1.0,
+      "context": "attribute",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_admin_adminservice_adminservice",
+      "target": "backend_src_main_java_com_nova_bank_admin_adminservice_adminservice_probeenabled",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/admin/AdminService.java",
+      "source_location": "L83",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_admin_adminservice_adminservice_probeenabled",
+      "target": "backend_src_main_java_com_nova_bank_auth_authservice_principal",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/admin/AdminService.java",
+      "source_location": "L83",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_admin_adminservice_adminservice_probeenabled",
+      "target": "org_springframework_transaction_annotation_transactional",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/admin/AdminService.java",
+      "source_location": "L83",
+      "weight": 1.0,
+      "context": "attribute",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_admin_adminservice_adminservice",
+      "target": "backend_src_main_java_com_nova_bank_admin_adminservice_auditevent",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/admin/AdminService.java",
+      "source_location": "L86",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_admin_adminservice_adminservice_reset",
+      "target": "backend_src_main_java_com_nova_bank_admin_adminservice_adminservice_authorize",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/admin/AdminService.java",
+      "source_location": "L44",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_admin_adminservice_adminservice_reset",
+      "target": "backend_src_main_java_com_nova_bank_admin_adminservice_adminservice_conflict",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/admin/AdminService.java",
+      "source_location": "L48",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_admin_adminservice_adminservice_reset",
+      "target": "backend_src_main_java_com_nova_bank_admin_adminservice_adminservice_count",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/admin/AdminService.java",
+      "source_location": "L48",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_admin_adminservice_adminservice_reset",
+      "target": "backend_src_main_java_com_nova_bank_admin_adminservice_adminservice_audit",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/admin/AdminService.java",
+      "source_location": "L67",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_admin_adminservice_adminservice_auditevents",
+      "target": "backend_src_main_java_com_nova_bank_admin_adminservice_adminservice_authorize",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/admin/AdminService.java",
+      "source_location": "L71",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_admin_adminservice_adminservice_auditevents",
+      "target": "backend_src_main_java_com_nova_bank_admin_adminservice_auditevent",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/admin/AdminService.java",
+      "source_location": "L72",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_admin_adminservice_adminservice_setprobe",
+      "target": "backend_src_main_java_com_nova_bank_admin_adminservice_adminservice_authorize",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/admin/AdminService.java",
+      "source_location": "L76",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_admin_adminservice_adminservice_setprobe",
+      "target": "backend_src_main_java_com_nova_bank_admin_adminservice_adminservice_audit",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/admin/AdminService.java",
+      "source_location": "L76",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_admin_adminservice_adminservice_probe",
+      "target": "backend_src_main_java_com_nova_bank_admin_adminservice_adminservice_authorize",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/admin/AdminService.java",
+      "source_location": "L80",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_admin_adminservice_adminservice_probe",
+      "target": "backend_src_main_java_com_nova_bank_admin_adminservice_adminservice_audit",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/admin/AdminService.java",
+      "source_location": "L81",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_admin_adminservice_adminservice_probeenabled",
+      "target": "backend_src_main_java_com_nova_bank_admin_adminservice_adminservice_authorize",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/admin/AdminService.java",
+      "source_location": "L84",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -12028,6 +13852,534 @@
       "_origin": "ast"
     },
     {
+      "source": "backend_src_test_java_com_nova_bank_admin_adminapitest",
+      "target": "com_fasterxml_jackson_databind_objectmapper",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/admin/AdminApiTest.java",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_admin_adminapitest",
+      "target": "org_junit_jupiter_api_test",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/admin/AdminApiTest.java",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_admin_adminapitest",
+      "target": "org_springframework_boot_test_autoconfigure_web_servlet_autoconfiguremockmvc",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/admin/AdminApiTest.java",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_admin_adminapitest",
+      "target": "org_springframework_boot_test_context_springboottest",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/admin/AdminApiTest.java",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_admin_adminapitest",
+      "target": "org_springframework_test_web_servlet_mockmvc",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/admin/AdminApiTest.java",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_admin_adminapitest",
+      "target": "backend_src_test_java_com_nova_bank_admin_adminapitest_adminapitest",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/admin/AdminApiTest.java",
+      "source_location": "L15",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_admin_adminapitest_adminapitest",
+      "target": "org_springframework_boot_test_context_springboottest",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/admin/AdminApiTest.java",
+      "source_location": "L15",
+      "weight": 1.0,
+      "context": "attribute",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_admin_adminapitest_adminapitest",
+      "target": "org_springframework_boot_test_autoconfigure_web_servlet_autoconfiguremockmvc",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/admin/AdminApiTest.java",
+      "source_location": "L15",
+      "weight": 1.0,
+      "context": "attribute",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_admin_adminapitest_adminapitest",
+      "target": "org_springframework_test_web_servlet_mockmvc",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/admin/AdminApiTest.java",
+      "source_location": "L17",
+      "weight": 1.0,
+      "context": "field",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_admin_adminapitest_adminapitest",
+      "target": "com_fasterxml_jackson_databind_objectmapper",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/admin/AdminApiTest.java",
+      "source_location": "L17",
+      "weight": 1.0,
+      "context": "field",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_admin_adminapitest_adminapitest",
+      "target": "backend_src_test_java_com_nova_bank_admin_adminapitest_adminapitest_login",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/admin/AdminApiTest.java",
+      "source_location": "L18",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_admin_adminapitest_adminapitest",
+      "target": "backend_src_test_java_com_nova_bank_admin_adminapitest_adminapitest_admincanresetretainsessionanduseauditedsimulation",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/admin/AdminApiTest.java",
+      "source_location": "L19",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_admin_adminapitest_adminapitest_admincanresetretainsessionanduseauditedsimulation",
+      "target": "org_junit_jupiter_api_test",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/admin/AdminApiTest.java",
+      "source_location": "L19",
+      "weight": 1.0,
+      "context": "attribute",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_admin_adminapitest_adminapitest",
+      "target": "backend_src_test_java_com_nova_bank_admin_adminapitest_adminapitest_customerandanonymouscannotaccesscontrols",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/admin/AdminApiTest.java",
+      "source_location": "L28",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_admin_adminapitest_adminapitest_customerandanonymouscannotaccesscontrols",
+      "target": "org_junit_jupiter_api_test",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/admin/AdminApiTest.java",
+      "source_location": "L28",
+      "weight": 1.0,
+      "context": "attribute",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_admin_adminapitest_adminapitest_admincanresetretainsessionanduseauditedsimulation",
+      "target": "backend_src_test_java_com_nova_bank_admin_adminapitest_adminapitest_login",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/admin/AdminApiTest.java",
+      "source_location": "L20",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_admin_adminapitest_adminapitest_customerandanonymouscannotaccesscontrols",
+      "target": "backend_src_test_java_com_nova_bank_admin_adminapitest_adminapitest_login",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/admin/AdminApiTest.java",
+      "source_location": "L29",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_admin_admindisabledapitest",
+      "target": "org_junit_jupiter_api_test",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/admin/AdminDisabledApiTest.java",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_admin_admindisabledapitest",
+      "target": "org_springframework_boot_test_autoconfigure_web_servlet_autoconfiguremockmvc",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/admin/AdminDisabledApiTest.java",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_admin_admindisabledapitest",
+      "target": "org_springframework_boot_test_context_springboottest",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/admin/AdminDisabledApiTest.java",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_admin_admindisabledapitest",
+      "target": "org_springframework_test_web_servlet_mockmvc",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/admin/AdminDisabledApiTest.java",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_admin_admindisabledapitest",
+      "target": "backend_src_test_java_com_nova_bank_admin_admindisabledapitest_admindisabledapitest",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/admin/AdminDisabledApiTest.java",
+      "source_location": "L18",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_admin_admindisabledapitest_admindisabledapitest",
+      "target": "org_springframework_boot_test_context_springboottest",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/admin/AdminDisabledApiTest.java",
+      "source_location": "L18",
+      "weight": 1.0,
+      "context": "attribute",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_admin_admindisabledapitest_admindisabledapitest",
+      "target": "org_springframework_boot_test_autoconfigure_web_servlet_autoconfiguremockmvc",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/admin/AdminDisabledApiTest.java",
+      "source_location": "L18",
+      "weight": 1.0,
+      "context": "attribute",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_admin_admindisabledapitest_admindisabledapitest",
+      "target": "org_springframework_test_web_servlet_mockmvc",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/admin/AdminDisabledApiTest.java",
+      "source_location": "L20",
+      "weight": 1.0,
+      "context": "field",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_admin_admindisabledapitest_admindisabledapitest",
+      "target": "backend_src_test_java_com_nova_bank_admin_admindisabledapitest_admindisabledapitest_admincannotuseanycontrolsoutsidedemomode",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/admin/AdminDisabledApiTest.java",
+      "source_location": "L21",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_admin_admindisabledapitest_admindisabledapitest_admincannotuseanycontrolsoutsidedemomode",
+      "target": "org_junit_jupiter_api_test",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/admin/AdminDisabledApiTest.java",
+      "source_location": "L21",
+      "weight": 1.0,
+      "context": "attribute",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_admin_adminservicetest",
+      "target": "org_junit_jupiter_api_test",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/admin/AdminServiceTest.java",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_admin_adminservicetest",
+      "target": "org_springframework_boot_test_context_springboottest",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/admin/AdminServiceTest.java",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_admin_adminservicetest",
+      "target": "org_springframework_jdbc_core_jdbctemplate",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/admin/AdminServiceTest.java",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_admin_adminservicetest",
+      "target": "org_springframework_security_crypto_password_passwordencoder",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/admin/AdminServiceTest.java",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_admin_adminservicetest",
+      "target": "org_springframework_transaction_annotation_transactional",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/admin/AdminServiceTest.java",
+      "source_location": "L11",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_admin_adminservicetest",
+      "target": "backend_src_test_java_com_nova_bank_admin_adminservicetest_adminservicetest",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/admin/AdminServiceTest.java",
+      "source_location": "L16",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_admin_adminservicetest_adminservicetest",
+      "target": "org_springframework_boot_test_context_springboottest",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/admin/AdminServiceTest.java",
+      "source_location": "L16",
+      "weight": 1.0,
+      "context": "attribute",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_admin_adminservicetest_adminservicetest",
+      "target": "org_springframework_transaction_annotation_transactional",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/admin/AdminServiceTest.java",
+      "source_location": "L16",
+      "weight": 1.0,
+      "context": "attribute",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_admin_adminservicetest_adminservicetest",
+      "target": "backend_src_main_java_com_nova_bank_admin_adminservice_adminservice",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/admin/AdminServiceTest.java",
+      "source_location": "L18",
+      "weight": 1.0,
+      "context": "field",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_admin_adminservicetest_adminservicetest",
+      "target": "org_springframework_jdbc_core_jdbctemplate",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/admin/AdminServiceTest.java",
+      "source_location": "L18",
+      "weight": 1.0,
+      "context": "field",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_admin_adminservicetest_adminservicetest",
+      "target": "org_springframework_security_crypto_password_passwordencoder",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/admin/AdminServiceTest.java",
+      "source_location": "L18",
+      "weight": 1.0,
+      "context": "field",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_admin_adminservicetest_adminservicetest",
+      "target": "backend_src_test_java_com_nova_bank_admin_adminservicetest_adminservicetest_actor",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/admin/AdminServiceTest.java",
+      "source_location": "L20",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_admin_adminservicetest_adminservicetest_actor",
+      "target": "backend_src_main_java_com_nova_bank_auth_authservice_principal",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/admin/AdminServiceTest.java",
+      "source_location": "L20",
+      "weight": 1.0,
+      "context": "return_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_admin_adminservicetest_adminservicetest",
+      "target": "backend_src_test_java_com_nova_bank_admin_adminservicetest_adminservicetest_resetrestoresfixturescredentialsandclearsactivitywithouttouchingotherusers",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/admin/AdminServiceTest.java",
+      "source_location": "L21",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_admin_adminservicetest_adminservicetest_resetrestoresfixturescredentialsandclearsactivitywithouttouchingotherusers",
+      "target": "org_junit_jupiter_api_test",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/admin/AdminServiceTest.java",
+      "source_location": "L21",
+      "weight": 1.0,
+      "context": "attribute",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_admin_adminservicetest_adminservicetest",
+      "target": "backend_src_test_java_com_nova_bank_admin_adminservicetest_adminservicetest_nondemopromotionreferencepreventsanychanges",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/admin/AdminServiceTest.java",
+      "source_location": "L43",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_admin_adminservicetest_adminservicetest_nondemopromotionreferencepreventsanychanges",
+      "target": "org_junit_jupiter_api_test",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/admin/AdminServiceTest.java",
+      "source_location": "L43",
+      "weight": 1.0,
+      "context": "attribute",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_admin_adminservicetest_adminservicetest",
+      "target": "backend_src_test_java_com_nova_bank_admin_adminservicetest_adminservicetest_rejectscustomerandauditsboundedprobe",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/admin/AdminServiceTest.java",
+      "source_location": "L50",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_admin_adminservicetest_adminservicetest_rejectscustomerandauditsboundedprobe",
+      "target": "org_junit_jupiter_api_test",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/admin/AdminServiceTest.java",
+      "source_location": "L50",
+      "weight": 1.0,
+      "context": "attribute",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_admin_adminservicetest_adminservicetest_resetrestoresfixturescredentialsandclearsactivitywithouttouchingotherusers",
+      "target": "backend_src_test_java_com_nova_bank_admin_adminservicetest_adminservicetest_actor",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/admin/AdminServiceTest.java",
+      "source_location": "L31",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_admin_adminservicetest_adminservicetest_nondemopromotionreferencepreventsanychanges",
+      "target": "backend_src_test_java_com_nova_bank_admin_adminservicetest_adminservicetest_actor",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/admin/AdminServiceTest.java",
+      "source_location": "L47",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_admin_adminservicetest_adminservicetest_rejectscustomerandauditsboundedprobe",
+      "target": "backend_src_test_java_com_nova_bank_admin_adminservicetest_adminservicetest_actor",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/admin/AdminServiceTest.java",
+      "source_location": "L52",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
       "source": "backend_src_test_java_com_nova_bank_auth_authapitest",
       "target": "com_fasterxml_jackson_databind_objectmapper",
       "relation": "imports",
@@ -13996,6 +16348,17 @@
       "_origin": "ast"
     },
     {
+      "source": "frontend_e2e_admin_spec",
+      "target": "ref_playwright_test",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/e2e/admin.spec.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
       "source": "frontend_e2e_auth_spec",
       "target": "ref_playwright_test",
       "relation": "imports_from",
@@ -15068,6 +17431,473 @@
       "_origin": "ast"
     },
     {
+      "source": "frontend_src_app_admin_admin_component_spec",
+      "target": "ref_angular_core",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/admin/admin.component.spec.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_admin_admin_component_spec",
+      "target": "ref_angular_router",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/admin/admin.component.spec.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_admin_admin_component_spec",
+      "target": "ref_angular_common",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/admin/admin.component.spec.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_admin_admin_component_spec",
+      "target": "ref_angular_common",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/admin/admin.component.spec.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_admin_admin_component_spec",
+      "target": "frontend_src_app_admin_admin_component",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/admin/admin.component.spec.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_admin_admin_component_spec",
+      "target": "frontend_src_app_admin_admin_component_admincomponent",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/admin/admin.component.spec.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_admin_admin_component",
+      "target": "ref_angular_core",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/admin/admin.component.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_admin_admin_component",
+      "target": "ref_angular_common",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/admin/admin.component.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_admin_admin_component",
+      "target": "ref_angular_common",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/admin/admin.component.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_admin_admin_component",
+      "target": "frontend_src_app_auth_auth_service",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/admin/admin.component.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_admin_admin_component",
+      "target": "frontend_src_app_auth_auth_service_authservice",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/admin/admin.component.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_admin_admin_component",
+      "target": "frontend_src_app_admin_admin_service",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/admin/admin.component.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_admin_admin_component",
+      "target": "frontend_src_app_admin_admin_service_adminservice",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/admin/admin.component.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_admin_admin_component",
+      "target": "frontend_src_app_admin_admin_service_auditevent",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/admin/admin.component.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_admin_admin_component",
+      "target": "frontend_src_app_admin_admin_component_admincomponent",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/admin/admin.component.ts",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_admin_admin_component_admincomponent",
+      "target": "frontend_src_app_admin_admin_component_ts_component",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/admin/admin.component.ts",
+      "source_location": "L8",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_admin_admin_component_admincomponent",
+      "target": "frontend_src_app_admin_admin_component_admincomponent_constructor",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/admin/admin.component.ts",
+      "source_location": "L11",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_admin_admin_component_admincomponent",
+      "target": "frontend_src_app_admin_admin_component_admincomponent_ngoninit",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/admin/admin.component.ts",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_admin_admin_component_admincomponent",
+      "target": "frontend_src_app_admin_admin_component_admincomponent_load",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/admin/admin.component.ts",
+      "source_location": "L14",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_admin_admin_component_admincomponent",
+      "target": "frontend_src_app_admin_admin_component_admincomponent_reset",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/admin/admin.component.ts",
+      "source_location": "L19",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_admin_admin_component_admincomponent",
+      "target": "frontend_src_app_admin_admin_component_admincomponent_toggle",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/admin/admin.component.ts",
+      "source_location": "L25",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_admin_admin_component_admincomponent",
+      "target": "frontend_src_app_admin_admin_component_admincomponent_probe",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/admin/admin.component.ts",
+      "source_location": "L30",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_admin_admin_component_admincomponent_ngoninit",
+      "target": "frontend_src_app_admin_admin_component_admincomponent_load",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/admin/admin.component.ts",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_admin_admin_component_admincomponent_reset",
+      "target": "frontend_src_app_admin_admin_component_admincomponent_load",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/admin/admin.component.ts",
+      "source_location": "L22",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_admin_admin_component_admincomponent_toggle",
+      "target": "frontend_src_app_admin_admin_component_admincomponent_load",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/admin/admin.component.ts",
+      "source_location": "L27",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_admin_admin_component_admincomponent_probe",
+      "target": "frontend_src_app_admin_admin_component_admincomponent_load",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/admin/admin.component.ts",
+      "source_location": "L32",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_admin_admin_guard",
+      "target": "ref_angular_core",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/admin/admin.guard.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_admin_admin_guard",
+      "target": "ref_angular_router",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/admin/admin.guard.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_admin_admin_guard",
+      "target": "frontend_src_app_auth_auth_service",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/admin/admin.guard.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_admin_admin_guard",
+      "target": "frontend_src_app_auth_auth_service_authservice",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/admin/admin.guard.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_admin_admin_guard",
+      "target": "frontend_src_app_admin_admin_guard_adminguard",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/admin/admin.guard.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_admin_admin_service",
+      "target": "ref_angular_core",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/admin/admin.service.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_admin_admin_service",
+      "target": "ref_angular_common",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/admin/admin.service.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_admin_admin_service",
+      "target": "ref_rxjs",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/admin/admin.service.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_admin_admin_service",
+      "target": "frontend_src_app_admin_admin_service_auditevent",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/admin/admin.service.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_admin_admin_service",
+      "target": "frontend_src_app_admin_admin_service_message",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/admin/admin.service.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_admin_admin_service",
+      "target": "frontend_src_app_admin_admin_service_adminservice",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/admin/admin.service.ts",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_admin_admin_service_adminservice",
+      "target": "frontend_src_app_admin_admin_service_ts_injectable",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/admin/admin.service.ts",
+      "source_location": "L7",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_admin_admin_service_adminservice",
+      "target": "frontend_src_app_admin_admin_service_adminservice_constructor",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/admin/admin.service.ts",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_admin_admin_service_adminservice",
+      "target": "frontend_src_app_admin_admin_service_adminservice_audit",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/admin/admin.service.ts",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_admin_admin_service_adminservice",
+      "target": "frontend_src_app_admin_admin_service_adminservice_reset",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/admin/admin.service.ts",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_admin_admin_service_adminservice",
+      "target": "frontend_src_app_admin_admin_service_adminservice_simulation",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/admin/admin.service.ts",
+      "source_location": "L11",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_admin_admin_service_adminservice",
+      "target": "frontend_src_app_admin_admin_service_adminservice_setsimulation",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/admin/admin.service.ts",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_admin_admin_service_adminservice",
+      "target": "frontend_src_app_admin_admin_service_adminservice_probe",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/admin/admin.service.ts",
+      "source_location": "L13",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
       "source": "frontend_src_app_app_component",
       "target": "ref_angular_core",
       "relation": "imports_from",
@@ -15210,12 +18040,42 @@
     },
     {
       "source": "frontend_src_app_app_routes",
-      "target": "frontend_src_app_app_routes_routes",
-      "relation": "contains",
+      "target": "frontend_src_app_admin_admin_guard",
+      "relation": "imports_from",
+      "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "frontend/src/app/app.routes.ts",
       "source_location": "L3",
       "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_app_routes",
+      "target": "frontend_src_app_admin_admin_guard_adminguard",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/app.routes.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_app_routes",
+      "target": "frontend_src_app_app_routes_routes",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/app.routes.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_app_routes",
+      "target": "frontend_src_app_admin_admin_component",
+      "relation": "dynamic_import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/app.routes.ts",
       "_origin": "ast"
     },
     {
@@ -17639,6 +20499,39 @@
       "_origin": "ast"
     },
     {
+      "source": "frontend_src_app_admin_admin_component_admincomponent",
+      "target": "frontend_src_app_admin_admin_service_auditevent",
+      "relation": "references",
+      "context": "field",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/admin/admin.component.ts",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_admin_admin_component_admincomponent_constructor",
+      "target": "frontend_src_app_admin_admin_service_adminservice",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/admin/admin.component.ts",
+      "source_location": "L11",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_admin_admin_component_admincomponent_constructor",
+      "target": "frontend_src_app_auth_auth_service_authservice",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/admin/admin.component.ts",
+      "source_location": "L11",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
       "source": "frontend_src_app_app_component_appcomponent_constructor",
       "target": "frontend_src_app_auth_auth_service_authservice",
       "relation": "references",
@@ -17870,6 +20763,61 @@
       "_origin": "ast"
     },
     {
+      "source": "backend_src_main_java_com_nova_bank_admin_admincontroller",
+      "target": "backend_src_main_java_com_nova_bank_auth_authservice_authservice",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backend/src/main/java/com/nova/bank/admin/AdminController.java",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_admin_adminservice",
+      "target": "backend_src_main_java_com_nova_bank_accounts_accountseeder_accountseeder",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backend/src/main/java/com/nova/bank/admin/AdminService.java",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_admin_adminservice",
+      "target": "backend_src_main_java_com_nova_bank_auth_authservice_authservice",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backend/src/main/java/com/nova/bank/admin/AdminService.java",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_admin_adminservice",
+      "target": "backend_src_main_java_com_nova_bank_portfolio_portfolioseeder_portfolioseeder",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backend/src/main/java/com/nova/bank/admin/AdminService.java",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_admin_adminservice",
+      "target": "backend_src_main_java_com_nova_bank_promotions_promotionseeder_promotionseeder",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backend/src/main/java/com/nova/bank/admin/AdminService.java",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
       "source": "backend_src_main_java_com_nova_bank_auth_securityconfig",
       "target": "backend_src_main_java_com_nova_bank_common_apierror_apierror",
       "relation": "imports",
@@ -18013,6 +20961,28 @@
       "_origin": "ast"
     },
     {
+      "source": "backend_src_test_java_com_nova_bank_admin_admindisabledapitest",
+      "target": "backend_src_main_java_com_nova_bank_auth_authservice_authservice",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backend/src/test/java/com/nova/bank/admin/AdminDisabledApiTest.java",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_admin_adminservicetest",
+      "target": "backend_src_main_java_com_nova_bank_auth_authservice_authservice",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backend/src/test/java/com/nova/bank/admin/AdminServiceTest.java",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
       "source": "backend_src_test_java_com_nova_bank_portfolio_portfolioservicetest",
       "target": "backend_src_main_java_com_nova_bank_auth_authservice_authservice",
       "relation": "imports",
@@ -18070,6 +21040,18 @@
       "_origin": "ast"
     },
     {
+      "source": "backend_src_test_java_com_nova_bank_admin_admindisabledapitest_admindisabledapitest_admincannotuseanycontrolsoutsidedemomode",
+      "target": "backend_src_main_java_com_nova_bank_auth_authservice_principal",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "backend/src/test/java/com/nova/bank/admin/AdminDisabledApiTest.java",
+      "source_location": "L22",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
       "source": "backend_src_test_java_com_nova_bank_auth_authservicetest_authservicetest_lockoutispersistedandsuccessresetsfailures",
       "target": "backend_src_main_java_com_nova_bank_auth_authdtos_loginrequest",
       "relation": "calls",
@@ -18119,13 +21101,25 @@
     },
     {
       "source": "frontend_src_app_app_routes",
+      "target": "frontend_src_app_admin_admin_guard_adminguard",
+      "relation": "indirect_call",
+      "context": "collection",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "frontend/src/app/app.routes.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_app_routes",
       "target": "frontend_src_app_auth_auth_guard_authguard",
       "relation": "indirect_call",
       "context": "collection",
       "confidence": "INFERRED",
       "confidence_score": 0.85,
       "source_file": "frontend/src/app/app.routes.ts",
-      "source_location": "L3",
+      "source_location": "L4",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -18162,6 +21156,66 @@
       "confidence_score": 0.85,
       "source_file": "frontend/src/app/accounts/account-detail.component.ts",
       "source_location": "L37",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_admin_admin_component_admincomponent_load",
+      "target": "frontend_src_app_admin_admin_service_adminservice_simulation",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "frontend/src/app/admin/admin.component.ts",
+      "source_location": "L16",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_admin_admin_component_admincomponent_load",
+      "target": "frontend_src_app_admin_admin_service_adminservice_audit",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "frontend/src/app/admin/admin.component.ts",
+      "source_location": "L16",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_admin_admin_component_admincomponent_reset",
+      "target": "frontend_src_app_admin_admin_service_adminservice_reset",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "frontend/src/app/admin/admin.component.ts",
+      "source_location": "L22",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_admin_admin_component_admincomponent_toggle",
+      "target": "frontend_src_app_admin_admin_service_adminservice_setsimulation",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "frontend/src/app/admin/admin.component.ts",
+      "source_location": "L27",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_admin_admin_component_admincomponent_probe",
+      "target": "frontend_src_app_admin_admin_service_adminservice_probe",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "frontend/src/app/admin/admin.component.ts",
+      "source_location": "L32",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -18234,6 +21288,42 @@
       "confidence_score": 0.85,
       "source_file": "frontend/src/app/support/support.component.ts",
       "source_location": "L29",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_admin_adminservice_adminservice_reset",
+      "target": "backend_src_main_java_com_nova_bank_portfolio_portfolioseeder_portfolioseeder_seed",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "backend/src/main/java/com/nova/bank/admin/AdminService.java",
+      "source_location": "L62",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_admin_adminservice_adminservice_reset",
+      "target": "backend_src_main_java_com_nova_bank_accounts_accountseeder_accountseeder_seed",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "backend/src/main/java/com/nova/bank/admin/AdminService.java",
+      "source_location": "L62",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_admin_adminservice_adminservice_reset",
+      "target": "backend_src_main_java_com_nova_bank_promotions_promotionseeder_promotionseeder_seed",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "backend/src/main/java/com/nova/bank/admin/AdminService.java",
+      "source_location": "L62",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -18791,6 +21881,71 @@
     },
     {
       "source": "backend_src_main_java_com_nova_bank_auth_authservice_principal",
+      "target": "backend_src_main_java_com_nova_bank_promotions_promotioncontroller_promotioncontroller_interest",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/promotions/PromotionController.java",
+      "source_location": "L13",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast",
+      "_src": "backend_src_main_java_com_nova_bank_auth_authservice_principal",
+      "_tgt": "backend_src_main_java_com_nova_bank_promotions_promotioncontroller_promotioncontroller_interest"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_auth_authservice_principal",
+      "target": "backend_src_main_java_com_nova_bank_promotions_promotioncontroller_promotioncontroller_list",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/promotions/PromotionController.java",
+      "source_location": "L12",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast",
+      "_src": "backend_src_main_java_com_nova_bank_auth_authservice_principal",
+      "_tgt": "backend_src_main_java_com_nova_bank_promotions_promotioncontroller_promotioncontroller_list"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_auth_authservice_principal",
+      "target": "backend_src_main_java_com_nova_bank_promotions_promotionservice_promotionservice_customer",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/promotions/PromotionService.java",
+      "source_location": "L23",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast",
+      "_src": "backend_src_main_java_com_nova_bank_auth_authservice_principal",
+      "_tgt": "backend_src_main_java_com_nova_bank_promotions_promotionservice_promotionservice_customer"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_auth_authservice_principal",
+      "target": "backend_src_main_java_com_nova_bank_promotions_promotionservice_promotionservice_expressinterest",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/promotions/PromotionService.java",
+      "source_location": "L33",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast",
+      "_src": "backend_src_main_java_com_nova_bank_auth_authservice_principal",
+      "_tgt": "backend_src_main_java_com_nova_bank_promotions_promotionservice_promotionservice_expressinterest"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_auth_authservice_principal",
+      "target": "backend_src_main_java_com_nova_bank_promotions_promotionservice_promotionservice_list",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/promotions/PromotionService.java",
+      "source_location": "L28",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast",
+      "_src": "backend_src_main_java_com_nova_bank_auth_authservice_principal",
+      "_tgt": "backend_src_main_java_com_nova_bank_promotions_promotionservice_promotionservice_list"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_auth_authservice_principal",
       "target": "backend_src_test_java_com_nova_bank_accounts_accountservicetest_accountservicetest_principal",
       "relation": "references",
       "confidence": "EXTRACTED",
@@ -18817,71 +21972,6 @@
     },
     {
       "source": "backend_src_main_java_com_nova_bank_auth_authservice_principal",
-      "target": "backend_src_main_java_com_nova_bank_promotions_promotioncontroller_promotioncontroller_interest",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "backend/src/main/java/com/nova/bank/promotions/PromotionController.java",
-      "source_location": "L13",
-      "weight": 1.0,
-      "context": "parameter_type",
-      "_origin": "ast",
-      "_src": "backend_src_main_java_com_nova_bank_promotions_promotioncontroller_promotioncontroller_interest",
-      "_tgt": "backend_src_main_java_com_nova_bank_auth_authservice_principal"
-    },
-    {
-      "source": "backend_src_main_java_com_nova_bank_auth_authservice_principal",
-      "target": "backend_src_main_java_com_nova_bank_promotions_promotioncontroller_promotioncontroller_list",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "backend/src/main/java/com/nova/bank/promotions/PromotionController.java",
-      "source_location": "L12",
-      "weight": 1.0,
-      "context": "parameter_type",
-      "_origin": "ast",
-      "_src": "backend_src_main_java_com_nova_bank_promotions_promotioncontroller_promotioncontroller_list",
-      "_tgt": "backend_src_main_java_com_nova_bank_auth_authservice_principal"
-    },
-    {
-      "source": "backend_src_main_java_com_nova_bank_auth_authservice_principal",
-      "target": "backend_src_main_java_com_nova_bank_promotions_promotionservice_promotionservice_customer",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "backend/src/main/java/com/nova/bank/promotions/PromotionService.java",
-      "source_location": "L23",
-      "weight": 1.0,
-      "context": "parameter_type",
-      "_origin": "ast",
-      "_src": "backend_src_main_java_com_nova_bank_promotions_promotionservice_promotionservice_customer",
-      "_tgt": "backend_src_main_java_com_nova_bank_auth_authservice_principal"
-    },
-    {
-      "source": "backend_src_main_java_com_nova_bank_auth_authservice_principal",
-      "target": "backend_src_main_java_com_nova_bank_promotions_promotionservice_promotionservice_expressinterest",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "backend/src/main/java/com/nova/bank/promotions/PromotionService.java",
-      "source_location": "L33",
-      "weight": 1.0,
-      "context": "parameter_type",
-      "_origin": "ast",
-      "_src": "backend_src_main_java_com_nova_bank_promotions_promotionservice_promotionservice_expressinterest",
-      "_tgt": "backend_src_main_java_com_nova_bank_auth_authservice_principal"
-    },
-    {
-      "source": "backend_src_main_java_com_nova_bank_auth_authservice_principal",
-      "target": "backend_src_main_java_com_nova_bank_promotions_promotionservice_promotionservice_list",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "backend/src/main/java/com/nova/bank/promotions/PromotionService.java",
-      "source_location": "L28",
-      "weight": 1.0,
-      "context": "parameter_type",
-      "_origin": "ast",
-      "_src": "backend_src_main_java_com_nova_bank_promotions_promotionservice_promotionservice_list",
-      "_tgt": "backend_src_main_java_com_nova_bank_auth_authservice_principal"
-    },
-    {
-      "source": "backend_src_main_java_com_nova_bank_auth_authservice_principal",
       "target": "backend_src_test_java_com_nova_bank_promotions_promotionservicetest_promotionservicetest_principal",
       "relation": "references",
       "confidence": "EXTRACTED",
@@ -18890,7 +21980,85 @@
       "weight": 1.0,
       "context": "return_type",
       "_origin": "ast",
-      "_src": "backend_src_test_java_com_nova_bank_promotions_promotionservicetest_promotionservicetest_principal",
+      "_src": "backend_src_main_java_com_nova_bank_auth_authservice_principal",
+      "_tgt": "backend_src_test_java_com_nova_bank_promotions_promotionservicetest_promotionservicetest_principal"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_auth_authservice_principal",
+      "target": "backend_src_main_java_com_nova_bank_support_supportcontroller_supportcontroller_chat",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/support/SupportController.java",
+      "source_location": "L19",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast",
+      "_src": "backend_src_main_java_com_nova_bank_support_supportcontroller_supportcontroller_chat",
+      "_tgt": "backend_src_main_java_com_nova_bank_auth_authservice_principal"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_auth_authservice_principal",
+      "target": "backend_src_main_java_com_nova_bank_support_supportcontroller_supportcontroller_inquiry",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/support/SupportController.java",
+      "source_location": "L17",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast",
+      "_src": "backend_src_main_java_com_nova_bank_support_supportcontroller_supportcontroller_inquiry",
+      "_tgt": "backend_src_main_java_com_nova_bank_auth_authservice_principal"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_auth_authservice_principal",
+      "target": "backend_src_main_java_com_nova_bank_support_supportservice_supportservice_chat",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/support/SupportService.java",
+      "source_location": "L47",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast",
+      "_src": "backend_src_main_java_com_nova_bank_support_supportservice_supportservice_chat",
+      "_tgt": "backend_src_main_java_com_nova_bank_auth_authservice_principal"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_auth_authservice_principal",
+      "target": "backend_src_main_java_com_nova_bank_support_supportservice_supportservice_customer",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/support/SupportService.java",
+      "source_location": "L28",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast",
+      "_src": "backend_src_main_java_com_nova_bank_support_supportservice_supportservice_customer",
+      "_tgt": "backend_src_main_java_com_nova_bank_auth_authservice_principal"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_auth_authservice_principal",
+      "target": "backend_src_main_java_com_nova_bank_support_supportservice_supportservice_inquire",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/support/SupportService.java",
+      "source_location": "L39",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast",
+      "_src": "backend_src_main_java_com_nova_bank_support_supportservice_supportservice_inquire",
+      "_tgt": "backend_src_main_java_com_nova_bank_auth_authservice_principal"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_auth_authservice_principal",
+      "target": "backend_src_test_java_com_nova_bank_support_supportservicetest_supportservicetest_user",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/support/SupportServiceTest.java",
+      "source_location": "L15",
+      "weight": 1.0,
+      "context": "return_type",
+      "_origin": "ast",
+      "_src": "backend_src_test_java_com_nova_bank_support_supportservicetest_supportservicetest_user",
       "_tgt": "backend_src_main_java_com_nova_bank_auth_authservice_principal"
     },
     {
@@ -19122,8 +22290,8 @@
       "weight": 1.0,
       "context": "generic_arg",
       "_origin": "ast",
-      "_src": "backend_src_main_java_com_nova_bank_promotions_promotionerrors_promotionerrors_invalid",
-      "_tgt": "backend_src_main_java_com_nova_bank_common_apierror_apierror"
+      "_src": "backend_src_main_java_com_nova_bank_common_apierror_apierror",
+      "_tgt": "backend_src_main_java_com_nova_bank_promotions_promotionerrors_promotionerrors_invalid"
     },
     {
       "source": "backend_src_main_java_com_nova_bank_common_apierror_apierror",
@@ -19135,8 +22303,8 @@
       "weight": 1.0,
       "context": "generic_arg",
       "_origin": "ast",
-      "_src": "backend_src_main_java_com_nova_bank_promotions_promotionerrors_promotionerrors_status",
-      "_tgt": "backend_src_main_java_com_nova_bank_common_apierror_apierror"
+      "_src": "backend_src_main_java_com_nova_bank_common_apierror_apierror",
+      "_tgt": "backend_src_main_java_com_nova_bank_promotions_promotionerrors_promotionerrors_status"
     },
     {
       "source": "backend_src_main_java_com_nova_bank_common_apierrors_java_responseentity",
@@ -19256,6 +22424,32 @@
       "_tgt": "backend_src_test_java_com_nova_bank_portfolio_portfolioservicetest_portfolioservicetest"
     },
     {
+      "source": "backend_src_main_java_com_nova_bank_portfolio_portfolioservice_portfolioservice",
+      "target": "backend_src_main_java_com_nova_bank_support_supportservice_supportservice",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/support/SupportService.java",
+      "source_location": "L23",
+      "weight": 1.0,
+      "context": "field",
+      "_origin": "ast",
+      "_src": "backend_src_main_java_com_nova_bank_support_supportservice_supportservice",
+      "_tgt": "backend_src_main_java_com_nova_bank_portfolio_portfolioservice_portfolioservice"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_portfolio_portfolioservice_portfolioservice",
+      "target": "backend_src_main_java_com_nova_bank_support_supportservice_supportservice_supportservice",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/support/SupportService.java",
+      "source_location": "L25",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast",
+      "_src": "backend_src_main_java_com_nova_bank_support_supportservice_supportservice_supportservice",
+      "_tgt": "backend_src_main_java_com_nova_bank_portfolio_portfolioservice_portfolioservice"
+    },
+    {
       "source": "backend_src_main_java_com_nova_bank_promotions_promotioncontroller_promotioncontroller",
       "target": "backend_src_main_java_com_nova_bank_promotions_promotionerrors_promotionerrors",
       "relation": "references",
@@ -19265,8 +22459,8 @@
       "weight": 1.0,
       "context": "attribute",
       "_origin": "ast",
-      "_src": "backend_src_main_java_com_nova_bank_promotions_promotionerrors_promotionerrors",
-      "_tgt": "backend_src_main_java_com_nova_bank_promotions_promotioncontroller_promotioncontroller"
+      "_src": "backend_src_main_java_com_nova_bank_promotions_promotioncontroller_promotioncontroller",
+      "_tgt": "backend_src_main_java_com_nova_bank_promotions_promotionerrors_promotionerrors"
     },
     {
       "source": "backend_src_main_java_com_nova_bank_promotions_promotionseeder_promotionseeder",
@@ -19278,8 +22472,8 @@
       "weight": 1.0,
       "context": "field",
       "_origin": "ast",
-      "_src": "backend_src_test_java_com_nova_bank_promotions_promotionservicetest_promotionservicetest",
-      "_tgt": "backend_src_main_java_com_nova_bank_promotions_promotionseeder_promotionseeder"
+      "_src": "backend_src_main_java_com_nova_bank_promotions_promotionseeder_promotionseeder",
+      "_tgt": "backend_src_test_java_com_nova_bank_promotions_promotionservicetest_promotionservicetest"
     },
     {
       "source": "backend_src_main_java_com_nova_bank_promotions_promotionservice_promotionservice",
@@ -19291,7 +22485,33 @@
       "weight": 1.0,
       "context": "field",
       "_origin": "ast",
-      "_src": "backend_src_test_java_com_nova_bank_promotions_promotionservicetest_promotionservicetest",
+      "_src": "backend_src_main_java_com_nova_bank_promotions_promotionservice_promotionservice",
+      "_tgt": "backend_src_test_java_com_nova_bank_promotions_promotionservicetest_promotionservicetest"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_promotions_promotionservice_promotionservice",
+      "target": "backend_src_main_java_com_nova_bank_support_supportservice_supportservice",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/support/SupportService.java",
+      "source_location": "L24",
+      "weight": 1.0,
+      "context": "field",
+      "_origin": "ast",
+      "_src": "backend_src_main_java_com_nova_bank_support_supportservice_supportservice",
+      "_tgt": "backend_src_main_java_com_nova_bank_promotions_promotionservice_promotionservice"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_promotions_promotionservice_promotionservice",
+      "target": "backend_src_main_java_com_nova_bank_support_supportservice_supportservice_supportservice",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/support/SupportService.java",
+      "source_location": "L25",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast",
+      "_src": "backend_src_main_java_com_nova_bank_support_supportservice_supportservice_supportservice",
       "_tgt": "backend_src_main_java_com_nova_bank_promotions_promotionservice_promotionservice"
     },
     {
@@ -19306,6 +22526,58 @@
       "_origin": "ast",
       "_src": "backend_src_main_java_com_nova_bank_promotions_promotionservice_catalogue",
       "_tgt": "backend_src_main_java_com_nova_bank_promotions_promotionservice_promotion"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_support_supportcontroller_inquiry",
+      "target": "backend_src_main_java_com_nova_bank_support_supportcontroller_supportcontroller_inquiry",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/support/SupportController.java",
+      "source_location": "L17",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast",
+      "_src": "backend_src_main_java_com_nova_bank_support_supportcontroller_supportcontroller_inquiry",
+      "_tgt": "backend_src_main_java_com_nova_bank_support_supportcontroller_inquiry"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_support_supportcontroller_chat",
+      "target": "backend_src_main_java_com_nova_bank_support_supportcontroller_supportcontroller_chat",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/support/SupportController.java",
+      "source_location": "L19",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast",
+      "_src": "backend_src_main_java_com_nova_bank_support_supportcontroller_supportcontroller_chat",
+      "_tgt": "backend_src_main_java_com_nova_bank_support_supportcontroller_chat"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_support_supportcontroller_java_postmapping",
+      "target": "backend_src_main_java_com_nova_bank_support_supportcontroller_supportcontroller_chat",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/support/SupportController.java",
+      "source_location": "L19",
+      "weight": 1.0,
+      "context": "attribute",
+      "_origin": "ast",
+      "_src": "backend_src_main_java_com_nova_bank_support_supportcontroller_supportcontroller_chat",
+      "_tgt": "backend_src_main_java_com_nova_bank_support_supportcontroller_java_postmapping"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_support_supportservice_supportservice",
+      "target": "backend_src_test_java_com_nova_bank_support_supportservicetest_supportservicetest",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/support/SupportServiceTest.java",
+      "source_location": "L14",
+      "weight": 1.0,
+      "context": "field",
+      "_origin": "ast",
+      "_src": "backend_src_test_java_com_nova_bank_support_supportservicetest_supportservicetest",
+      "_tgt": "backend_src_main_java_com_nova_bank_support_supportservice_supportservice"
     },
     {
       "source": "backend_src_test_java_com_nova_bank_auth_authapitest_java_test",
@@ -19397,7 +22669,20 @@
       "source_location": "L13",
       "weight": 1.0,
       "_origin": "ast",
-      "_src": "frontend_src_app_promotions_promotions_component_promotionscomponent_constructor",
+      "_src": "frontend_src_app_auth_auth_service_authservice",
+      "_tgt": "frontend_src_app_promotions_promotions_component_promotionscomponent_constructor"
+    },
+    {
+      "source": "frontend_src_app_auth_auth_service_authservice",
+      "target": "frontend_src_app_support_support_component_supportcomponent_constructor",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/support/support.component.ts",
+      "source_location": "L21",
+      "weight": 1.0,
+      "_origin": "ast",
+      "_src": "frontend_src_app_support_support_component_supportcomponent_constructor",
       "_tgt": "frontend_src_app_auth_auth_service_authservice"
     },
     {
@@ -19410,8 +22695,8 @@
       "source_location": "L21",
       "weight": 1.0,
       "_origin": "ast",
-      "_src": "frontend_src_app_promotions_promotions_component_promotionscomponent_express",
-      "_tgt": "frontend_src_app_promotions_promotion_service_promotion"
+      "_src": "frontend_src_app_promotions_promotion_service_promotion",
+      "_tgt": "frontend_src_app_promotions_promotions_component_promotionscomponent_express"
     },
     {
       "source": "frontend_src_app_promotions_promotion_service_promotion",
@@ -19423,8 +22708,8 @@
       "source_location": "L15",
       "weight": 1.0,
       "_origin": "ast",
-      "_src": "frontend_src_app_promotions_promotions_component_promotionscomponent_featured",
-      "_tgt": "frontend_src_app_promotions_promotion_service_promotion"
+      "_src": "frontend_src_app_promotions_promotion_service_promotion",
+      "_tgt": "frontend_src_app_promotions_promotions_component_promotionscomponent_featured"
     },
     {
       "source": "frontend_src_app_promotions_promotion_service_promotion",
@@ -19436,8 +22721,8 @@
       "source_location": "L17",
       "weight": 1.0,
       "_origin": "ast",
-      "_src": "frontend_src_app_promotions_promotions_component_promotionscomponent_filtered",
-      "_tgt": "frontend_src_app_promotions_promotion_service_promotion"
+      "_src": "frontend_src_app_promotions_promotion_service_promotion",
+      "_tgt": "frontend_src_app_promotions_promotions_component_promotionscomponent_filtered"
     },
     {
       "source": "frontend_src_app_promotions_promotion_service_promotion",
@@ -19449,8 +22734,8 @@
       "source_location": "L16",
       "weight": 1.0,
       "_origin": "ast",
-      "_src": "frontend_src_app_promotions_promotions_component_promotionscomponent_selected",
-      "_tgt": "frontend_src_app_promotions_promotion_service_promotion"
+      "_src": "frontend_src_app_promotions_promotion_service_promotion",
+      "_tgt": "frontend_src_app_promotions_promotions_component_promotionscomponent_selected"
     },
     {
       "source": "frontend_src_app_promotions_promotion_service_catalogue",
@@ -19462,8 +22747,8 @@
       "source_location": "L10",
       "weight": 1.0,
       "_origin": "ast",
-      "_src": "frontend_src_app_promotions_promotions_component_promotionscomponent",
-      "_tgt": "frontend_src_app_promotions_promotion_service_catalogue"
+      "_src": "frontend_src_app_promotions_promotion_service_catalogue",
+      "_tgt": "frontend_src_app_promotions_promotions_component_promotionscomponent"
     },
     {
       "source": "frontend_src_app_promotions_promotion_service_promotionservice",
@@ -19475,15 +22760,15 @@
       "source_location": "L13",
       "weight": 1.0,
       "_origin": "ast",
-      "_src": "frontend_src_app_promotions_promotions_component_promotionscomponent_constructor",
-      "_tgt": "frontend_src_app_promotions_promotion_service_promotionservice"
+      "_src": "frontend_src_app_promotions_promotion_service_promotionservice",
+      "_tgt": "frontend_src_app_promotions_promotions_component_promotionscomponent_constructor"
     }
   ],
   "metadata": {
-    "built_at": "2026-11-16T15:13:32.507061+00:00",
+    "built_at": "2026-11-16T15:20:23.828090+00:00",
     "version": "graph_update-v1",
     "codebase_root": "/data/artifacts-v2/T0132PcJVCRTV000416112614280356/developer",
     "force": true,
-    "files_scanned": 352
+    "files_scanned": 368
   }
 }

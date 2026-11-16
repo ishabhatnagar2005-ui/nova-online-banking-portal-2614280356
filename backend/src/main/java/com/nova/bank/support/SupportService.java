@@ -10,6 +10,7 @@ import java.time.ZoneOffset;
 import java.time.format.DateTimeFormatter;
 import java.util.Locale;
 import java.util.UUID;
+import java.util.regex.Pattern;
 import org.springframework.http.HttpStatus;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.security.authentication.AuthenticationCredentialsNotFoundException;
@@ -19,6 +20,7 @@ import org.springframework.web.server.ResponseStatusException;
 
 /** Record simulated inquiries and answer from the signed-in customer's data. */
 @Service public class SupportService {
+    private static final Pattern HTML_LIKE = Pattern.compile("<\\s*(?:/?\\s*[a-zA-Z][a-zA-Z0-9:-]*(?=[\\s/>]|$)|[!?])");
     private final JdbcTemplate jdbc;
     private final PortfolioService portfolio;
     private final PromotionService promotions;
@@ -32,7 +34,7 @@ import org.springframework.web.server.ResponseStatusException;
         return principal.userId();
     }
     private String clean(String value,int max) {
-        if (value==null || value.isBlank() || value.length()>max) throw new ResponseStatusException(HttpStatus.BAD_REQUEST,"Invalid inquiry or message");
+        if (value==null || value.isBlank() || value.length()>max || HTML_LIKE.matcher(value).find()) throw new ResponseStatusException(HttpStatus.BAD_REQUEST,"Invalid inquiry or message");
         return value.trim();
     }
     /** Persist an inquiry without creating a real support ticket. */

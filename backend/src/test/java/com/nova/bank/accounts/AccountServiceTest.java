@@ -11,6 +11,8 @@ import static org.assertj.core.api.Assertions.*;
 
 /** Exercise calculations and filtering against isolated PostgreSQL fixtures. */
 @SpringBootTest(properties={"spring.datasource.url=${TEST_DATABASE_URL:jdbc:postgresql://localhost:5432/nova_portfolio_test}","spring.datasource.username=${TEST_DB_USERNAME:agent}","spring.datasource.password=${TEST_DB_PASSWORD:}","nova.jwt-secret=test-only-signing-secret-at-least-32-bytes","nova.demo-mode=true","nova.demo-password=demo-only","nova.demo-date=2026-10-14"})
+@org.springframework.test.context.ContextConfiguration(initializers=com.nova.bank.DisposableDatabaseGuard.class)
+@org.springframework.transaction.annotation.Transactional
 class AccountServiceTest {
     @Autowired AccountService service; @Autowired AccountSeeder seeder; @Autowired JdbcTemplate jdbc;
     final UUID savings=UUID.fromString("b1eebc99-9c0b-4ef8-bb6d-6bb9bd380a02");
@@ -44,5 +46,11 @@ class AccountServiceTest {
         assertThatThrownBy(()->service.statement(principal("12"),savings)).isInstanceOf(ResponseStatusException.class).hasMessageContaining("403");
         assertThat(service.statement(principal("11"),savings)).contains("•••• 9034","REF-TX-882194","185.00");
         assertThat(service.statementFilename(principal("11"),savings)).isEqualTo("statement-9034-demo.txt");
+        var admin=new AuthService.Principal(UUID.randomUUID(),UUID.randomUUID(),"admin","ADMIN",null);
+        assertThat(service.statement(admin,savings)).contains("9034");
+        assertThatThrownBy(()->service.statement(admin,UUID.randomUUID())).isInstanceOf(ResponseStatusException.class).hasMessageContaining("403");
+        assertThatThrownBy(()->service.statement(null,savings)).isInstanceOf(org.springframework.security.authentication.AuthenticationCredentialsNotFoundException.class);
+        assertThat(query(" ","dining","debit",null,null,0,20).total()).isEqualTo(1);
+        assertThatThrownBy(()->query(null,null,null,null,null,Integer.MAX_VALUE,100)).isInstanceOf(ResponseStatusException.class);
     }
 }

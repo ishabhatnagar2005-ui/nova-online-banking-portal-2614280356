@@ -16,6 +16,8 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 
 /** Exercise bearer authentication and interest persistence at the HTTP boundary. */
 @SpringBootTest(properties={"spring.datasource.url=${TEST_DATABASE_URL:jdbc:postgresql://localhost:5432/nova_portfolio_test}","spring.datasource.username=${TEST_DB_USERNAME:agent}","spring.datasource.password=${TEST_DB_PASSWORD:}","nova.jwt-secret=test-only-signing-secret-at-least-32-bytes","nova.demo-mode=true","nova.demo-password=demo-only","nova.demo-date=2026-10-14"})
+@org.springframework.test.context.ContextConfiguration(initializers=com.nova.bank.DisposableDatabaseGuard.class)
+@Transactional
 @AutoConfigureMockMvc class PromotionApiTest {
     @Autowired MockMvc mvc; @Autowired ObjectMapper json; @Autowired JdbcTemplate jdbc;
     String login(String user) throws Exception { String body=mvc.perform(post("/api/v1/auth/login").contentType(MediaType.APPLICATION_JSON).content("{\"username\":\""+user+"\",\"password\":\"demo-only\"}")).andExpect(status().isOk()).andReturn().getResponse().getContentAsString(); return json.readTree(body).get("token").asText(); }
@@ -35,6 +37,9 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
         mvc.perform(post(path).header("Authorization","Bearer "+rosa)).andExpect(status().isNotFound());
         mvc.perform(post("/api/v1/promotions/d1eebc99-9c0b-4ef8-bb6d-6bb9bd380a10/express-interest").header("Authorization","Bearer "+rosa)).andExpect(status().isNotFound());
         mvc.perform(post("/api/v1/promotions/not-a-uuid/express-interest").header("Authorization","Bearer "+rosa)).andExpect(status().isBadRequest());
+        UUID missing=UUID.randomUUID();
+        mvc.perform(post("/api/v1/promotions/"+missing+"/express-interest").header("Authorization","Bearer "+rosa)).andExpect(status().isNotFound());
+        assertThat(jdbc.queryForObject("select count(*) from promotion_interests where promotion_id=?",Integer.class,missing)).isZero();
     }
     @Test @Transactional void expiredActiveOfferIsAbsentAndCannotRegister() throws Exception {
         String token=login("miguel"); UUID promotion=UUID.fromString("d1eebc99-9c0b-4ef8-bb6d-6bb9bd380a01");

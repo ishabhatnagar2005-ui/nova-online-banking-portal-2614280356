@@ -1,6 +1,8 @@
 package com.nova.bank.admin;
 
+import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 import com.nova.bank.auth.AuthService;
+import com.nova.bank.common.StrictJsonTypes;
 import java.util.List;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.core.annotation.AuthenticationPrincipal;
@@ -24,5 +26,5 @@ public class AdminController {
         return service.probe(actor) ? ResponseEntity.status(503).body(new Message("Simulated service error; no customer service was affected.")) : ResponseEntity.ok(new Message("Demonstration probe is available."));
     }
     public record Message(String message) {}
-    public record Simulation(Boolean enabled) {}
+    public record Simulation(@JsonDeserialize(using=StrictJsonTypes.BooleanValue.class) Boolean enabled) {}
 }
