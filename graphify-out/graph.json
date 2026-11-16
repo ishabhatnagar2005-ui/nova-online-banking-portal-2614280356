@@ -638,13 +638,12 @@
       "community": 3
     },
     {
-      "id": "postmapping",
+      "id": "backend_src_main_java_com_nova_bank_auth_authcontroller_java_postmapping",
       "label": "PostMapping",
       "file_type": "code",
       "source_file": "",
       "source_location": "",
-      "_origin": "ast",
-      "community": 3
+      "_origin": "ast"
     },
     {
       "id": "backend_src_main_java_com_nova_bank_auth_authcontroller_authcontroller_activity",
@@ -1964,6 +1963,340 @@
       "_origin": "ast"
     },
     {
+      "id": "backend_src_main_java_com_nova_bank_promotions_promotioncontroller",
+      "label": "PromotionController.java",
+      "file_type": "code",
+      "source_file": "backend/src/main/java/com/nova/bank/promotions/PromotionController.java",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_main_java_com_nova_bank_promotions_promotioncontroller_promotioncontroller",
+      "label": "PromotionController",
+      "file_type": "code",
+      "source_file": "backend/src/main/java/com/nova/bank/promotions/PromotionController.java",
+      "source_location": "L9",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_main_java_com_nova_bank_promotions_promotioncontroller_java_restcontroller",
+      "label": "RestController",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_main_java_com_nova_bank_promotions_promotioncontroller_java_requestmapping",
+      "label": "RequestMapping",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_main_java_com_nova_bank_promotions_promotioncontroller_promotioncontroller_promotioncontroller",
+      "label": ".PromotionController()",
+      "file_type": "code",
+      "source_file": "backend/src/main/java/com/nova/bank/promotions/PromotionController.java",
+      "source_location": "L11",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_main_java_com_nova_bank_promotions_promotioncontroller_promotioncontroller_list",
+      "label": ".list()",
+      "file_type": "code",
+      "source_file": "backend/src/main/java/com/nova/bank/promotions/PromotionController.java",
+      "source_location": "L12",
+      "_java_ret": "Catalogue",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_main_java_com_nova_bank_promotions_promotioncontroller_java_getmapping",
+      "label": "GetMapping",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_main_java_com_nova_bank_promotions_promotioncontroller_promotioncontroller_interest",
+      "label": ".interest()",
+      "file_type": "code",
+      "source_file": "backend/src/main/java/com/nova/bank/promotions/PromotionController.java",
+      "source_location": "L13",
+      "_java_ret": "Confirmation",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_main_java_com_nova_bank_promotions_promotioncontroller_java_postmapping",
+      "label": "PostMapping",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_main_java_com_nova_bank_promotions_promotionerrors",
+      "label": "PromotionErrors.java",
+      "file_type": "code",
+      "source_file": "backend/src/main/java/com/nova/bank/promotions/PromotionErrors.java",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_main_java_com_nova_bank_promotions_promotionerrors_promotionerrors",
+      "label": "PromotionErrors",
+      "file_type": "code",
+      "source_file": "backend/src/main/java/com/nova/bank/promotions/PromotionErrors.java",
+      "source_location": "L12",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_main_java_com_nova_bank_promotions_promotionerrors_promotionerrors_status",
+      "label": ".status()",
+      "file_type": "code",
+      "source_file": "backend/src/main/java/com/nova/bank/promotions/PromotionErrors.java",
+      "source_location": "L13",
+      "_java_ret": "ResponseEntity",
+      "_callable": true,
+      "metadata": {
+        "unresolved_calls": [
+          {
+            "callee": "getStatusCode",
+            "receiver_type": "ResponseStatusException",
+            "lang": "java",
+            "line": "L13"
+          },
+          {
+            "callee": "status",
+            "receiver_type": "ResponseEntity",
+            "lang": "java",
+            "line": "L13"
+          },
+          {
+            "callee": "now",
+            "receiver_type": "Instant",
+            "lang": "java",
+            "line": "L13"
+          }
+        ]
+      },
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_main_java_com_nova_bank_promotions_promotionerrors_promotionerrors_invalid",
+      "label": ".invalid()",
+      "file_type": "code",
+      "source_file": "backend/src/main/java/com/nova/bank/promotions/PromotionErrors.java",
+      "source_location": "L14",
+      "_java_ret": "ResponseEntity",
+      "_callable": true,
+      "metadata": {
+        "unresolved_calls": [
+          {
+            "callee": "badRequest",
+            "receiver_type": "ResponseEntity",
+            "lang": "java",
+            "line": "L14"
+          },
+          {
+            "callee": "now",
+            "receiver_type": "Instant",
+            "lang": "java",
+            "line": "L14"
+          }
+        ]
+      },
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_main_java_com_nova_bank_promotions_promotionseeder",
+      "label": "PromotionSeeder.java",
+      "file_type": "code",
+      "source_file": "backend/src/main/java/com/nova/bank/promotions/PromotionSeeder.java",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_main_java_com_nova_bank_promotions_promotionseeder_promotionseeder",
+      "label": "PromotionSeeder",
+      "file_type": "code",
+      "source_file": "backend/src/main/java/com/nova/bank/promotions/PromotionSeeder.java",
+      "source_location": "L8",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_main_java_com_nova_bank_promotions_promotionseeder_promotionseeder_promotionseeder",
+      "label": ".PromotionSeeder()",
+      "file_type": "code",
+      "source_file": "backend/src/main/java/com/nova/bank/promotions/PromotionSeeder.java",
+      "source_location": "L10",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_main_java_com_nova_bank_promotions_promotionseeder_promotionseeder_seed",
+      "label": ".seed()",
+      "file_type": "code",
+      "source_file": "backend/src/main/java/com/nova/bank/promotions/PromotionSeeder.java",
+      "source_location": "L12",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_main_java_com_nova_bank_promotions_promotionseeder_promotionseeder_insert",
+      "label": ".insert()",
+      "file_type": "code",
+      "source_file": "backend/src/main/java/com/nova/bank/promotions/PromotionSeeder.java",
+      "source_location": "L24",
+      "_callable": true,
+      "metadata": {
+        "unresolved_calls": [
+          {
+            "callee": "update",
+            "receiver_type": "JdbcTemplate",
+            "lang": "java",
+            "line": "L25"
+          },
+          {
+            "callee": "fromString",
+            "receiver_type": "UUID",
+            "lang": "java",
+            "line": "L25"
+          }
+        ]
+      },
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_main_java_com_nova_bank_promotions_promotionservice",
+      "label": "PromotionService.java",
+      "file_type": "code",
+      "source_file": "backend/src/main/java/com/nova/bank/promotions/PromotionService.java",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_main_java_com_nova_bank_promotions_promotionservice_promotionservice",
+      "label": "PromotionService",
+      "file_type": "code",
+      "source_file": "backend/src/main/java/com/nova/bank/promotions/PromotionService.java",
+      "source_location": "L17",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_main_java_com_nova_bank_promotions_promotionservice_promotionservice_promotionservice",
+      "label": ".PromotionService()",
+      "file_type": "code",
+      "source_file": "backend/src/main/java/com/nova/bank/promotions/PromotionService.java",
+      "source_location": "L21",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_main_java_com_nova_bank_promotions_promotionservice_promotionservice_customer",
+      "label": ".customer()",
+      "file_type": "code",
+      "source_file": "backend/src/main/java/com/nova/bank/promotions/PromotionService.java",
+      "source_location": "L23",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_main_java_com_nova_bank_promotions_promotionservice_promotionservice_list",
+      "label": ".list()",
+      "file_type": "code",
+      "source_file": "backend/src/main/java/com/nova/bank/promotions/PromotionService.java",
+      "source_location": "L28",
+      "_java_ret": "Catalogue",
+      "_callable": true,
+      "metadata": {
+        "unresolved_calls": [
+          {
+            "callee": "query",
+            "receiver_type": "JdbcTemplate",
+            "lang": "java",
+            "line": "L29"
+          }
+        ]
+      },
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_main_java_com_nova_bank_promotions_promotionservice_promotionservice_expressinterest",
+      "label": ".expressInterest()",
+      "file_type": "code",
+      "source_file": "backend/src/main/java/com/nova/bank/promotions/PromotionService.java",
+      "source_location": "L33",
+      "_java_ret": "Confirmation",
+      "_callable": true,
+      "metadata": {
+        "unresolved_calls": [
+          {
+            "callee": "update",
+            "receiver_type": "JdbcTemplate",
+            "lang": "java",
+            "line": "L35"
+          },
+          {
+            "callee": "randomUUID",
+            "receiver_type": "UUID",
+            "lang": "java",
+            "line": "L35"
+          },
+          {
+            "callee": "now",
+            "receiver_type": "Instant",
+            "lang": "java",
+            "line": "L35"
+          }
+        ]
+      },
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_main_java_com_nova_bank_promotions_promotionservice_promotion",
+      "label": "Promotion",
+      "file_type": "code",
+      "source_file": "backend/src/main/java/com/nova/bank/promotions/PromotionService.java",
+      "source_location": "L39",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_main_java_com_nova_bank_promotions_promotionservice_catalogue",
+      "label": "Catalogue",
+      "file_type": "code",
+      "source_file": "backend/src/main/java/com/nova/bank/promotions/PromotionService.java",
+      "source_location": "L40",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_main_java_com_nova_bank_promotions_promotionservice_confirmation",
+      "label": "Confirmation",
+      "file_type": "code",
+      "source_file": "backend/src/main/java/com/nova/bank/promotions/PromotionService.java",
+      "source_location": "L41",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
       "id": "backend_src_test_java_com_nova_bank_accounts_accountapitest",
       "label": "AccountApiTest.java",
       "file_type": "code",
@@ -2663,6 +2996,280 @@
       "_origin": "ast"
     },
     {
+      "id": "backend_src_test_java_com_nova_bank_promotions_promotionapitest",
+      "label": "PromotionApiTest.java",
+      "file_type": "code",
+      "source_file": "backend/src/test/java/com/nova/bank/promotions/PromotionApiTest.java",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_test_java_com_nova_bank_promotions_promotionapitest_promotionapitest",
+      "label": "PromotionApiTest",
+      "file_type": "code",
+      "source_file": "backend/src/test/java/com/nova/bank/promotions/PromotionApiTest.java",
+      "source_location": "L18",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_test_java_com_nova_bank_promotions_promotionapitest_promotionapitest_login",
+      "label": ".login()",
+      "file_type": "code",
+      "source_file": "backend/src/test/java/com/nova/bank/promotions/PromotionApiTest.java",
+      "source_location": "L21",
+      "_callable": true,
+      "metadata": {
+        "unresolved_calls": [
+          {
+            "callee": "perform",
+            "receiver_type": "MockMvc",
+            "lang": "java",
+            "line": "L21"
+          },
+          {
+            "callee": "readTree",
+            "receiver_type": "ObjectMapper",
+            "lang": "java",
+            "line": "L21"
+          }
+        ]
+      },
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_test_java_com_nova_bank_promotions_promotionapitest_promotionapitest_customerseeseligibleoffersandrecordsinterest",
+      "label": ".customerSeesEligibleOffersAndRecordsInterest()",
+      "file_type": "code",
+      "source_file": "backend/src/test/java/com/nova/bank/promotions/PromotionApiTest.java",
+      "source_location": "L22",
+      "_callable": true,
+      "metadata": {
+        "unresolved_calls": [
+          {
+            "callee": "perform",
+            "receiver_type": "MockMvc",
+            "lang": "java",
+            "line": "L23"
+          },
+          {
+            "callee": "fromString",
+            "receiver_type": "UUID",
+            "lang": "java",
+            "line": "L25"
+          },
+          {
+            "callee": "queryForObject",
+            "receiver_type": "JdbcTemplate",
+            "lang": "java",
+            "line": "L26"
+          }
+        ]
+      },
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_test_java_com_nova_bank_promotions_promotionapitest_promotionapitest_unauthorizedineligibleinactiveandinvalidrequestsfailclosed",
+      "label": ".unauthorizedIneligibleInactiveAndInvalidRequestsFailClosed()",
+      "file_type": "code",
+      "source_file": "backend/src/test/java/com/nova/bank/promotions/PromotionApiTest.java",
+      "source_location": "L30",
+      "_callable": true,
+      "metadata": {
+        "unresolved_calls": [
+          {
+            "callee": "perform",
+            "receiver_type": "MockMvc",
+            "lang": "java",
+            "line": "L32"
+          }
+        ]
+      },
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_test_java_com_nova_bank_promotions_promotionapitest_promotionapitest_expiredactiveofferisabsentandcannotregister",
+      "label": ".expiredActiveOfferIsAbsentAndCannotRegister()",
+      "file_type": "code",
+      "source_file": "backend/src/test/java/com/nova/bank/promotions/PromotionApiTest.java",
+      "source_location": "L39",
+      "_callable": true,
+      "metadata": {
+        "unresolved_calls": [
+          {
+            "callee": "fromString",
+            "receiver_type": "UUID",
+            "lang": "java",
+            "line": "L40"
+          },
+          {
+            "callee": "update",
+            "receiver_type": "JdbcTemplate",
+            "lang": "java",
+            "line": "L41"
+          },
+          {
+            "callee": "perform",
+            "receiver_type": "MockMvc",
+            "lang": "java",
+            "line": "L42"
+          }
+        ]
+      },
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_test_java_com_nova_bank_promotions_promotionservicetest",
+      "label": "PromotionServiceTest.java",
+      "file_type": "code",
+      "source_file": "backend/src/test/java/com/nova/bank/promotions/PromotionServiceTest.java",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_test_java_com_nova_bank_promotions_promotionservicetest_promotionservicetest",
+      "label": "PromotionServiceTest",
+      "file_type": "code",
+      "source_file": "backend/src/test/java/com/nova/bank/promotions/PromotionServiceTest.java",
+      "source_location": "L14",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_test_java_com_nova_bank_promotions_promotionservicetest_promotionservicetest_principal",
+      "label": ".principal()",
+      "file_type": "code",
+      "source_file": "backend/src/test/java/com/nova/bank/promotions/PromotionServiceTest.java",
+      "source_location": "L17",
+      "_java_ret": "Principal",
+      "_callable": true,
+      "metadata": {
+        "unresolved_calls": [
+          {
+            "callee": "fromString",
+            "receiver_type": "UUID",
+            "lang": "java",
+            "line": "L17"
+          },
+          {
+            "callee": "randomUUID",
+            "receiver_type": "UUID",
+            "lang": "java",
+            "line": "L17"
+          }
+        ]
+      },
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_test_java_com_nova_bank_promotions_promotionservicetest_promotionservicetest_id",
+      "label": ".id()",
+      "file_type": "code",
+      "source_file": "backend/src/test/java/com/nova/bank/promotions/PromotionServiceTest.java",
+      "source_location": "L18",
+      "_callable": true,
+      "metadata": {
+        "unresolved_calls": [
+          {
+            "callee": "fromString",
+            "receiver_type": "UUID",
+            "lang": "java",
+            "line": "L18"
+          }
+        ]
+      },
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_test_java_com_nova_bank_promotions_promotionservicetest_promotionservicetest_catalogueisseededidempotentlyandscopedbydatabaseidentity",
+      "label": ".catalogueIsSeededIdempotentlyAndScopedByDatabaseIdentity()",
+      "file_type": "code",
+      "source_file": "backend/src/test/java/com/nova/bank/promotions/PromotionServiceTest.java",
+      "source_location": "L19",
+      "_callable": true,
+      "metadata": {
+        "unresolved_calls": [
+          {
+            "callee": "queryForObject",
+            "receiver_type": "JdbcTemplate",
+            "lang": "java",
+            "line": "L20"
+          },
+          {
+            "callee": "demoDate",
+            "receiver_type": "var",
+            "lang": "java",
+            "line": "L21"
+          },
+          {
+            "callee": "parse",
+            "receiver_type": "LocalDate",
+            "lang": "java",
+            "line": "L21"
+          },
+          {
+            "callee": "promotions",
+            "receiver_type": "var",
+            "lang": "java",
+            "line": "L22"
+          }
+        ]
+      },
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_test_java_com_nova_bank_promotions_promotionservicetest_promotionservicetest_expiryinclusiveandinactiveoffersareenforcedforreadsandwrites",
+      "label": ".expiryInclusiveAndInactiveOffersAreEnforcedForReadsAndWrites()",
+      "file_type": "code",
+      "source_file": "backend/src/test/java/com/nova/bank/promotions/PromotionServiceTest.java",
+      "source_location": "L27",
+      "_callable": true,
+      "metadata": {
+        "unresolved_calls": [
+          {
+            "callee": "parse",
+            "receiver_type": "LocalDate",
+            "lang": "java",
+            "line": "L28"
+          },
+          {
+            "callee": "list",
+            "receiver_type": "var",
+            "lang": "java",
+            "line": "L29"
+          },
+          {
+            "callee": "expressInterest",
+            "receiver_type": "var",
+            "lang": "java",
+            "line": "L31"
+          }
+        ]
+      },
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_src_test_java_com_nova_bank_promotions_promotionservicetest_promotionservicetest_registrationpersistscustomerpromotionandtimestamp",
+      "label": ".registrationPersistsCustomerPromotionAndTimestamp()",
+      "file_type": "code",
+      "source_file": "backend/src/test/java/com/nova/bank/promotions/PromotionServiceTest.java",
+      "source_location": "L36",
+      "_callable": true,
+      "metadata": {
+        "unresolved_calls": [
+          {
+            "callee": "queryForObject",
+            "receiver_type": "JdbcTemplate",
+            "lang": "java",
+            "line": "L38"
+          }
+        ]
+      },
+      "_origin": "ast"
+    },
+    {
       "id": "frontend_angular",
       "label": "angular.json",
       "file_type": "code",
@@ -2927,6 +3534,14 @@
       "label": "portfolio.spec.ts",
       "file_type": "code",
       "source_file": "frontend/e2e/portfolio.spec.ts",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_e2e_promotions_spec",
+      "label": "promotions.spec.ts",
+      "file_type": "code",
+      "source_file": "frontend/e2e/promotions.spec.ts",
       "source_location": "L1",
       "_origin": "ast"
     },
@@ -4369,6 +4984,249 @@
       "_origin": "ast"
     },
     {
+      "id": "frontend_src_app_promotions_promotion_service",
+      "label": "promotion.service.ts",
+      "file_type": "code",
+      "source_file": "frontend/src/app/promotions/promotion.service.ts",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_app_promotions_promotion_service_promotion",
+      "label": "Promotion",
+      "file_type": "code",
+      "source_file": "frontend/src/app/promotions/promotion.service.ts",
+      "source_location": "L4",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_app_promotions_promotion_service_catalogue",
+      "label": "Catalogue",
+      "file_type": "code",
+      "source_file": "frontend/src/app/promotions/promotion.service.ts",
+      "source_location": "L5",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_app_promotions_promotion_service_promotionservice",
+      "label": "PromotionService",
+      "file_type": "code",
+      "source_file": "frontend/src/app/promotions/promotion.service.ts",
+      "source_location": "L7",
+      "_callable": true,
+      "_callable_class": true,
+      "_ts_fields": {
+        "http": "HttpClient"
+      },
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_app_promotions_promotion_service_ts_injectable",
+      "label": "Injectable",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_app_promotions_promotion_service_promotionservice_constructor",
+      "label": ".constructor()",
+      "file_type": "code",
+      "source_file": "frontend/src/app/promotions/promotion.service.ts",
+      "source_location": "L8",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_app_promotions_promotion_service_promotionservice_list",
+      "label": ".list()",
+      "file_type": "code",
+      "source_file": "frontend/src/app/promotions/promotion.service.ts",
+      "source_location": "L9",
+      "_callable": true,
+      "metadata": {
+        "unresolved_calls": [
+          {
+            "callee": "get",
+            "receiver_type": "HttpClient",
+            "lang": "typescript",
+            "line": "L9"
+          }
+        ]
+      },
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_app_promotions_promotion_service_promotionservice_interest",
+      "label": ".interest()",
+      "file_type": "code",
+      "source_file": "frontend/src/app/promotions/promotion.service.ts",
+      "source_location": "L10",
+      "_callable": true,
+      "metadata": {
+        "unresolved_calls": [
+          {
+            "callee": "post",
+            "receiver_type": "HttpClient",
+            "lang": "typescript",
+            "line": "L10"
+          }
+        ]
+      },
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_app_promotions_promotions_component_spec",
+      "label": "promotions.component.spec.ts",
+      "file_type": "code",
+      "source_file": "frontend/src/app/promotions/promotions.component.spec.ts",
+      "source_location": "L1",
+      "metadata": {
+        "unresolved_calls": [
+          {
+            "callee": "next",
+            "receiver_type": "BehaviorSubject",
+            "lang": "typescript",
+            "line": "L11"
+          }
+        ]
+      },
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_app_promotions_promotions_component",
+      "label": "promotions.component.ts",
+      "file_type": "code",
+      "source_file": "frontend/src/app/promotions/promotions.component.ts",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_app_promotions_promotions_component_promotionscomponent",
+      "label": "PromotionsComponent",
+      "file_type": "code",
+      "source_file": "frontend/src/app/promotions/promotions.component.ts",
+      "source_location": "L9",
+      "_callable": true,
+      "_callable_class": true,
+      "_ts_fields": {
+        "action": "Subscription",
+        "auth": "AuthService",
+        "data": "Catalogue",
+        "featured": "Promotion",
+        "params": "Subscription",
+        "request": "Subscription",
+        "route": "ActivatedRoute",
+        "selected": "Promotion",
+        "service": "PromotionService"
+      },
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_app_promotions_promotions_component_ts_component",
+      "label": "Component",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_app_promotions_promotions_component_promotionscomponent_constructor",
+      "label": ".constructor()",
+      "file_type": "code",
+      "source_file": "frontend/src/app/promotions/promotions.component.ts",
+      "source_location": "L13",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_app_promotions_promotions_component_promotionscomponent_ngoninit",
+      "label": ".ngOnInit()",
+      "file_type": "code",
+      "source_file": "frontend/src/app/promotions/promotions.component.ts",
+      "source_location": "L14",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_app_promotions_promotions_component_promotionscomponent_featured",
+      "label": ".featured()",
+      "file_type": "code",
+      "source_file": "frontend/src/app/promotions/promotions.component.ts",
+      "source_location": "L15",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_app_promotions_promotions_component_promotionscomponent_selected",
+      "label": ".selected()",
+      "file_type": "code",
+      "source_file": "frontend/src/app/promotions/promotions.component.ts",
+      "source_location": "L16",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_app_promotions_promotions_component_promotionscomponent_filtered",
+      "label": ".filtered()",
+      "file_type": "code",
+      "source_file": "frontend/src/app/promotions/promotions.component.ts",
+      "source_location": "L17",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_app_promotions_promotions_component_promotionscomponent_load",
+      "label": ".load()",
+      "file_type": "code",
+      "source_file": "frontend/src/app/promotions/promotions.component.ts",
+      "source_location": "L19",
+      "_callable": true,
+      "metadata": {
+        "unresolved_calls": [
+          {
+            "callee": "unsubscribe",
+            "receiver_type": "Subscription",
+            "lang": "typescript",
+            "line": "L19"
+          }
+        ]
+      },
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_app_promotions_promotions_component_promotionscomponent_express",
+      "label": ".express()",
+      "file_type": "code",
+      "source_file": "frontend/src/app/promotions/promotions.component.ts",
+      "source_location": "L21",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_app_promotions_promotions_component_promotionscomponent_ngondestroy",
+      "label": ".ngOnDestroy()",
+      "file_type": "code",
+      "source_file": "frontend/src/app/promotions/promotions.component.ts",
+      "source_location": "L22",
+      "_callable": true,
+      "metadata": {
+        "unresolved_calls": [
+          {
+            "callee": "unsubscribe",
+            "receiver_type": "Subscription",
+            "lang": "typescript",
+            "line": "L22"
+          }
+        ]
+      },
+      "_origin": "ast"
+    },
+    {
       "id": "frontend_src_main",
       "label": "main.ts",
       "file_type": "code",
@@ -5496,17 +6354,6 @@
     },
     {
       "source": "backend_src_main_java_com_nova_bank_accounts_accountservice",
-      "target": "org_springframework_web_server_responsestatusexception",
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "backend/src/main/java/com/nova/bank/accounts/AccountService.java",
-      "source_location": "L14",
-      "weight": 1.0,
-      "_origin": "ast"
-    },
-    {
-      "source": "backend_src_main_java_com_nova_bank_accounts_accountservice",
       "target": "backend_src_main_java_com_nova_bank_accounts_accountservice_accountservice",
       "relation": "contains",
       "confidence": "EXTRACTED",
@@ -6136,7 +6983,7 @@
     },
     {
       "source": "backend_src_main_java_com_nova_bank_auth_authcontroller_authcontroller_login",
-      "target": "postmapping",
+      "target": "backend_src_main_java_com_nova_bank_auth_authcontroller_java_postmapping",
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "backend/src/main/java/com/nova/bank/auth/AuthController.java",
@@ -6168,7 +7015,7 @@
     },
     {
       "source": "backend_src_main_java_com_nova_bank_auth_authcontroller_authcontroller_activity",
-      "target": "postmapping",
+      "target": "backend_src_main_java_com_nova_bank_auth_authcontroller_java_postmapping",
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "backend/src/main/java/com/nova/bank/auth/AuthController.java",
@@ -6211,7 +7058,7 @@
     },
     {
       "source": "backend_src_main_java_com_nova_bank_auth_authcontroller_authcontroller_logout",
-      "target": "postmapping",
+      "target": "backend_src_main_java_com_nova_bank_auth_authcontroller_java_postmapping",
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "backend/src/main/java/com/nova/bank/auth/AuthController.java",
@@ -6902,6 +7749,17 @@
     },
     {
       "source": "backend_src_main_java_com_nova_bank_auth_demoseeder_demoseeder",
+      "target": "backend_src_main_java_com_nova_bank_promotions_promotionseeder_promotionseeder",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/auth/DemoSeeder.java",
+      "source_location": "L10",
+      "weight": 1.0,
+      "context": "field",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_auth_demoseeder_demoseeder",
       "target": "backend_src_main_java_com_nova_bank_auth_demoseeder_demoseeder_demoseeder",
       "relation": "method",
       "confidence": "EXTRACTED",
@@ -6946,6 +7804,17 @@
     {
       "source": "backend_src_main_java_com_nova_bank_auth_demoseeder_demoseeder_demoseeder",
       "target": "backend_src_main_java_com_nova_bank_accounts_accountseeder_accountseeder",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/auth/DemoSeeder.java",
+      "source_location": "L11",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_auth_demoseeder_demoseeder_demoseeder",
+      "target": "backend_src_main_java_com_nova_bank_promotions_promotionseeder_promotionseeder",
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "backend/src/main/java/com/nova/bank/auth/DemoSeeder.java",
@@ -8495,6 +9364,779 @@
       "_origin": "ast"
     },
     {
+      "source": "backend_src_main_java_com_nova_bank_promotions_promotioncontroller",
+      "target": "backend_src_main_java_com_nova_bank_promotions_promotioncontroller_promotioncontroller",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/promotions/PromotionController.java",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_promotions_promotioncontroller_promotioncontroller",
+      "target": "backend_src_main_java_com_nova_bank_promotions_promotioncontroller_java_restcontroller",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/promotions/PromotionController.java",
+      "source_location": "L9",
+      "weight": 1.0,
+      "context": "attribute",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_promotions_promotioncontroller_promotioncontroller",
+      "target": "backend_src_main_java_com_nova_bank_promotions_promotioncontroller_java_requestmapping",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/promotions/PromotionController.java",
+      "source_location": "L9",
+      "weight": 1.0,
+      "context": "attribute",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_promotions_promotioncontroller_promotioncontroller",
+      "target": "backend_src_main_java_com_nova_bank_promotions_promotionservice_promotionservice",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/promotions/PromotionController.java",
+      "source_location": "L10",
+      "weight": 1.0,
+      "context": "field",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_promotions_promotioncontroller_promotioncontroller",
+      "target": "backend_src_main_java_com_nova_bank_promotions_promotioncontroller_promotioncontroller_promotioncontroller",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/promotions/PromotionController.java",
+      "source_location": "L11",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_promotions_promotioncontroller_promotioncontroller_promotioncontroller",
+      "target": "backend_src_main_java_com_nova_bank_promotions_promotionservice_promotionservice",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/promotions/PromotionController.java",
+      "source_location": "L11",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_promotions_promotioncontroller_promotioncontroller",
+      "target": "backend_src_main_java_com_nova_bank_promotions_promotioncontroller_promotioncontroller_list",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/promotions/PromotionController.java",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_promotions_promotioncontroller_promotioncontroller_list",
+      "target": "backend_src_main_java_com_nova_bank_auth_authservice_principal",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/promotions/PromotionController.java",
+      "source_location": "L12",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_promotions_promotioncontroller_promotioncontroller_list",
+      "target": "backend_src_main_java_com_nova_bank_promotions_promotionservice_catalogue",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/promotions/PromotionController.java",
+      "source_location": "L12",
+      "weight": 1.0,
+      "context": "return_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_promotions_promotioncontroller_promotioncontroller_list",
+      "target": "backend_src_main_java_com_nova_bank_promotions_promotioncontroller_java_getmapping",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/promotions/PromotionController.java",
+      "source_location": "L12",
+      "weight": 1.0,
+      "context": "attribute",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_promotions_promotioncontroller_promotioncontroller",
+      "target": "backend_src_main_java_com_nova_bank_promotions_promotioncontroller_promotioncontroller_interest",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/promotions/PromotionController.java",
+      "source_location": "L13",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_promotions_promotioncontroller_promotioncontroller_interest",
+      "target": "backend_src_main_java_com_nova_bank_auth_authservice_principal",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/promotions/PromotionController.java",
+      "source_location": "L13",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_promotions_promotioncontroller_promotioncontroller_interest",
+      "target": "backend_src_main_java_com_nova_bank_promotions_promotionservice_confirmation",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/promotions/PromotionController.java",
+      "source_location": "L13",
+      "weight": 1.0,
+      "context": "return_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_promotions_promotioncontroller_promotioncontroller_interest",
+      "target": "backend_src_main_java_com_nova_bank_promotions_promotioncontroller_java_postmapping",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/promotions/PromotionController.java",
+      "source_location": "L13",
+      "weight": 1.0,
+      "context": "attribute",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_promotions_promotionerrors",
+      "target": "backend_src_main_java_com_nova_bank_common_apierror_apierror",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/promotions/PromotionErrors.java",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_promotions_promotionerrors",
+      "target": "org_springframework_http_responseentity",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/promotions/PromotionErrors.java",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_promotions_promotionerrors",
+      "target": "org_springframework_web_bind_annotation_exceptionhandler",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/promotions/PromotionErrors.java",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_promotions_promotionerrors",
+      "target": "org_springframework_web_bind_annotation_restcontrolleradvice",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/promotions/PromotionErrors.java",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_promotions_promotionerrors",
+      "target": "org_springframework_web_method_annotation_methodargumenttypemismatchexception",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/promotions/PromotionErrors.java",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_promotions_promotionerrors",
+      "target": "org_springframework_web_server_responsestatusexception",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/promotions/PromotionErrors.java",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_promotions_promotionerrors",
+      "target": "backend_src_main_java_com_nova_bank_promotions_promotionerrors_promotionerrors",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/promotions/PromotionErrors.java",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_promotions_promotionerrors_promotionerrors",
+      "target": "org_springframework_web_bind_annotation_restcontrolleradvice",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/promotions/PromotionErrors.java",
+      "source_location": "L12",
+      "weight": 1.0,
+      "context": "attribute",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_promotions_promotionerrors_promotionerrors",
+      "target": "backend_src_main_java_com_nova_bank_promotions_promotioncontroller_promotioncontroller",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/promotions/PromotionErrors.java",
+      "source_location": "L12",
+      "weight": 1.0,
+      "context": "attribute",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_promotions_promotionerrors_promotionerrors",
+      "target": "backend_src_main_java_com_nova_bank_promotions_promotionerrors_promotionerrors_status",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/promotions/PromotionErrors.java",
+      "source_location": "L13",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_promotions_promotionerrors_promotionerrors_status",
+      "target": "org_springframework_web_server_responsestatusexception",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/promotions/PromotionErrors.java",
+      "source_location": "L13",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_promotions_promotionerrors_promotionerrors_status",
+      "target": "org_springframework_http_responseentity",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/promotions/PromotionErrors.java",
+      "source_location": "L13",
+      "weight": 1.0,
+      "context": "return_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_promotions_promotionerrors_promotionerrors_status",
+      "target": "backend_src_main_java_com_nova_bank_common_apierror_apierror",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/promotions/PromotionErrors.java",
+      "source_location": "L13",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_promotions_promotionerrors_promotionerrors_status",
+      "target": "org_springframework_web_bind_annotation_exceptionhandler",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/promotions/PromotionErrors.java",
+      "source_location": "L13",
+      "weight": 1.0,
+      "context": "attribute",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_promotions_promotionerrors_promotionerrors_status",
+      "target": "org_springframework_web_server_responsestatusexception",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/promotions/PromotionErrors.java",
+      "source_location": "L13",
+      "weight": 1.0,
+      "context": "attribute",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_promotions_promotionerrors_promotionerrors",
+      "target": "backend_src_main_java_com_nova_bank_promotions_promotionerrors_promotionerrors_invalid",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/promotions/PromotionErrors.java",
+      "source_location": "L14",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_promotions_promotionerrors_promotionerrors_invalid",
+      "target": "org_springframework_web_method_annotation_methodargumenttypemismatchexception",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/promotions/PromotionErrors.java",
+      "source_location": "L14",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_promotions_promotionerrors_promotionerrors_invalid",
+      "target": "org_springframework_http_responseentity",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/promotions/PromotionErrors.java",
+      "source_location": "L14",
+      "weight": 1.0,
+      "context": "return_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_promotions_promotionerrors_promotionerrors_invalid",
+      "target": "backend_src_main_java_com_nova_bank_common_apierror_apierror",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/promotions/PromotionErrors.java",
+      "source_location": "L14",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_promotions_promotionerrors_promotionerrors_invalid",
+      "target": "org_springframework_web_bind_annotation_exceptionhandler",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/promotions/PromotionErrors.java",
+      "source_location": "L14",
+      "weight": 1.0,
+      "context": "attribute",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_promotions_promotionerrors_promotionerrors_invalid",
+      "target": "org_springframework_web_method_annotation_methodargumenttypemismatchexception",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/promotions/PromotionErrors.java",
+      "source_location": "L14",
+      "weight": 1.0,
+      "context": "attribute",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_promotions_promotionseeder",
+      "target": "org_springframework_jdbc_core_jdbctemplate",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/promotions/PromotionSeeder.java",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_promotions_promotionseeder",
+      "target": "org_springframework_stereotype_component",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/promotions/PromotionSeeder.java",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_promotions_promotionseeder",
+      "target": "backend_src_main_java_com_nova_bank_promotions_promotionseeder_promotionseeder",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/promotions/PromotionSeeder.java",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_promotions_promotionseeder_promotionseeder",
+      "target": "org_springframework_stereotype_component",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/promotions/PromotionSeeder.java",
+      "source_location": "L8",
+      "weight": 1.0,
+      "context": "attribute",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_promotions_promotionseeder_promotionseeder",
+      "target": "org_springframework_jdbc_core_jdbctemplate",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/promotions/PromotionSeeder.java",
+      "source_location": "L9",
+      "weight": 1.0,
+      "context": "field",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_promotions_promotionseeder_promotionseeder",
+      "target": "backend_src_main_java_com_nova_bank_promotions_promotionseeder_promotionseeder_promotionseeder",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/promotions/PromotionSeeder.java",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_promotions_promotionseeder_promotionseeder_promotionseeder",
+      "target": "org_springframework_jdbc_core_jdbctemplate",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/promotions/PromotionSeeder.java",
+      "source_location": "L10",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_promotions_promotionseeder_promotionseeder",
+      "target": "backend_src_main_java_com_nova_bank_promotions_promotionseeder_promotionseeder_seed",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/promotions/PromotionSeeder.java",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_promotions_promotionseeder_promotionseeder",
+      "target": "backend_src_main_java_com_nova_bank_promotions_promotionseeder_promotionseeder_insert",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/promotions/PromotionSeeder.java",
+      "source_location": "L24",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_promotions_promotionseeder_promotionseeder_seed",
+      "target": "backend_src_main_java_com_nova_bank_promotions_promotionseeder_promotionseeder_insert",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/promotions/PromotionSeeder.java",
+      "source_location": "L13",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_promotions_promotionservice",
+      "target": "org_springframework_jdbc_core_jdbctemplate",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/promotions/PromotionService.java",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_promotions_promotionservice",
+      "target": "org_springframework_stereotype_service",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/promotions/PromotionService.java",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_promotions_promotionservice",
+      "target": "org_springframework_transaction_annotation_transactional",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/promotions/PromotionService.java",
+      "source_location": "L13",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_promotions_promotionservice",
+      "target": "backend_src_main_java_com_nova_bank_promotions_promotionservice_promotionservice",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/promotions/PromotionService.java",
+      "source_location": "L17",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_promotions_promotionservice_promotionservice",
+      "target": "org_springframework_stereotype_service",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/promotions/PromotionService.java",
+      "source_location": "L17",
+      "weight": 1.0,
+      "context": "attribute",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_promotions_promotionservice_promotionservice",
+      "target": "org_springframework_jdbc_core_jdbctemplate",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/promotions/PromotionService.java",
+      "source_location": "L19",
+      "weight": 1.0,
+      "context": "field",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_promotions_promotionservice_promotionservice",
+      "target": "backend_src_main_java_com_nova_bank_promotions_promotionservice_promotionservice_promotionservice",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/promotions/PromotionService.java",
+      "source_location": "L21",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_promotions_promotionservice_promotionservice_promotionservice",
+      "target": "org_springframework_jdbc_core_jdbctemplate",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/promotions/PromotionService.java",
+      "source_location": "L21",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_promotions_promotionservice_promotionservice",
+      "target": "backend_src_main_java_com_nova_bank_promotions_promotionservice_promotionservice_customer",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/promotions/PromotionService.java",
+      "source_location": "L23",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_promotions_promotionservice_promotionservice_customer",
+      "target": "backend_src_main_java_com_nova_bank_auth_authservice_principal",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/promotions/PromotionService.java",
+      "source_location": "L23",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_promotions_promotionservice_promotionservice",
+      "target": "backend_src_main_java_com_nova_bank_promotions_promotionservice_promotionservice_list",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/promotions/PromotionService.java",
+      "source_location": "L28",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_promotions_promotionservice_promotionservice_list",
+      "target": "backend_src_main_java_com_nova_bank_auth_authservice_principal",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/promotions/PromotionService.java",
+      "source_location": "L28",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_promotions_promotionservice_promotionservice_list",
+      "target": "backend_src_main_java_com_nova_bank_promotions_promotionservice_catalogue",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/promotions/PromotionService.java",
+      "source_location": "L28",
+      "weight": 1.0,
+      "context": "return_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_promotions_promotionservice_promotionservice_list",
+      "target": "org_springframework_transaction_annotation_transactional",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/promotions/PromotionService.java",
+      "source_location": "L28",
+      "weight": 1.0,
+      "context": "attribute",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_promotions_promotionservice_promotionservice",
+      "target": "backend_src_main_java_com_nova_bank_promotions_promotionservice_promotionservice_expressinterest",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/promotions/PromotionService.java",
+      "source_location": "L33",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_promotions_promotionservice_promotionservice_expressinterest",
+      "target": "backend_src_main_java_com_nova_bank_auth_authservice_principal",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/promotions/PromotionService.java",
+      "source_location": "L33",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_promotions_promotionservice_promotionservice_expressinterest",
+      "target": "backend_src_main_java_com_nova_bank_promotions_promotionservice_confirmation",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/promotions/PromotionService.java",
+      "source_location": "L33",
+      "weight": 1.0,
+      "context": "return_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_promotions_promotionservice_promotionservice_expressinterest",
+      "target": "org_springframework_transaction_annotation_transactional",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/promotions/PromotionService.java",
+      "source_location": "L33",
+      "weight": 1.0,
+      "context": "attribute",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_promotions_promotionservice_promotionservice",
+      "target": "backend_src_main_java_com_nova_bank_promotions_promotionservice_promotion",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/promotions/PromotionService.java",
+      "source_location": "L39",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_promotions_promotionservice_promotionservice",
+      "target": "backend_src_main_java_com_nova_bank_promotions_promotionservice_catalogue",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/promotions/PromotionService.java",
+      "source_location": "L40",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_promotions_promotionservice_catalogue",
+      "target": "backend_src_main_java_com_nova_bank_promotions_promotionservice_promotion",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/promotions/PromotionService.java",
+      "source_location": "L40",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_promotions_promotionservice_promotionservice",
+      "target": "backend_src_main_java_com_nova_bank_promotions_promotionservice_confirmation",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/promotions/PromotionService.java",
+      "source_location": "L41",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_promotions_promotionservice_promotionservice_list",
+      "target": "backend_src_main_java_com_nova_bank_promotions_promotionservice_promotion",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/promotions/PromotionService.java",
+      "source_location": "L29",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_promotions_promotionservice_promotionservice_list",
+      "target": "backend_src_main_java_com_nova_bank_promotions_promotionservice_promotionservice_customer",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/promotions/PromotionService.java",
+      "source_location": "L29",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_promotions_promotionservice_promotionservice_list",
+      "target": "backend_src_main_java_com_nova_bank_promotions_promotionservice_catalogue",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/promotions/PromotionService.java",
+      "source_location": "L30",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_promotions_promotionservice_promotionservice_expressinterest",
+      "target": "backend_src_main_java_com_nova_bank_promotions_promotionservice_promotionservice_customer",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/promotions/PromotionService.java",
+      "source_location": "L34",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_promotions_promotionservice_promotionservice_expressinterest",
+      "target": "backend_src_main_java_com_nova_bank_promotions_promotionservice_confirmation",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/promotions/PromotionService.java",
+      "source_location": "L37",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
       "source": "backend_src_test_java_com_nova_bank_accounts_accountapitest",
       "target": "com_fasterxml_jackson_databind_objectmapper",
       "relation": "imports",
@@ -8739,17 +10381,6 @@
       "confidence": "EXTRACTED",
       "source_file": "backend/src/test/java/com/nova/bank/accounts/AccountServiceTest.java",
       "source_location": "L8",
-      "weight": 1.0,
-      "_origin": "ast"
-    },
-    {
-      "source": "backend_src_test_java_com_nova_bank_accounts_accountservicetest",
-      "target": "org_springframework_web_server_responsestatusexception",
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "backend/src/test/java/com/nova/bank/accounts/AccountServiceTest.java",
-      "source_location": "L9",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -9817,6 +11448,479 @@
       "_origin": "ast"
     },
     {
+      "source": "backend_src_test_java_com_nova_bank_promotions_promotionapitest",
+      "target": "com_fasterxml_jackson_databind_objectmapper",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/promotions/PromotionApiTest.java",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_promotions_promotionapitest",
+      "target": "org_junit_jupiter_api_test",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/promotions/PromotionApiTest.java",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_promotions_promotionapitest",
+      "target": "org_springframework_boot_test_autoconfigure_web_servlet_autoconfiguremockmvc",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/promotions/PromotionApiTest.java",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_promotions_promotionapitest",
+      "target": "org_springframework_boot_test_context_springboottest",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/promotions/PromotionApiTest.java",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_promotions_promotionapitest",
+      "target": "org_springframework_jdbc_core_jdbctemplate",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/promotions/PromotionApiTest.java",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_promotions_promotionapitest",
+      "target": "org_springframework_test_web_servlet_mockmvc",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/promotions/PromotionApiTest.java",
+      "source_location": "L11",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_promotions_promotionapitest",
+      "target": "org_springframework_transaction_annotation_transactional",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/promotions/PromotionApiTest.java",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_promotions_promotionapitest",
+      "target": "backend_src_test_java_com_nova_bank_promotions_promotionapitest_promotionapitest",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/promotions/PromotionApiTest.java",
+      "source_location": "L18",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_promotions_promotionapitest_promotionapitest",
+      "target": "org_springframework_boot_test_context_springboottest",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/promotions/PromotionApiTest.java",
+      "source_location": "L18",
+      "weight": 1.0,
+      "context": "attribute",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_promotions_promotionapitest_promotionapitest",
+      "target": "org_springframework_boot_test_autoconfigure_web_servlet_autoconfiguremockmvc",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/promotions/PromotionApiTest.java",
+      "source_location": "L18",
+      "weight": 1.0,
+      "context": "attribute",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_promotions_promotionapitest_promotionapitest",
+      "target": "org_springframework_test_web_servlet_mockmvc",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/promotions/PromotionApiTest.java",
+      "source_location": "L20",
+      "weight": 1.0,
+      "context": "field",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_promotions_promotionapitest_promotionapitest",
+      "target": "com_fasterxml_jackson_databind_objectmapper",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/promotions/PromotionApiTest.java",
+      "source_location": "L20",
+      "weight": 1.0,
+      "context": "field",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_promotions_promotionapitest_promotionapitest",
+      "target": "org_springframework_jdbc_core_jdbctemplate",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/promotions/PromotionApiTest.java",
+      "source_location": "L20",
+      "weight": 1.0,
+      "context": "field",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_promotions_promotionapitest_promotionapitest",
+      "target": "backend_src_test_java_com_nova_bank_promotions_promotionapitest_promotionapitest_login",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/promotions/PromotionApiTest.java",
+      "source_location": "L21",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_promotions_promotionapitest_promotionapitest",
+      "target": "backend_src_test_java_com_nova_bank_promotions_promotionapitest_promotionapitest_customerseeseligibleoffersandrecordsinterest",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/promotions/PromotionApiTest.java",
+      "source_location": "L22",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_promotions_promotionapitest_promotionapitest_customerseeseligibleoffersandrecordsinterest",
+      "target": "org_junit_jupiter_api_test",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/promotions/PromotionApiTest.java",
+      "source_location": "L22",
+      "weight": 1.0,
+      "context": "attribute",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_promotions_promotionapitest_promotionapitest",
+      "target": "backend_src_test_java_com_nova_bank_promotions_promotionapitest_promotionapitest_unauthorizedineligibleinactiveandinvalidrequestsfailclosed",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/promotions/PromotionApiTest.java",
+      "source_location": "L30",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_promotions_promotionapitest_promotionapitest_unauthorizedineligibleinactiveandinvalidrequestsfailclosed",
+      "target": "org_junit_jupiter_api_test",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/promotions/PromotionApiTest.java",
+      "source_location": "L30",
+      "weight": 1.0,
+      "context": "attribute",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_promotions_promotionapitest_promotionapitest",
+      "target": "backend_src_test_java_com_nova_bank_promotions_promotionapitest_promotionapitest_expiredactiveofferisabsentandcannotregister",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/promotions/PromotionApiTest.java",
+      "source_location": "L39",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_promotions_promotionapitest_promotionapitest_expiredactiveofferisabsentandcannotregister",
+      "target": "org_junit_jupiter_api_test",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/promotions/PromotionApiTest.java",
+      "source_location": "L39",
+      "weight": 1.0,
+      "context": "attribute",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_promotions_promotionapitest_promotionapitest_expiredactiveofferisabsentandcannotregister",
+      "target": "org_springframework_transaction_annotation_transactional",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/promotions/PromotionApiTest.java",
+      "source_location": "L39",
+      "weight": 1.0,
+      "context": "attribute",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_promotions_promotionapitest_promotionapitest_customerseeseligibleoffersandrecordsinterest",
+      "target": "backend_src_test_java_com_nova_bank_promotions_promotionapitest_promotionapitest_login",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/promotions/PromotionApiTest.java",
+      "source_location": "L23",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_promotions_promotionapitest_promotionapitest_unauthorizedineligibleinactiveandinvalidrequestsfailclosed",
+      "target": "backend_src_test_java_com_nova_bank_promotions_promotionapitest_promotionapitest_login",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/promotions/PromotionApiTest.java",
+      "source_location": "L33",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_promotions_promotionapitest_promotionapitest_expiredactiveofferisabsentandcannotregister",
+      "target": "backend_src_test_java_com_nova_bank_promotions_promotionapitest_promotionapitest_login",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/promotions/PromotionApiTest.java",
+      "source_location": "L40",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_promotions_promotionservicetest",
+      "target": "org_junit_jupiter_api_test",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/promotions/PromotionServiceTest.java",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_promotions_promotionservicetest",
+      "target": "org_springframework_boot_test_context_springboottest",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/promotions/PromotionServiceTest.java",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_promotions_promotionservicetest",
+      "target": "org_springframework_jdbc_core_jdbctemplate",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/promotions/PromotionServiceTest.java",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_promotions_promotionservicetest",
+      "target": "backend_src_test_java_com_nova_bank_promotions_promotionservicetest_promotionservicetest",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/promotions/PromotionServiceTest.java",
+      "source_location": "L14",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_promotions_promotionservicetest_promotionservicetest",
+      "target": "org_springframework_boot_test_context_springboottest",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/promotions/PromotionServiceTest.java",
+      "source_location": "L14",
+      "weight": 1.0,
+      "context": "attribute",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_promotions_promotionservicetest_promotionservicetest",
+      "target": "backend_src_main_java_com_nova_bank_promotions_promotionservice_promotionservice",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/promotions/PromotionServiceTest.java",
+      "source_location": "L16",
+      "weight": 1.0,
+      "context": "field",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_promotions_promotionservicetest_promotionservicetest",
+      "target": "backend_src_main_java_com_nova_bank_promotions_promotionseeder_promotionseeder",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/promotions/PromotionServiceTest.java",
+      "source_location": "L16",
+      "weight": 1.0,
+      "context": "field",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_promotions_promotionservicetest_promotionservicetest",
+      "target": "org_springframework_jdbc_core_jdbctemplate",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/promotions/PromotionServiceTest.java",
+      "source_location": "L16",
+      "weight": 1.0,
+      "context": "field",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_promotions_promotionservicetest_promotionservicetest",
+      "target": "backend_src_test_java_com_nova_bank_promotions_promotionservicetest_promotionservicetest_principal",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/promotions/PromotionServiceTest.java",
+      "source_location": "L17",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_promotions_promotionservicetest_promotionservicetest_principal",
+      "target": "backend_src_main_java_com_nova_bank_auth_authservice_principal",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/promotions/PromotionServiceTest.java",
+      "source_location": "L17",
+      "weight": 1.0,
+      "context": "return_type",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_promotions_promotionservicetest_promotionservicetest",
+      "target": "backend_src_test_java_com_nova_bank_promotions_promotionservicetest_promotionservicetest_id",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/promotions/PromotionServiceTest.java",
+      "source_location": "L18",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_promotions_promotionservicetest_promotionservicetest",
+      "target": "backend_src_test_java_com_nova_bank_promotions_promotionservicetest_promotionservicetest_catalogueisseededidempotentlyandscopedbydatabaseidentity",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/promotions/PromotionServiceTest.java",
+      "source_location": "L19",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_promotions_promotionservicetest_promotionservicetest_catalogueisseededidempotentlyandscopedbydatabaseidentity",
+      "target": "org_junit_jupiter_api_test",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/promotions/PromotionServiceTest.java",
+      "source_location": "L19",
+      "weight": 1.0,
+      "context": "attribute",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_promotions_promotionservicetest_promotionservicetest",
+      "target": "backend_src_test_java_com_nova_bank_promotions_promotionservicetest_promotionservicetest_expiryinclusiveandinactiveoffersareenforcedforreadsandwrites",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/promotions/PromotionServiceTest.java",
+      "source_location": "L27",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_promotions_promotionservicetest_promotionservicetest_expiryinclusiveandinactiveoffersareenforcedforreadsandwrites",
+      "target": "org_junit_jupiter_api_test",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/promotions/PromotionServiceTest.java",
+      "source_location": "L27",
+      "weight": 1.0,
+      "context": "attribute",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_promotions_promotionservicetest_promotionservicetest",
+      "target": "backend_src_test_java_com_nova_bank_promotions_promotionservicetest_promotionservicetest_registrationpersistscustomerpromotionandtimestamp",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/promotions/PromotionServiceTest.java",
+      "source_location": "L36",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_promotions_promotionservicetest_promotionservicetest_registrationpersistscustomerpromotionandtimestamp",
+      "target": "org_junit_jupiter_api_test",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/promotions/PromotionServiceTest.java",
+      "source_location": "L36",
+      "weight": 1.0,
+      "context": "attribute",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_promotions_promotionservicetest_promotionservicetest_catalogueisseededidempotentlyandscopedbydatabaseidentity",
+      "target": "backend_src_test_java_com_nova_bank_promotions_promotionservicetest_promotionservicetest_principal",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/promotions/PromotionServiceTest.java",
+      "source_location": "L21",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_promotions_promotionservicetest_promotionservicetest_expiryinclusiveandinactiveoffersareenforcedforreadsandwrites",
+      "target": "backend_src_test_java_com_nova_bank_promotions_promotionservicetest_promotionservicetest_principal",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/promotions/PromotionServiceTest.java",
+      "source_location": "L29",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_promotions_promotionservicetest_promotionservicetest_registrationpersistscustomerpromotionandtimestamp",
+      "target": "backend_src_test_java_com_nova_bank_promotions_promotionservicetest_promotionservicetest_principal",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/promotions/PromotionServiceTest.java",
+      "source_location": "L37",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
       "source": "frontend_angular",
       "target": "frontend_angular_schema",
       "relation": "contains",
@@ -10135,6 +12239,17 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "frontend/e2e/portfolio.spec.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_e2e_promotions_spec",
+      "target": "ref_playwright_test",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/e2e/promotions.spec.ts",
       "source_location": "L1",
       "weight": 1.0,
       "_origin": "ast"
@@ -11321,6 +13436,14 @@
       "_origin": "ast"
     },
     {
+      "source": "frontend_src_app_app_routes",
+      "target": "frontend_src_app_promotions_promotions_component",
+      "relation": "dynamic_import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/app.routes.ts",
+      "_origin": "ast"
+    },
+    {
       "source": "frontend_src_app_auth_auth_guard",
       "target": "ref_angular_core",
       "relation": "imports_from",
@@ -12332,6 +14455,409 @@
       "_origin": "ast"
     },
     {
+      "source": "frontend_src_app_promotions_promotion_service",
+      "target": "ref_angular_core",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/promotions/promotion.service.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_promotions_promotion_service",
+      "target": "ref_angular_common",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/promotions/promotion.service.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_promotions_promotion_service",
+      "target": "ref_rxjs",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/promotions/promotion.service.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_promotions_promotion_service",
+      "target": "frontend_src_app_promotions_promotion_service_promotion",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/promotions/promotion.service.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_promotions_promotion_service",
+      "target": "frontend_src_app_promotions_promotion_service_catalogue",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/promotions/promotion.service.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_promotions_promotion_service",
+      "target": "frontend_src_app_promotions_promotion_service_promotionservice",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/promotions/promotion.service.ts",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_promotions_promotion_service_promotionservice",
+      "target": "frontend_src_app_promotions_promotion_service_ts_injectable",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/promotions/promotion.service.ts",
+      "source_location": "L7",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_promotions_promotion_service_promotionservice",
+      "target": "frontend_src_app_promotions_promotion_service_promotionservice_constructor",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/promotions/promotion.service.ts",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_promotions_promotion_service_promotionservice",
+      "target": "frontend_src_app_promotions_promotion_service_promotionservice_list",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/promotions/promotion.service.ts",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_promotions_promotion_service_promotionservice",
+      "target": "frontend_src_app_promotions_promotion_service_promotionservice_interest",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/promotions/promotion.service.ts",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_promotions_promotions_component_spec",
+      "target": "ref_angular_core",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/promotions/promotions.component.spec.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_promotions_promotions_component_spec",
+      "target": "ref_angular_router",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/promotions/promotions.component.spec.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_promotions_promotions_component_spec",
+      "target": "ref_angular_common",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/promotions/promotions.component.spec.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_promotions_promotions_component_spec",
+      "target": "ref_angular_common",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/promotions/promotions.component.spec.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_promotions_promotions_component_spec",
+      "target": "ref_rxjs",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/promotions/promotions.component.spec.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_promotions_promotions_component_spec",
+      "target": "frontend_src_app_promotions_promotions_component",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/promotions/promotions.component.spec.ts",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_promotions_promotions_component_spec",
+      "target": "frontend_src_app_promotions_promotions_component_promotionscomponent",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/promotions/promotions.component.spec.ts",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_promotions_promotions_component",
+      "target": "ref_angular_common",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/promotions/promotions.component.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_promotions_promotions_component",
+      "target": "ref_angular_core",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/promotions/promotions.component.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_promotions_promotions_component",
+      "target": "ref_angular_router",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/promotions/promotions.component.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_promotions_promotions_component",
+      "target": "ref_rxjs",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/promotions/promotions.component.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_promotions_promotions_component",
+      "target": "frontend_src_app_auth_auth_service",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/promotions/promotions.component.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_promotions_promotions_component",
+      "target": "frontend_src_app_auth_auth_service_authservice",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/promotions/promotions.component.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_promotions_promotions_component",
+      "target": "frontend_src_app_promotions_promotion_service",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/promotions/promotions.component.ts",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_promotions_promotions_component",
+      "target": "frontend_src_app_promotions_promotion_service_catalogue",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/promotions/promotions.component.ts",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_promotions_promotions_component",
+      "target": "frontend_src_app_promotions_promotion_service_promotion",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/promotions/promotions.component.ts",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_promotions_promotions_component",
+      "target": "frontend_src_app_promotions_promotion_service_promotionservice",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/promotions/promotions.component.ts",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_promotions_promotions_component",
+      "target": "frontend_src_app_promotions_promotions_component_promotionscomponent",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/promotions/promotions.component.ts",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_promotions_promotions_component_promotionscomponent",
+      "target": "frontend_src_app_promotions_promotions_component_ts_component",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/promotions/promotions.component.ts",
+      "source_location": "L8",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_promotions_promotions_component_promotionscomponent",
+      "target": "frontend_src_app_promotions_promotions_component_promotionscomponent_constructor",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/promotions/promotions.component.ts",
+      "source_location": "L13",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_promotions_promotions_component_promotionscomponent",
+      "target": "frontend_src_app_promotions_promotions_component_promotionscomponent_ngoninit",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/promotions/promotions.component.ts",
+      "source_location": "L14",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_promotions_promotions_component_promotionscomponent",
+      "target": "frontend_src_app_promotions_promotions_component_promotionscomponent_featured",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/promotions/promotions.component.ts",
+      "source_location": "L15",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_promotions_promotions_component_promotionscomponent",
+      "target": "frontend_src_app_promotions_promotions_component_promotionscomponent_selected",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/promotions/promotions.component.ts",
+      "source_location": "L16",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_promotions_promotions_component_promotionscomponent",
+      "target": "frontend_src_app_promotions_promotions_component_promotionscomponent_filtered",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/promotions/promotions.component.ts",
+      "source_location": "L17",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_promotions_promotions_component_promotionscomponent",
+      "target": "frontend_src_app_promotions_promotions_component_promotionscomponent_load",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/promotions/promotions.component.ts",
+      "source_location": "L19",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_promotions_promotions_component_promotionscomponent",
+      "target": "frontend_src_app_promotions_promotions_component_promotionscomponent_express",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/promotions/promotions.component.ts",
+      "source_location": "L21",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_promotions_promotions_component_promotionscomponent",
+      "target": "frontend_src_app_promotions_promotions_component_promotionscomponent_ngondestroy",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/promotions/promotions.component.ts",
+      "source_location": "L22",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_promotions_promotions_component_promotionscomponent_ngoninit",
+      "target": "frontend_src_app_promotions_promotions_component_promotionscomponent_load",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/promotions/promotions.component.ts",
+      "source_location": "L14",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
       "source": "frontend_src_main",
       "target": "ref_angular_platform_browser",
       "relation": "imports_from",
@@ -12852,6 +15378,83 @@
       "_origin": "ast"
     },
     {
+      "source": "frontend_src_app_promotions_promotions_component_promotionscomponent",
+      "target": "frontend_src_app_promotions_promotion_service_catalogue",
+      "relation": "references",
+      "context": "field",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/promotions/promotions.component.ts",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_promotions_promotions_component_promotionscomponent_constructor",
+      "target": "frontend_src_app_promotions_promotion_service_promotionservice",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/promotions/promotions.component.ts",
+      "source_location": "L13",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_promotions_promotions_component_promotionscomponent_constructor",
+      "target": "frontend_src_app_auth_auth_service_authservice",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/promotions/promotions.component.ts",
+      "source_location": "L13",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_promotions_promotions_component_promotionscomponent_featured",
+      "target": "frontend_src_app_promotions_promotion_service_promotion",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/promotions/promotions.component.ts",
+      "source_location": "L15",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_promotions_promotions_component_promotionscomponent_selected",
+      "target": "frontend_src_app_promotions_promotion_service_promotion",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/promotions/promotions.component.ts",
+      "source_location": "L16",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_promotions_promotions_component_promotionscomponent_filtered",
+      "target": "frontend_src_app_promotions_promotion_service_promotion",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/promotions/promotions.component.ts",
+      "source_location": "L17",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_promotions_promotions_component_promotionscomponent_express",
+      "target": "frontend_src_app_promotions_promotion_service_promotion",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/app/promotions/promotions.component.ts",
+      "source_location": "L21",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
       "source": "backend_src_main_java_com_nova_bank_accounts_accountcontroller",
       "target": "backend_src_main_java_com_nova_bank_auth_authservice_authservice",
       "relation": "imports",
@@ -12940,6 +15543,39 @@
       "_origin": "ast"
     },
     {
+      "source": "backend_src_main_java_com_nova_bank_promotions_promotioncontroller",
+      "target": "backend_src_main_java_com_nova_bank_auth_authservice_authservice",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backend/src/main/java/com/nova/bank/promotions/PromotionController.java",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_promotions_promotionerrors",
+      "target": "backend_src_main_java_com_nova_bank_common_apierror_apierror",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backend/src/main/java/com/nova/bank/promotions/PromotionErrors.java",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_promotions_promotionservice",
+      "target": "backend_src_main_java_com_nova_bank_auth_authservice_authservice",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backend/src/main/java/com/nova/bank/promotions/PromotionService.java",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
       "source": "backend_src_test_java_com_nova_bank_accounts_accountservicetest",
       "target": "backend_src_main_java_com_nova_bank_auth_authservice_authservice",
       "relation": "imports",
@@ -12958,6 +15594,17 @@
       "confidence_score": 1.0,
       "source_file": "backend/src/test/java/com/nova/bank/portfolio/PortfolioServiceTest.java",
       "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_test_java_com_nova_bank_promotions_promotionservicetest",
+      "target": "backend_src_main_java_com_nova_bank_auth_authservice_authservice",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backend/src/test/java/com/nova/bank/promotions/PromotionServiceTest.java",
+      "source_location": "L3",
       "weight": 1.0,
       "_origin": "ast"
     },
@@ -13106,6 +15753,30 @@
       "_origin": "ast"
     },
     {
+      "source": "frontend_src_app_promotions_promotions_component_promotionscomponent_load",
+      "target": "frontend_src_app_promotions_promotion_service_promotionservice_list",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "frontend/src/app/promotions/promotions.component.ts",
+      "source_location": "L19",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_promotions_promotions_component_promotionscomponent_express",
+      "target": "frontend_src_app_promotions_promotion_service_promotionservice_interest",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "frontend/src/app/promotions/promotions.component.ts",
+      "source_location": "L21",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
       "source": "backend_src_main_java_com_nova_bank_auth_authservice_authservice_login",
       "target": "backend_src_main_java_com_nova_bank_auth_userrepository_userrepository_lockbyusername",
       "relation": "calls",
@@ -13168,6 +15839,18 @@
     {
       "source": "backend_src_main_java_com_nova_bank_auth_demoseeder_demoseeder_run",
       "target": "backend_src_main_java_com_nova_bank_accounts_accountseeder_accountseeder_seed",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "backend/src/main/java/com/nova/bank/auth/DemoSeeder.java",
+      "source_location": "L20",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_auth_demoseeder_demoseeder_run",
+      "target": "backend_src_main_java_com_nova_bank_promotions_promotionseeder_promotionseeder_seed",
       "relation": "calls",
       "context": "call",
       "confidence": "INFERRED",
@@ -13298,6 +15981,135 @@
       "_origin": "ast"
     },
     {
+      "source": "backend_src_test_java_com_nova_bank_promotions_promotionservicetest_promotionservicetest_catalogueisseededidempotentlyandscopedbydatabaseidentity",
+      "target": "backend_src_main_java_com_nova_bank_promotions_promotionseeder_promotionseeder_seed",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "backend/src/test/java/com/nova/bank/promotions/PromotionServiceTest.java",
+      "source_location": "L20",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_accounts_accountcontroller_accountcontroller",
+      "target": "backend_src_main_java_com_nova_bank_accounts_accounterrors_accounterrors",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/accounts/AccountErrors.java",
+      "source_location": "L12",
+      "weight": 1.0,
+      "context": "attribute",
+      "_origin": "ast",
+      "_src": "backend_src_main_java_com_nova_bank_accounts_accounterrors_accounterrors",
+      "_tgt": "backend_src_main_java_com_nova_bank_accounts_accountcontroller_accountcontroller"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_accounts_accountcontroller_java_getmapping",
+      "target": "backend_src_main_java_com_nova_bank_accounts_accountcontroller_accountcontroller_statement",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/accounts/AccountController.java",
+      "source_location": "L17",
+      "weight": 1.0,
+      "context": "attribute",
+      "_origin": "ast",
+      "_src": "backend_src_main_java_com_nova_bank_accounts_accountcontroller_accountcontroller_statement",
+      "_tgt": "backend_src_main_java_com_nova_bank_accounts_accountcontroller_java_getmapping"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_accounts_accountseeder_accountseeder",
+      "target": "backend_src_main_java_com_nova_bank_auth_demoseeder_demoseeder",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/auth/DemoSeeder.java",
+      "source_location": "L10",
+      "weight": 1.0,
+      "context": "field",
+      "_origin": "ast",
+      "_src": "backend_src_main_java_com_nova_bank_auth_demoseeder_demoseeder",
+      "_tgt": "backend_src_main_java_com_nova_bank_accounts_accountseeder_accountseeder"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_accounts_accountseeder_accountseeder",
+      "target": "backend_src_main_java_com_nova_bank_auth_demoseeder_demoseeder_demoseeder",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/auth/DemoSeeder.java",
+      "source_location": "L11",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast",
+      "_src": "backend_src_main_java_com_nova_bank_auth_demoseeder_demoseeder_demoseeder",
+      "_tgt": "backend_src_main_java_com_nova_bank_accounts_accountseeder_accountseeder"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_accounts_accountseeder_accountseeder",
+      "target": "backend_src_test_java_com_nova_bank_accounts_accountservicetest_accountservicetest",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/accounts/AccountServiceTest.java",
+      "source_location": "L15",
+      "weight": 1.0,
+      "context": "field",
+      "_origin": "ast",
+      "_src": "backend_src_test_java_com_nova_bank_accounts_accountservicetest_accountservicetest",
+      "_tgt": "backend_src_main_java_com_nova_bank_accounts_accountseeder_accountseeder"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_accounts_accountservice_accountservice",
+      "target": "backend_src_test_java_com_nova_bank_accounts_accountservicetest_accountservicetest",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/accounts/AccountServiceTest.java",
+      "source_location": "L15",
+      "weight": 1.0,
+      "context": "field",
+      "_origin": "ast",
+      "_src": "backend_src_test_java_com_nova_bank_accounts_accountservicetest_accountservicetest",
+      "_tgt": "backend_src_main_java_com_nova_bank_accounts_accountservice_accountservice"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_accounts_accountservice_metadata",
+      "target": "backend_src_main_java_com_nova_bank_accounts_accountservice_result",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/accounts/AccountService.java",
+      "source_location": "L25",
+      "weight": 1.0,
+      "context": "field",
+      "_origin": "ast",
+      "_src": "backend_src_main_java_com_nova_bank_accounts_accountservice_result",
+      "_tgt": "backend_src_main_java_com_nova_bank_accounts_accountservice_metadata"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_accounts_accountservice_item",
+      "target": "backend_src_main_java_com_nova_bank_accounts_accountservice_result",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/accounts/AccountService.java",
+      "source_location": "L25",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "_origin": "ast",
+      "_src": "backend_src_main_java_com_nova_bank_accounts_accountservice_result",
+      "_tgt": "backend_src_main_java_com_nova_bank_accounts_accountservice_item"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_accounts_accountservice_result",
+      "target": "backend_src_test_java_com_nova_bank_accounts_accountservicetest_accountservicetest_query",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/accounts/AccountServiceTest.java",
+      "source_location": "L18",
+      "weight": 1.0,
+      "context": "return_type",
+      "_origin": "ast",
+      "_src": "backend_src_test_java_com_nova_bank_accounts_accountservicetest_accountservicetest_query",
+      "_tgt": "backend_src_main_java_com_nova_bank_accounts_accountservice_result"
+    },
+    {
       "source": "backend_src_main_java_com_nova_bank_auth_auditrepository_auditrepository",
       "target": "backend_src_main_java_com_nova_bank_auth_authservice_authservice",
       "relation": "references",
@@ -13352,32 +16164,6 @@
       "weight": 1.0,
       "_src": "backend_src_main_java_com_nova_bank_auth_auditrepository_auditrepository",
       "_tgt": "backend_src_test_java_com_nova_bank_auth_authservicetest_authservicetest"
-    },
-    {
-      "source": "postmapping",
-      "target": "backend_src_main_java_com_nova_bank_auth_authcontroller_authcontroller_activity",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "backend/src/main/java/com/nova/bank/auth/AuthController.java",
-      "source_location": "L10",
-      "weight": 1.0,
-      "context": "attribute",
-      "_origin": "ast",
-      "_src": "backend_src_main_java_com_nova_bank_auth_authcontroller_authcontroller_activity",
-      "_tgt": "postmapping"
-    },
-    {
-      "source": "postmapping",
-      "target": "backend_src_main_java_com_nova_bank_auth_authcontroller_authcontroller_logout",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "backend/src/main/java/com/nova/bank/auth/AuthController.java",
-      "source_location": "L11",
-      "weight": 1.0,
-      "context": "attribute",
-      "_origin": "ast",
-      "_src": "backend_src_main_java_com_nova_bank_auth_authcontroller_authcontroller_logout",
-      "_tgt": "postmapping"
     },
     {
       "source": "backend_src_main_java_com_nova_bank_auth_authdtos_loginrequest",
@@ -13500,8 +16286,8 @@
       "weight": 1.0,
       "context": "parameter_type",
       "_origin": "ast",
-      "_src": "backend_src_main_java_com_nova_bank_portfolio_portfoliocontroller_portfoliocontroller_summary",
-      "_tgt": "backend_src_main_java_com_nova_bank_auth_authservice_principal"
+      "_src": "backend_src_main_java_com_nova_bank_auth_authservice_principal",
+      "_tgt": "backend_src_main_java_com_nova_bank_portfolio_portfoliocontroller_portfoliocontroller_summary"
     },
     {
       "source": "backend_src_main_java_com_nova_bank_auth_authservice_principal",
@@ -13513,8 +16299,8 @@
       "weight": 1.0,
       "context": "parameter_type",
       "_origin": "ast",
-      "_src": "backend_src_main_java_com_nova_bank_portfolio_portfolioservice_portfolioservice_summary",
-      "_tgt": "backend_src_main_java_com_nova_bank_auth_authservice_principal"
+      "_src": "backend_src_main_java_com_nova_bank_auth_authservice_principal",
+      "_tgt": "backend_src_main_java_com_nova_bank_portfolio_portfolioservice_portfolioservice_summary"
     },
     {
       "source": "backend_src_main_java_com_nova_bank_auth_authservice_principal",
@@ -13526,8 +16312,34 @@
       "weight": 1.0,
       "context": "return_type",
       "_origin": "ast",
-      "_src": "backend_src_test_java_com_nova_bank_portfolio_portfolioservicetest_portfolioservicetest_principal",
+      "_src": "backend_src_main_java_com_nova_bank_auth_authservice_principal",
+      "_tgt": "backend_src_test_java_com_nova_bank_portfolio_portfolioservicetest_portfolioservicetest_principal"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_auth_authservice_principal",
+      "target": "backend_src_test_java_com_nova_bank_accounts_accountservicetest_accountservicetest_principal",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/test/java/com/nova/bank/accounts/AccountServiceTest.java",
+      "source_location": "L17",
+      "weight": 1.0,
+      "context": "return_type",
+      "_origin": "ast",
+      "_src": "backend_src_test_java_com_nova_bank_accounts_accountservicetest_accountservicetest_principal",
       "_tgt": "backend_src_main_java_com_nova_bank_auth_authservice_principal"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_auth_authsession_authsession",
+      "target": "backend_src_main_java_com_nova_bank_auth_sessionrepository_sessionrepository",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/auth/SessionRepository.java",
+      "source_location": "L8",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "_origin": "ast",
+      "_src": "backend_src_main_java_com_nova_bank_auth_authsession_authsession",
+      "_tgt": "backend_src_main_java_com_nova_bank_auth_sessionrepository_sessionrepository"
     },
     {
       "source": "backend_src_main_java_com_nova_bank_auth_authsession_authsession",
@@ -13544,17 +16356,17 @@
       "_tgt": "backend_src_main_java_com_nova_bank_auth_sessionrepository_sessionrepository_lockbyid"
     },
     {
-      "source": "backend_src_main_java_com_nova_bank_auth_authsession_authsession",
-      "target": "backend_src_main_java_com_nova_bank_auth_sessionrepository_sessionrepository",
+      "source": "backend_src_main_java_com_nova_bank_auth_bankuser_bankuser",
+      "target": "backend_src_main_java_com_nova_bank_auth_userrepository_userrepository",
       "relation": "references",
       "confidence": "EXTRACTED",
-      "source_file": "backend/src/main/java/com/nova/bank/auth/SessionRepository.java",
+      "source_file": "backend/src/main/java/com/nova/bank/auth/UserRepository.java",
       "source_location": "L8",
       "weight": 1.0,
       "context": "generic_arg",
       "_origin": "ast",
-      "_src": "backend_src_main_java_com_nova_bank_auth_sessionrepository_sessionrepository",
-      "_tgt": "backend_src_main_java_com_nova_bank_auth_authsession_authsession"
+      "_src": "backend_src_main_java_com_nova_bank_auth_bankuser_bankuser",
+      "_tgt": "backend_src_main_java_com_nova_bank_auth_userrepository_userrepository"
     },
     {
       "source": "backend_src_main_java_com_nova_bank_auth_bankuser_bankuser",
@@ -13583,19 +16395,6 @@
       "weight": 1.0,
       "_src": "backend_src_main_java_com_nova_bank_auth_bankuser_bankuser",
       "_tgt": "backend_src_main_java_com_nova_bank_auth_userrepository_userrepository_lockbyusername"
-    },
-    {
-      "source": "backend_src_main_java_com_nova_bank_auth_bankuser_bankuser",
-      "target": "backend_src_main_java_com_nova_bank_auth_userrepository_userrepository",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "backend/src/main/java/com/nova/bank/auth/UserRepository.java",
-      "source_location": "L8",
-      "weight": 1.0,
-      "context": "generic_arg",
-      "_origin": "ast",
-      "_src": "backend_src_main_java_com_nova_bank_auth_userrepository_userrepository",
-      "_tgt": "backend_src_main_java_com_nova_bank_auth_bankuser_bankuser"
     },
     {
       "source": "backend_src_main_java_com_nova_bank_auth_jwtfilter_jwtfilter",
@@ -13668,6 +16467,32 @@
     },
     {
       "source": "backend_src_main_java_com_nova_bank_auth_userrepository_userrepository",
+      "target": "backend_src_main_java_com_nova_bank_portfolio_portfolioservice_portfolioservice",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/portfolio/PortfolioService.java",
+      "source_location": "L14",
+      "weight": 1.0,
+      "context": "field",
+      "_origin": "ast",
+      "_src": "backend_src_main_java_com_nova_bank_auth_userrepository_userrepository",
+      "_tgt": "backend_src_main_java_com_nova_bank_portfolio_portfolioservice_portfolioservice"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_auth_userrepository_userrepository",
+      "target": "backend_src_main_java_com_nova_bank_portfolio_portfolioservice_portfolioservice_portfolioservice",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/portfolio/PortfolioService.java",
+      "source_location": "L15",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "_origin": "ast",
+      "_src": "backend_src_main_java_com_nova_bank_auth_userrepository_userrepository",
+      "_tgt": "backend_src_main_java_com_nova_bank_portfolio_portfolioservice_portfolioservice_portfolioservice"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_auth_userrepository_userrepository",
       "target": "backend_src_test_java_com_nova_bank_auth_authapitest_authapitest",
       "relation": "references",
       "_origin": "ast",
@@ -13693,32 +16518,6 @@
       "weight": 1.0,
       "_src": "backend_src_main_java_com_nova_bank_auth_userrepository_userrepository",
       "_tgt": "backend_src_test_java_com_nova_bank_auth_authservicetest_authservicetest"
-    },
-    {
-      "source": "backend_src_main_java_com_nova_bank_auth_userrepository_userrepository",
-      "target": "backend_src_main_java_com_nova_bank_portfolio_portfolioservice_portfolioservice",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "backend/src/main/java/com/nova/bank/portfolio/PortfolioService.java",
-      "source_location": "L14",
-      "weight": 1.0,
-      "context": "field",
-      "_origin": "ast",
-      "_src": "backend_src_main_java_com_nova_bank_portfolio_portfolioservice_portfolioservice",
-      "_tgt": "backend_src_main_java_com_nova_bank_auth_userrepository_userrepository"
-    },
-    {
-      "source": "backend_src_main_java_com_nova_bank_auth_userrepository_userrepository",
-      "target": "backend_src_main_java_com_nova_bank_portfolio_portfolioservice_portfolioservice_portfolioservice",
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "backend/src/main/java/com/nova/bank/portfolio/PortfolioService.java",
-      "source_location": "L15",
-      "weight": 1.0,
-      "context": "parameter_type",
-      "_origin": "ast",
-      "_src": "backend_src_main_java_com_nova_bank_portfolio_portfolioservice_portfolioservice_portfolioservice",
-      "_tgt": "backend_src_main_java_com_nova_bank_auth_userrepository_userrepository"
     },
     {
       "source": "backend_src_main_java_com_nova_bank_common_apierror_apierror",
@@ -13749,6 +16548,32 @@
       "_tgt": "backend_src_main_java_com_nova_bank_common_apierrors_apierrors_invalid"
     },
     {
+      "source": "backend_src_main_java_com_nova_bank_common_apierrors_java_responseentity",
+      "target": "backend_src_main_java_com_nova_bank_common_apierrors_apierrors_invalid",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/common/ApiErrors.java",
+      "source_location": "L11",
+      "weight": 1.0,
+      "context": "return_type",
+      "_origin": "ast",
+      "_src": "backend_src_main_java_com_nova_bank_common_apierrors_apierrors_invalid",
+      "_tgt": "backend_src_main_java_com_nova_bank_common_apierrors_java_responseentity"
+    },
+    {
+      "source": "backend_src_main_java_com_nova_bank_common_apierrors_java_exceptionhandler",
+      "target": "backend_src_main_java_com_nova_bank_common_apierrors_apierrors_invalid",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/main/java/com/nova/bank/common/ApiErrors.java",
+      "source_location": "L11",
+      "weight": 1.0,
+      "context": "attribute",
+      "_origin": "ast",
+      "_src": "backend_src_main_java_com_nova_bank_common_apierrors_apierrors_invalid",
+      "_tgt": "backend_src_main_java_com_nova_bank_common_apierrors_java_exceptionhandler"
+    },
+    {
       "source": "backend_src_main_java_com_nova_bank_portfolio_account_account",
       "target": "backend_src_main_java_com_nova_bank_portfolio_accountrepository_accountrepository",
       "relation": "references",
@@ -13758,8 +16583,8 @@
       "weight": 1.0,
       "context": "generic_arg",
       "_origin": "ast",
-      "_src": "backend_src_main_java_com_nova_bank_portfolio_accountrepository_accountrepository",
-      "_tgt": "backend_src_main_java_com_nova_bank_portfolio_account_account"
+      "_src": "backend_src_main_java_com_nova_bank_portfolio_account_account",
+      "_tgt": "backend_src_main_java_com_nova_bank_portfolio_accountrepository_accountrepository"
     },
     {
       "source": "backend_src_main_java_com_nova_bank_portfolio_account_account",
@@ -13771,8 +16596,8 @@
       "weight": 1.0,
       "context": "generic_arg",
       "_origin": "ast",
-      "_src": "backend_src_main_java_com_nova_bank_portfolio_accountrepository_accountrepository_findbyowneridandstatusorderbyid",
-      "_tgt": "backend_src_main_java_com_nova_bank_portfolio_account_account"
+      "_src": "backend_src_main_java_com_nova_bank_portfolio_account_account",
+      "_tgt": "backend_src_main_java_com_nova_bank_portfolio_accountrepository_accountrepository_findbyowneridandstatusorderbyid"
     },
     {
       "source": "backend_src_main_java_com_nova_bank_portfolio_accountrepository_accountrepository",
@@ -13784,8 +16609,8 @@
       "weight": 1.0,
       "context": "field",
       "_origin": "ast",
-      "_src": "backend_src_main_java_com_nova_bank_portfolio_portfolioservice_portfolioservice",
-      "_tgt": "backend_src_main_java_com_nova_bank_portfolio_accountrepository_accountrepository"
+      "_src": "backend_src_main_java_com_nova_bank_portfolio_accountrepository_accountrepository",
+      "_tgt": "backend_src_main_java_com_nova_bank_portfolio_portfolioservice_portfolioservice"
     },
     {
       "source": "backend_src_main_java_com_nova_bank_portfolio_accountrepository_accountrepository",
@@ -13797,8 +16622,8 @@
       "weight": 1.0,
       "context": "parameter_type",
       "_origin": "ast",
-      "_src": "backend_src_main_java_com_nova_bank_portfolio_portfolioservice_portfolioservice_portfolioservice",
-      "_tgt": "backend_src_main_java_com_nova_bank_portfolio_accountrepository_accountrepository"
+      "_src": "backend_src_main_java_com_nova_bank_portfolio_accountrepository_accountrepository",
+      "_tgt": "backend_src_main_java_com_nova_bank_portfolio_portfolioservice_portfolioservice_portfolioservice"
     },
     {
       "source": "backend_src_main_java_com_nova_bank_portfolio_accountrepository_accountrepository",
@@ -13810,8 +16635,8 @@
       "weight": 1.0,
       "context": "field",
       "_origin": "ast",
-      "_src": "backend_src_test_java_com_nova_bank_portfolio_portfolioservicetest_portfolioservicetest",
-      "_tgt": "backend_src_main_java_com_nova_bank_portfolio_accountrepository_accountrepository"
+      "_src": "backend_src_main_java_com_nova_bank_portfolio_accountrepository_accountrepository",
+      "_tgt": "backend_src_test_java_com_nova_bank_portfolio_portfolioservicetest_portfolioservicetest"
     },
     {
       "source": "backend_src_main_java_com_nova_bank_portfolio_portfolioseeder_portfolioseeder",
@@ -13823,8 +16648,8 @@
       "weight": 1.0,
       "context": "field",
       "_origin": "ast",
-      "_src": "backend_src_test_java_com_nova_bank_portfolio_portfolioservicetest_portfolioservicetest",
-      "_tgt": "backend_src_main_java_com_nova_bank_portfolio_portfolioseeder_portfolioseeder"
+      "_src": "backend_src_main_java_com_nova_bank_portfolio_portfolioseeder_portfolioseeder",
+      "_tgt": "backend_src_test_java_com_nova_bank_portfolio_portfolioservicetest_portfolioservicetest"
     },
     {
       "source": "backend_src_main_java_com_nova_bank_portfolio_portfolioservice_portfolioservice",
@@ -13836,8 +16661,8 @@
       "weight": 1.0,
       "context": "field",
       "_origin": "ast",
-      "_src": "backend_src_test_java_com_nova_bank_portfolio_portfolioservicetest_portfolioservicetest",
-      "_tgt": "backend_src_main_java_com_nova_bank_portfolio_portfolioservice_portfolioservice"
+      "_src": "backend_src_main_java_com_nova_bank_portfolio_portfolioservice_portfolioservice",
+      "_tgt": "backend_src_test_java_com_nova_bank_portfolio_portfolioservicetest_portfolioservicetest"
     },
     {
       "source": "backend_src_test_java_com_nova_bank_auth_authapitest_java_test",
@@ -13916,15 +16741,15 @@
       "source_location": "L13",
       "weight": 1.0,
       "_origin": "ast",
-      "_src": "frontend_src_app_portfolio_portfolio_component_portfoliocomponent_constructor",
-      "_tgt": "frontend_src_app_auth_auth_service_authservice"
+      "_src": "frontend_src_app_auth_auth_service_authservice",
+      "_tgt": "frontend_src_app_portfolio_portfolio_component_portfoliocomponent_constructor"
     }
   ],
   "metadata": {
-    "built_at": "2026-11-16T15:02:09.832764+00:00",
+    "built_at": "2026-11-16T15:08:03.360956+00:00",
     "version": "graph_update-v1",
     "codebase_root": "/data/artifacts-v2/T0132PcJVCRTV000416112614280356/developer",
     "force": true,
-    "files_scanned": 322
+    "files_scanned": 337
   }
 }

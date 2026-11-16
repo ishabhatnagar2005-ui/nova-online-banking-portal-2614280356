@@ -1,0 +1,10 @@
+<aside class="chat" aria-label="Demonstration assistant">
+  <a *ngIf="!open" class="support-link" routerLink="/support">Support</a>
+  <button *ngIf="!open" class="trigger" type="button" (click)="open=true" aria-label="Open demonstration chat">Chat · simulated</button>
+  <section *ngIf="open" class="panel" aria-label="Chat conversation">
+    <div class="top"><div><strong>Nova assistant</strong><br><small>Online · scripted demonstration</small></div><div><button type="button" (click)="open=false" aria-label="Minimize chat">−</button><button type="button" (click)="close()" aria-label="Close chat">×</button></div></div>
+    <div class="conversation" aria-live="polite"><p>Welcome! This is a scripted simulation, not a live agent. Please don't share passwords, account numbers or other sensitive information.</p><p *ngFor="let item of messages"><strong>{{item.from === 'you' ? 'You' : 'Assistant'}}:</strong> {{item.text}} <a *ngIf="item.actionPath" [routerLink]="item.actionPath">View related page</a></p><p *ngIf="sending" role="status">Preparing a reply…</p><p *ngIf="error" role="alert">Unable to reply. Please try again.</p></div>
+    <div class="chips"><button type="button" *ngFor="let topic of topics" (click)="send(topic)" [disabled]="sending">{{topic}}</button></div>
+    <form (ngSubmit)="send(input.value)"><label for="chat-message">Message the simulated assistant</label><div><input id="chat-message" [formControl]="input" maxlength="500" autocomplete="off"><button type="submit" [disabled]="sending || !input.value.trim()">Send</button></div></form><small class="reminder">Please do not share sensitive information.</small>
+  </section>
+</aside>
